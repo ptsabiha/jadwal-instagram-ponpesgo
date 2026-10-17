@@ -175,6 +175,8 @@ export function peringatanJadwal(post, semua, pengaturan) {
   let selisih = Infinity;
   for (const p of semua) {
     if (p.id === post.id || !AKTIF.includes(p.status)) continue;
+    // Jarak antarpostingan hanya berlaku per format: Reels tidak bersaing dengan carousel di grid.
+    if ((p.jenis === 'reels') !== (post.jenis === 'reels')) continue;
     const jam = Math.abs(waktuEfektif(p) - new Date(post.waktu).getTime()) / 3600000;
     if (jam < selisih) { selisih = jam; dekat = p; }
   }
