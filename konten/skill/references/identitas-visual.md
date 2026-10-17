@@ -44,8 +44,8 @@ pola bintang tipis biru (opasitas 5%, periode 120 px).
   memakai platform ini. Pembeli utama: pengurus pesantren/yayasan; wali santri dan santri
   adalah pengguna pendukung. Logo dan tagline sebaiknya mencerminkan "pesantren + pengelolaan
   digital", bukan sekadar "media santri". Logo final masih dipilih ulang dengan konteks ini.
-- **Tagline resmi: `MANAJEMEN PESANTREN DIGITAL`** (dipilih pemilik 17 Okt 2026), menggantikan
-  "Media Santri" di bawah nama PonpesGo.
+- **Tagline resmi di bawah logo/nama: `PLATFORM MANAJEMEN PESANTREN DIGITAL`** (diperbarui pemilik
+  17 Okt 2026; dipakai di semua slide, termasuk gaya berita Newsroom, menggantikan "KABAR PESANTREN").
 - **Fitur yang sudah ada** (dikonfirmasi pemilik 17 Okt 2026, "semuanya"): data santri & asrama
   (pendaftaran, biodata, kamar, perizinan pulang), keuangan & SPP/syahriah (tagihan, pembayaran,
   laporan), akademik & hafalan (absensi, nilai, setoran hafalan, rapor diniyah), dan aplikasi

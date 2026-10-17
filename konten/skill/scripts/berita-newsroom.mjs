@@ -25,7 +25,7 @@ const FOTO = d.foto ? uri(path.resolve(dirData, d.foto), /\.png$/i.test(d.foto) 
 const esc = (s) => String(s ?? '');
 const merah = (s) => esc(s).replace(/\*(.+?)\*/g, '<mark>$1</mark>');
 const n = 2 + d.slide.length;
-const top = (i) => `<div class="top"><div class="brand"><div class="logo"></div><div><b>PonpesGo</b><small>KABAR PESANTREN</small></div></div><div class="dots">${Array.from({ length: n }, (_, k) => `<i${k + 1 === i ? ' class="on"' : ''}></i>`).join('')}</div></div>`;
+const top = (i) => `<div class="top"><div class="brand"><div class="logo"></div><div><b>PonpesGo</b><small>PLATFORM MANAJEMEN PESANTREN DIGITAL</small></div></div><div class="dots">${Array.from({ length: n }, (_, k) => `<i${k + 1 === i ? ' class="on"' : ''}></i>`).join('')}</div></div>`;
 
 function slideIsi(s, i) {
   let y = 430; // posisi judul
@@ -68,7 +68,7 @@ html,body{width:1080px;height:1440px;overflow:hidden;background:#0A1330;font-fam
 .s{position:absolute;inset:0;display:none;overflow:hidden}.s.on{display:block}
 .logo{width:62px;height:63px;background:url(${LOGO}) center/contain no-repeat;filter:drop-shadow(0 6px 10px rgba(10,79,216,.25));flex:none}
 .brand{display:flex;align-items:center;gap:14px}.brand b{display:block;font-size:31px;font-weight:800;letter-spacing:-.4px;line-height:1}
-.brand small{display:block;font-size:15px;font-weight:700;letter-spacing:2.6px;margin-top:6px;color:#8FB1FF}
+.brand small{display:block;font-size:14px;font-weight:700;letter-spacing:1.8px;margin-top:6px;color:#8FB1FF}
 .dots{display:flex;gap:9px}.dots i{width:13px;height:13px;border-radius:7px;background:rgba(255,255,255,.22)}.dots i.on{width:42px;background:var(--merah)}
 .sambung{position:absolute;left:0;top:0;width:1080px;height:1440px;pointer-events:none}
 .A{background:#0A1330;color:#fff}

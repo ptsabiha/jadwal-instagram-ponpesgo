@@ -60,8 +60,7 @@ https://kemenag.go.id/nasional/menag-minta-tata-kelola-pesantren-diperkuat-dari-
 | **C · Explainer Infografis** | Blok biru gradasi di atas, judul Plus Jakarta 800 putih + kuning `#FFD36B`, kartu angka besar, diagram alur | Data, angka, "kenapa/bagaimana" |
 
 Semua konsep tetap memakai: logo resmi (data URI `{{LOGO}}` diganti saat build dengan
-`assets/logo/ponpesgo-logo-resmi-320.png`), tagline `MANAJEMEN PESANTREN DIGITAL` (konsep A
-memakai `KABAR PESANTREN`), titik progres kanan atas, dan **penyambung feed baku** di sampul
+`assets/logo/ponpesgo-logo-resmi-320.png`), tagline `PLATFORM MANAJEMEN PESANTREN DIGITAL` (semua konsep), titik progres kanan atas, dan **penyambung feed baku** di sampul
 (`struktur-carousel.md`). Konsep pilihan pemilik dicatat di sini setelah dipilih.
 
 ## Render
