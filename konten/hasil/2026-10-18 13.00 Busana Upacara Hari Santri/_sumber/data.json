@@ -76,5 +76,13 @@
  },
  "foto": "foto.jpg",
  "kredit": "Foto: Kemenag Aceh",
- "posisiFoto": "68% 22%"
+ "posisiFoto": "68% 22%",
+ "reels": {
+  "poin": [
+   "Upacara <b>Kamis, 22 Oktober 2026, pukul 07.00</b> waktu setempat, serentak.",
+   "Kemenag (peserta laki-laki): <b>sarung, atasan putih, jas hitam, peci hitam</b>. Perempuan: busana sopan.",
+   "PBNU: laki-laki <b>sarung gelap, atasan putih, peci hitam</b>; putri busana muslimah putih.",
+   "Ikuti arahan <b>panitia setempat</b>; tanyakan ke pesantren atau Kanwil Kemenag."
+  ]
+ }
 }
