@@ -36,7 +36,7 @@ di cloud semuanya ada di repo ini.
    perbaiki teks terpotong atau tabrakan. Simpan di
    `konten/hasil/<YYYY-MM-DD> <HH.MM> <judul singkat>/`: `1.png`…`5.png`, `caption.txt` (caption +
    hashtag + "Sumber: …"), `_sumber/carousel.html`, `CAPTION & PANDUAN.md`.
-5. **Kirim pratinjau.** `git add konten/hasil && git commit -m "Konten <tanggal>" && git push origin HEAD:main`.
+5. **Kirim pratinjau.** `git add konten/hasil && git commit -m "Konten <tanggal>" && git pull --rebase origin main && git push origin HEAD:main`.
 6. **Antrekan sebagai draf** hanya kalau `node alat/jadwal.mjs status` menunjukkan akun dan token
    terpasang (akun PonpesGo, bukan @kuriratk):
    `node alat/jadwal.mjs tambah "konten/hasil/<folder>" --judul "<judul>" --waktu "<YYYY-MM-DD> 07:00"`

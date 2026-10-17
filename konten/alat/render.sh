@@ -4,7 +4,7 @@
 # atau mengunduh chrome-headless-shell ke /tmp/chrome bila belum ada.
 H="$1"; O="$2"; W="${3:-1080}"; T="${4:-1440}"; Q="$5"
 [ -f "$H" ] || { echo "Tidak ada: $H"; exit 1; }
-CH="${CHROME:-$(command -v chromium || command -v chromium-browser || command -v google-chrome || command -v google-chrome-stable)}"
+CH="${CHROME:-$(command -v chromium || command -v chromium-browser || command -v google-chrome || command -v google-chrome-stable || find /opt/pw-browsers -path "*chrome-linux/chrome" -type f 2>/dev/null | head -1)}"
 if [ -z "$CH" ]; then
   CH="$(find /tmp/chrome -type f -name chrome-headless-shell 2>/dev/null | head -1)"
   if [ -z "$CH" ]; then
