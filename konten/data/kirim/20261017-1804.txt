@@ -1,0 +1,7 @@
+PonpesGo: slot 19.00 WIB (17 Okt 2026) TIDAK dijadwalkan.
+
+Sebab: jaringan sandbox routine menolak semua host berita dan foto (CONNECT 403): nu.or.id, antaranews.com, kemenag.go.id, mui.or.id, commons.wikimedia.org, upload.wikimedia.org, mozaik.inilah.com. Artikel tidak bisa dibuka (WebFetch/curl), jadi fakta dan kutipan tidak bisa diverifikasi dan foto tidak bisa diunduh. Aturan: tidak boleh mengarang, jadi tidak ada postingan yang dibuat.
+
+Kandidat topik yang sudah ketemu lewat pencarian (belum dibuka): "100 Hari Kerja, Ditjen Pesantren Siapkan Sertifikasi Kepengasuhan dan Perketat Izin Pembangunan" (NU Online, 7 Okt 2026).
+
+Cara memperbaiki: buka akses jaringan environment routine (allowlist host di atas) di pengaturan environment Claude Code, lalu putaran berikutnya (07.00) berjalan normal.
