@@ -37,6 +37,13 @@ html,body{width:1080px;height:1440px;overflow:hidden;background:#fff;font-family
 .A .kutip small{display:block;font-size:24px;color:#8FB1FF;margin-top:14px;font-weight:600}
 .A .src{position:absolute;left:90px;bottom:70px;font-size:21px;color:#7F8DB5}
 
+.A .foto{position:absolute;left:0;right:0;top:0;height:780px;background:url({{FOTO}}) 38% 30%/cover}
+.A .foto:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,19,48,.92) 0%,rgba(10,19,48,.55) 16%,rgba(10,19,48,.12) 30%,rgba(10,19,48,.25) 55%,#0A1330 100%)}
+.A .kredit{position:absolute;right:90px;top:410px;font-size:19px;color:rgba(255,255,255,.75);font-weight:600;letter-spacing:.5px}
+.A1b h1{top:548px;font-size:92px}
+.A1b .label{top:468px}
+.A1b .deck{top:962px;font-size:34px}
+
 /* ============ KONSEP B: EDITORIAL (putih, serif) ============ */
 .B{background:#FBFAF6}
 .B .top{position:absolute;left:90px;right:90px;top:96px;display:flex;justify-content:space-between;align-items:center}
@@ -51,13 +58,19 @@ html,body{width:1080px;height:1440px;overflow:hidden;background:#fff;font-family
 .B .petik{position:absolute;left:84px;top:800px;font-family:'DM Serif Display';font-size:220px;line-height:1;color:var(--merah)}
 .B .quote{position:absolute;left:200px;right:100px;top:860px;font-family:'Source Serif 4';font-weight:600;font-size:40px;line-height:1.3;color:var(--navy)}
 .B .quote small{display:block;margin-top:14px;font-family:'Plus Jakarta Sans';font-size:22px;font-weight:700;letter-spacing:2px;color:rgba(15,27,61,.6)}
-.B .src{position:absolute;left:90px;right:90px;top:1090px;font-size:20px;color:rgba(15,27,61,.55);display:flex;justify-content:space-between}
+.B .src{position:absolute;left:90px;right:90px;top:1106px;font-size:20px;color:rgba(15,27,61,.55);display:flex;justify-content:space-between}
 .B h2{position:absolute;left:90px;right:90px;top:250px;font-family:'DM Serif Display';font-size:80px;line-height:1.05;color:var(--navy)}
 .B .daftar{position:absolute;left:90px;right:90px;top:430px}
 .B .it{display:flex;gap:28px;padding:24px 0;border-bottom:1px solid rgba(15,27,61,.2)}
 .B .it b{font-family:'DM Serif Display';font-weight:400;font-size:76px;line-height:.9;color:var(--merah);width:70px;flex:none}
 .B .it h3{font-size:34px;font-weight:800;letter-spacing:-.3px}
 .B .it p{font-family:'Source Serif 4';font-size:29px;line-height:1.42;color:#2B375C;margin-top:6px}
+
+.B .foto{position:absolute;left:90px;right:90px;top:606px;height:276px;background:url({{FOTO}}) 40% 32%/cover;border-radius:4px}
+.B .kap{position:absolute;left:90px;right:90px;top:894px;font-family:'Source Serif 4';font-style:italic;font-size:20px;color:rgba(15,27,61,.62)}
+.B .kap b{font-style:normal;font-family:'Plus Jakarta Sans';font-weight:700;color:rgba(15,27,61,.75)}
+.B1b h1{font-size:94px}
+.B1b .deck{top:976px;font-size:35px}
 
 /* ============ KONSEP C: EXPLAINER INFOGRAFIS ============ */
 .C{background:#fff}
@@ -76,6 +89,8 @@ html,body{width:1080px;height:1440px;overflow:hidden;background:#fff;font-family
 .C .k b{display:block;font-size:72px;font-weight:800;line-height:1;color:var(--biru);letter-spacing:-2px}
 .C .k.m b{color:var(--merah)}
 .C .k span{display:block;font-size:24px;font-weight:700;line-height:1.3;margin-top:12px}
+.C .blok.foto{background:linear-gradient(150deg,rgba(45,107,240,.84) 0%,rgba(30,79,216,.80) 45%,rgba(19,47,143,.93) 100%),url({{FOTO}}) 40% 30%/cover}
+.C .kredit{position:absolute;right:90px;top:770px;z-index:2;font-size:19px;font-weight:600;color:rgba(255,255,255,.8)}
 .C .src{position:absolute;left:90px;top:1135px;font-size:21px;color:rgba(15,27,61,.55)}
 .C .top2{color:var(--navy)}
 .C .top2 .brand small{color:var(--biru)}.C .top2 .dots i{background:rgba(15,27,61,.16)}.C .top2 .dots i.on{background:var(--merah)}
@@ -103,12 +118,12 @@ html,body{width:1080px;height:1440px;overflow:hidden;background:#fff;font-family
 </template>
 
 <!-- ===== A1 ===== -->
-<section class="s A" id="A1"><div class="grid"></div><div class="glow"></div>
+<section class="s A A1b" id="A1"><div class="grid"></div><div class="foto"></div><div class="kredit">Foto: Kemenag</div>
   <div class="top"><div class="brand"><div class="logo"></div><div><b>PonpesGo</b><small>KABAR PESANTREN</small></div></div><div class="dots"><i class="on"></i><i></i><i></i><i></i><i></i></div></div>
   <div class="label"><span>KABAR TERKINI</span><em>SELASA, 13 OKT 2026</em></div>
   <h1>Menag Minta Data Pesantren &amp; Madrasah <mark>Dirapikan</mark></h1>
   <div class="deck">Ijazah santri juga harus dijamin sah. Ini 4 arahan Menag untuk penguatan Ditjen Pesantren.</div>
-  <div class="ticker"><b>SUMBER</b>Medcom.id, mengutip laman resmi Kemenag</div>
+  <div class="ticker"><b>SUMBER</b>kemenag.go.id · rapat internal Kemenag, 13 Oktober 2026</div>
 </section>
 <!-- ===== A2 ===== -->
 <section class="s A" id="A2"><div class="grid"></div><div class="glow"></div>
@@ -117,20 +132,20 @@ html,body{width:1080px;height:1440px;overflow:hidden;background:#fff;font-family
   <h2>Satu santri, dua catatan</h2>
   <div class="isi">Seorang santri bisa tercatat di <b>madrasah</b> (pagi atau siang) sekaligus di <b>pesantren</b> (sore atau malam). Menag meminta Sekjen memfasilitasi Ditjen Pendidikan Islam dan Ditjen Pesantren menyusun <b>kriteria pendataan yang terukur</b>.</div>
   <div class="kutip">“Jangan sampai tumpang tindih angka madrasah dengan pesantren.”<small>MENTERI AGAMA NASARUDDIN UMAR</small></div>
-  <div class="src">Sumber: Medcom.id, 13 Okt 2026 (mengutip laman Kemenag)</div>
+  <div class="src">Sumber: kemenag.go.id, 13 Okt 2026</div>
 </section>
 
 <!-- ===== B1 ===== -->
-<section class="s B" id="B1">
+<section class="s B B1b" id="B1">
   <div class="top"><div class="brand"><div class="logo"></div><div><b>PonpesGo</b><small>MANAJEMEN PESANTREN DIGITAL</small></div></div><div class="dots"><i class="on"></i><i></i><i></i><i></i><i></i></div></div>
   <div class="rule" style="top:200px"></div>
   <div class="kicker">PENDIDIKAN PESANTREN <span>· 13 OKTOBER 2026</span></div>
   <h1>Menag Minta Data Pesantren dan Madrasah <i>Dirapikan</i></h1>
+  <div class="foto"></div>
+  <div class="kap">Menag Nasaruddin Umar (kiri) dan Sekjen Kemenag Kamaruddin Amin dalam rapat internal, 13/10/2026. <b>Foto: Kemenag</b></div>
   <div class="deck">Ijazah santri harus dikelola sesuai aturan, agar lulusan tidak terhambat melanjutkan studi.</div>
-  <div class="petik">“</div>
-  <div class="quote">Jangan sampai tumpang tindih angka madrasah dengan pesantren.<small>— MENAG NASARUDDIN UMAR</small></div>
-  <div class="rule tipis" style="top:1070px"></div>
-  <div class="src"><span>Ringkasan redaksi PonpesGo</span><span>Sumber: Medcom.id / Kemenag</span></div>
+  <div class="rule tipis" style="top:1092px"></div>
+  <div class="src"><span>Ringkasan redaksi PonpesGo</span><span>Sumber &amp; foto: kemenag.go.id</span></div>
 </section>
 <!-- ===== B2 ===== -->
 <section class="s B" id="B2">
@@ -143,11 +158,11 @@ html,body{width:1080px;height:1440px;overflow:hidden;background:#fff;font-family
     <div class="it"><b>3</b><div><h3>Klasifikasi baru</h3><p>Bukan hanya jumlah santri, tapi juga mutu, sarana, dan tipe lembaga.</p></div></div>
     <div class="it" style="border:0"><b>4</b><div><h3>Sosialisasi</h3><p>Jelaskan ke masyarakat beda pendidikan Islam dan pesantren.</p></div></div>
   </div>
-  <div class="src" style="top:1330px"><span></span><span>Sumber: Medcom.id, 13 Okt 2026 (mengutip laman Kemenag)</span></div>
+  <div class="src" style="top:1330px"><span></span><span>Sumber: kemenag.go.id, 13 Okt 2026</span></div>
 </section>
 
 <!-- ===== C1 ===== -->
-<section class="s C" id="C1"><div class="blok"></div>
+<section class="s C" id="C1"><div class="blok foto"></div><div class="kredit">Foto: Kemenag</div>
   <div class="top"><div class="brand"><div class="logo"></div><div><b>PonpesGo</b><small>MANAJEMEN PESANTREN DIGITAL</small></div></div><div class="dots"><i class="on"></i><i></i><i></i><i></i><i></i></div></div>
   <div class="pil"><i></i>INFO PESANTREN</div>
   <h1>Data Pesantren Dirapikan, <span>Ijazah Santri Dijamin</span></h1>
@@ -157,7 +172,7 @@ html,body{width:1080px;height:1440px;overflow:hidden;background:#fff;font-family
     <div class="k"><b>2</b><span>Ditjen diminta duduk bersama: Pendis &amp; Pesantren</span></div>
     <div class="k m"><b>5.000</b><span>santri bukan lagi satu-satunya ukuran</span></div>
   </div>
-  <div class="src">Sumber: Medcom.id, 13 Okt 2026 (mengutip laman Kemenag)</div>
+  <div class="src">Sumber: kemenag.go.id, 13 Okt 2026</div>
 </section>
 <!-- ===== C2 ===== -->
 <section class="s C" id="C2">
@@ -171,7 +186,7 @@ html,body{width:1080px;height:1440px;overflow:hidden;background:#fff;font-family
     <div class="warn">⚠ Tercatat di dua data</div>
   </div>
   <div class="ket">Karena itu Menag meminta <b>kriteria pendataan yang terukur</b>, disusun bersama Ditjen Pendidikan Islam dan Ditjen Pesantren.</div>
-  <div class="src" style="top:1340px">Sumber: Medcom.id, 13 Okt 2026 (mengutip laman Kemenag)</div>
+  <div class="src" style="top:1340px">Sumber: kemenag.go.id, 13 Okt 2026</div>
 </section>
 
 <script>
