@@ -80,6 +80,7 @@ const baris = Object.entries(performa.postingan).map(([id, p]) => {
   return {
     id, judul: p.judul.replace(/^berita:\s*/i, '').replace(/\s*\(v\d+\)$/i, ''), permalink: p.permalink, basis, umur: s?.umur_jam ?? null,
     jam: `${String(t.getUTCHours()).padStart(2, '0')}.00`, hari: HARI[t.getUTCDay()],
+    jenis: p.jenis === 'reels' ? 'Reels' : 'Carousel',
     pilar: lb.pilar || tebakPilar(p.judul), hook: lb.hook || tebakHook(p.judul),
     panjang: ((n) => (n <= 6 ? '≤6 kata' : n <= 10 ? '7–10 kata' : '>10 kata'))((antrean[id]?.judul || p.judul).replace(/^berita:\s*/i, '').split(/\s+/).length),
     m, r,
@@ -129,7 +130,7 @@ tulis('## Pola per kelompok');
 tulis('Kelompok dengan kurang dari 5 postingan ditandai *belum cukup data*; jangan ubah strategi karenanya.');
 const medSkor = median(baris.map((b) => b.skor));
 const sinyal = [];
-for (const [dim, nama] of [['jam', 'Jam tayang'], ['hari', 'Hari'], ['pilar', 'Pilar'], ['hook', 'Jenis hook'], ['panjang', 'Panjang judul']]) {
+for (const [dim, nama] of [['jenis', 'Format (Carousel/Reels)'], ['jam', 'Jam tayang'], ['hari', 'Hari'], ['pilar', 'Pilar'], ['hook', 'Jenis hook'], ['panjang', 'Panjang judul']]) {
   const grup = {};
   for (const b of baris) (grup[b[dim]] ||= []).push(b);
   tulis();

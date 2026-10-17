@@ -8,6 +8,9 @@
 //        antrekan SEMUA konten yang belum masuk antrean, urut dari yang dibuat lebih dulu
 //   node alat/jadwal.mjs seri "<folder grid-final>" [--mulai "2026-10-20 07:00"] [--jeda-jam 3 | --jeda 15] [--grup nama] [--bingkai45]
 //   node alat/jadwal.mjs tambah "<folder Unggah N>" [--waktu "2026-10-20 19:00"] [--judul ..] [--grup ..] [--urutan N] [--bingkai45]
+//   node alat/jadwal.mjs reels "<folder hasil>" [--waktu ..] [--judul ..]
+//        antrekan <folder>/reels.mp4 (dari konten/skill/scripts/buat-reels.mjs) sebagai Reels, caption dari
+//        caption-reels.txt. Tanpa --waktu: 2 jam setelah carousel dari folder yang sama. Tidak tampil di grid profil.
 //   node alat/jadwal.mjs daftar [--semua] [--json]
 //   node alat/jadwal.mjs uji <id..> | --grup nama | --draf [--paksa-uji]   buat wadah di Instagram tanpa menerbitkan
 //        (maks. ±50 wadah sekali uji; Instagram membatasi pembuatan wadah per 24 jam)
@@ -36,7 +39,7 @@ const { pos, opsi } = bacaArgumen(sisa);
 
 try {
   const fungsi = {
-    semua: semuaKonten, seri, tambah: (a, o) => tambah(a[0], o), daftar, uji, setujui, ubah, geser, batal, status, cek, kirim, jalankan: jalankanSekarang, penjaga: () => nyalakanPenjaga(true),
+    semua: semuaKonten, seri, tambah: (a, o) => tambah(a[0], o), reels: (a, o) => tambahReels(a[0], o), daftar, uji, setujui, ubah, geser, batal, status, cek, kirim, jalankan: jalankanSekarang, penjaga: () => nyalakanPenjaga(true),
   }[perintah];
   if (!fungsi) {
     const kepala = [];
@@ -191,6 +194,42 @@ function tambah(folder, o) {
   return post;
 }
 
+function tambahReels(folder, o) {
+  if (!folder) throw new Error('Sebutkan folder hasil yang berisi reels.mp4.');
+  const pengaturan = bacaPengaturan();
+  const sumber = path.resolve(folder);
+  const video = path.join(sumber, 'reels.mp4');
+  if (!fs.existsSync(video)) throw new Error(`Tidak ada reels.mp4 di ${sumber}. Buat dulu dengan konten/skill/scripts/buat-reels.mjs.`);
+  const besar = fs.statSync(video).size;
+  if (besar > 95 * 1024 * 1024) throw new Error(`reels.mp4 ${Math.round(besar / 1048576)} MB; GitHub hanya melayani berkas < 100 MB.`);
+  const berkasCaption = [path.join(sumber, 'caption-reels.txt'), path.join(sumber, 'caption.txt')].find((f) => fs.existsSync(f));
+  const caption = berkasCaption ? fs.readFileSync(berkasCaption, 'utf8').replace(/^\uFEFF/, '').replace(/\r\n/g, '\n').trim() : '';
+  const c = periksaCaption(caption);
+  if (c.masalah.length) throw new Error(`Caption Reels: ${c.masalah.join('; ')}.`);
+
+  const semua = bacaSemua();
+  if (semua.some((p) => p.jenis === 'reels' && samaJalur(p.sumber, sumber) && p.status !== 'batal') && !o.paksa) {
+    throw new Error('Reels dari folder ini sudah ada di antrean. Pakai --paksa kalau memang mau dua kali.');
+  }
+  const induk = semua.find((p) => p.jenis !== 'reels' && samaJalur(p.sumber, sumber) && p.status !== 'batal');
+  if (induk && caption && caption === induk.caption) throw new Error('Caption Reels harus berbeda dari caption carousel-nya (pengaman dobel penerbit memakai caption).');
+  const waktu = o.waktu ? parseWaktu(o.waktu, pengaturan.zona_waktu)
+    : induk ? keluarJamTenang(geserMenit(induk.waktu, 120, pengaturan.zona_waktu), pengaturan) : slotBerikut(semua, pengaturan);
+  const judul = String(o.judul || `Reels: ${(induk?.judul || path.basename(sumber)).replace(/^berita:\s*/i, '')}`);
+  const id = idUnik(`${waktu.slice(0, 10).replace(/-/g, '')}-reels-${slug(judul.replace(/^reels:\s*/i, ''))}`);
+  const dir = path.join(DIR_ANTRIAN, id);
+  fs.mkdirSync(dir, { recursive: true });
+  fs.copyFileSync(video, path.join(dir, 'reels.mp4'));
+  const post = {
+    id, jenis: 'reels', judul, waktu, grup: null, urutan: 0, caption, slide: [], video: 'reels.mp4', induk: induk?.id || null,
+    sumber, status: 'draf', dibuat: isoZona(new Date(), pengaturan.zona_waktu), percobaan: 0, galat: null,
+    uji: null, media_id: null, permalink: null, terbit_pada: null,
+  };
+  simpanPost(post);
+  console.log(`📝 Draf: ${judul} · Reels ${(besar / 1048576).toFixed(1)} MB · ${formatWIB(waktu)} · caption ${c.panjang} karakter  [${id}]`);
+  return post;
+}
+
 function samaJalur(a, b) {
   if (!a || !b) return false;
   const rapi = (s) => path.resolve(s).replace(/[\\/]+$/, '');
@@ -309,7 +348,7 @@ function baris(p, i) {
     : p.galat ? `galat: ${p.galat}`
       : p.uji ? `uji ${p.uji.hasil}${p.uji.hasil === 'gagal' ? `: ${p.uji.pesan}` : ''}` : '';
   const kapan = p.status === 'terbit' ? formatWIB(p.terbit_pada) : formatWIB(p.waktu);
-  return `${String(i + 1).padStart(2)}. ${LAMBANG[p.status] || '?'} ${p.status.padEnd(8)} ${kapan.padEnd(28)} ${p.judul} (${p.slide.length} slide)${ket ? `\n      ${ket}` : ''}\n      id: ${p.id}`;
+  return `${String(i + 1).padStart(2)}. ${LAMBANG[p.status] || '?'} ${p.status.padEnd(8)} ${kapan.padEnd(28)} ${p.judul} (${p.jenis === 'reels' ? 'Reels' : `${p.slide.length} slide`})${ket ? `\n      ${ket}` : ''}\n      id: ${p.id}`;
 }
 
 function daftar(pos, o) {
@@ -360,7 +399,7 @@ async function jalankanPenerbit(mode, post) {
 // 60 carousel sekaligus (±420 wadah) menghabiskannya, dan postingan terjadwal tertahan hampir sehari.
 // (Fungsi, bukan const: perintah dijalankan di atas sebelum baris ini dievaluasi.)
 function batasWadahUji() { return 50; }
-function jumlahWadah(p) { return p.slide.length + (p.slide.length > 1 ? 1 : 0); }
+function jumlahWadah(p) { return p.jenis === 'reels' ? 1 : p.slide.length + (p.slide.length > 1 ? 1 : 0); }
 
 async function uji(pos, o) {
   tarikTerbaru();

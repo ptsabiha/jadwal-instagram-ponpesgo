@@ -25,7 +25,10 @@ const BERKAS = path.join(AKAR, JALUR_PERFORMA);
 const JAM = 3600000;
 const MAKS_UMUR_JAM = 8 * 24; // setelah ini angka postingan nyaris tidak berubah lagi
 const PATOKAN = [['24j', 24], ['48j', 48], ['7h', 168]];
-const METRIK = ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions', 'follows', 'profile_visits'];
+const METRIK = {
+  feed: ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions', 'follows', 'profile_visits'],
+  reels: ['reach', 'views', 'likes', 'comments', 'saved', 'shares', 'total_interactions', 'ig_reels_avg_watch_time', 'ig_reels_video_view_total_time'],
+};
 
 const ringkasan = [];
 function catat(baris) {
@@ -46,8 +49,10 @@ function selesai(kode) {
 }
 
 function bacaPerforma() {
-  if (!fs.existsSync(BERKAS)) return { akun: {}, postingan: {}, metrik_ditolak: [] };
-  return { akun: {}, postingan: {}, metrik_ditolak: [], ...JSON.parse(fs.readFileSync(BERKAS, 'utf8')) };
+  const data = { akun: {}, postingan: {}, ...(fs.existsSync(BERKAS) ? JSON.parse(fs.readFileSync(BERKAS, 'utf8')) : {}) };
+  // Metrik yang ditolak Instagram dicatat per jenis media (dulu satu daftar untuk feed saja).
+  if (!data.metrik_ditolak || Array.isArray(data.metrik_ditolak)) data.metrik_ditolak = { feed: data.metrik_ditolak || [], reels: [] };
+  return data;
 }
 
 async function utama() {
@@ -146,6 +151,7 @@ async function utama() {
       media_id: p.media_id,
       permalink: p.permalink || null,
       terbit_pada: p.terbit_pada,
+      jenis: p.jenis === 'reels' ? 'reels' : 'carousel',
       jumlah_slide: p.slide?.length ?? null,
       terbaru: potret,
       snapshot,
@@ -165,7 +171,9 @@ async function utama() {
 // Minta semua metrik sekaligus. Kalau Instagram menolak salah satunya (kode 100), coba satu per satu
 // dan ingat metrik yang ditolak supaya putaran berikutnya tidak memintanya lagi.
 async function ambilInsightMedia(ig, p, data, galat) {
-  const diminta = METRIK.filter((m) => !data.metrik_ditolak.includes(m));
+  const jenis = p.jenis === 'reels' ? 'reels' : 'feed';
+  const ditolak = (data.metrik_ditolak[jenis] ||= []);
+  const diminta = METRIK[jenis].filter((m) => !ditolak.includes(m));
   const hasil = {};
   const baca = (r) => {
     for (const d of r.data || []) hasil[d.name] = d.total_value?.value ?? d.values?.[0]?.value ?? null;
@@ -187,7 +195,7 @@ async function ambilInsightMedia(ig, p, data, galat) {
     try {
       baca(await ig.get(`/${p.media_id}/insights`, { metric: m }));
     } catch (e) {
-      if (e.kode === 100 && /metric/i.test(e.message || '') && !data.metrik_ditolak.includes(m)) data.metrik_ditolak.push(m);
+      if (e.kode === 100 && /metric/i.test(e.message || '') && !ditolak.includes(m)) ditolak.push(m);
     }
   }
   return hasil;

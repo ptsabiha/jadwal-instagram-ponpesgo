@@ -263,6 +263,16 @@ async function pastikanGambarAda(url) {
 }
 
 async function buatWadah(ig, igId, p, pengaturan) {
+  if (p.jenis === 'reels') {
+    // Reels tidak dibagikan ke grid (share_to_feed=false) supaya grid sampul bersambung tetap rapi.
+    const url = urlGambar(p.id, p.video, pengaturan);
+    await pastikanGambarAda(url);
+    const w = await ig.post(`/${igId}/media`, {
+      media_type: 'REELS', video_url: url, caption: p.caption || '', share_to_feed: 'false', thumb_offset: '0',
+    });
+    await tungguSiap(ig, w.id, 900000);
+    return w.id;
+  }
   if (!p.slide?.length || p.slide.length > 10) throw new GalatIG(`Jumlah slide ${p.slide?.length || 0}; harus 1–10.`);
   const urls = p.slide.map((b) => urlGambar(p.id, b, pengaturan));
   for (const u of urls) await pastikanGambarAda(u);
@@ -291,7 +301,7 @@ async function tungguSiap(ig, idWadah, batasMs = 300000) {
       const sub = Number((String(rinci).match(/22070\d\d/) || [])[0]) || undefined;
       throw new GalatIG(`Wadah media ${s.status_code}${rinci ? `: ${rinci}` : ''}`, { subkode: sub, sementara: s.status_code === 'EXPIRED' });
     }
-    if (Date.now() - mulai > batasMs) throw new GalatIG('Wadah media tidak kunjung siap dalam 5 menit.', { sementara: true });
+    if (Date.now() - mulai > batasMs) throw new GalatIG(`Wadah media tidak kunjung siap dalam ${Math.round(batasMs / 60000)} menit.`, { sementara: true });
     await tidur(JEDA_CEK_MS);
   }
 }
