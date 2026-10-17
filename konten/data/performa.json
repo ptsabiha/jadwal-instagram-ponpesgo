@@ -1,0 +1,47 @@
+{
+  "akun": {
+    "username": "ponpesgo",
+    "follower": 1,
+    "jumlah_postingan": 1,
+    "follower_harian": [
+      {
+        "tanggal": "2026-10-17",
+        "follower": 1
+      }
+    ],
+    "jangkauan_7h": {
+      "pada": "2026-10-17T11:11:04+07:00",
+      "total": 3,
+      "follower": null,
+      "non_follower": 3
+    }
+  },
+  "postingan": {
+    "20261017-berita-data-pesantren-ijazah-santri": {
+      "judul": "Berita: Data Pesantren & Ijazah Santri",
+      "media_id": "18158351890505877",
+      "permalink": "https://www.instagram.com/p/DelJaIUjkKX/",
+      "terbit_pada": "2026-10-17T10:30:48+07:00",
+      "jumlah_slide": 5,
+      "terbaru": {
+        "pada": "2026-10-17T11:11:04+07:00",
+        "umur_jam": 0.7,
+        "metrik": {
+          "likes": 2,
+          "comments": 0,
+          "reach": 3,
+          "views": 12,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 2
+        }
+      },
+      "snapshot": {}
+    }
+  },
+  "metrik_ditolak": [],
+  "diperbarui": "2026-10-17T11:11:04+07:00",
+  "galat": []
+}
