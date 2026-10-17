@@ -34,9 +34,9 @@ buat token baru dengan izin itu dicentang, lalu jalankan `Pasang Token Instagram
 | `konten/data/laporan/<tanggal>.md` | Laporan mingguan | Claude, setiap Senin |
 
 Nilai label yang dipakai (supaya kelompoknya bisa dibandingkan):
-- `pilar`: Berita · Edukasi · Momen · Komunitas · Promosi
+- `pilar`: Berita · Edukasi Pengurus · Wali & Santri · Fitur PonpesGo · Momen
 - `hook`: Berita+dampak · Hitung mundur · Celah pengetahuan · Daftar/angka · Pertanyaan · Identitas
-- `format`: Newsroom 5 slide · Explainer · Checklist · Kutipan · lainnya (tulis singkat)
+- `format`: Newsroom 5 slide · Reels 1 gambar · lainnya (tulis singkat)
 
 ## Metrik dan artinya
 

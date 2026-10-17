@@ -27,6 +27,8 @@ Indonesia yang hangat dan lugas, serahkan file jadi dan teks yang tinggal disali
 | Carousel / slide / postingan | `references/struktur-carousel.md`, `references/identitas-visual.md` | PNG 1080×1440 + caption + hashtag + jam tayang |
 | Topik "apa yang lagi dibutuhkan", berita hari ini | `references/riset-tren.md` + `references/sumber-referensi.md` | Daftar topik berperingkat + sumber |
 | Mencari sumber, situs, akun referensi, atau foto | `references/sumber-referensi.md` | Sumber A/B/C/D + cara ambil foto resmi |
+| Ide konten, variasi pilar, jadwal per slot, konten edukasi/wali/fitur | `references/bank-ide-konten.md` | Pilar per slot + bank ide evergreen |
+| Reels | `scripts/buat-reels.mjs` (satu gambar 9:16 dari data.json + musik CC BY) | `reels.png`, `reels.mp4`, `caption-reels.txt` |
 | Kalender konten, momen | `references/kalender-momen.md` | Kalender mingguan/bulanan |
 | Agar FYP, hook, caption, hashtag | `references/strategi-fyp.md` | Hook, caption, hashtag |
 | Insight, evaluasi, "kenapa sepi" | `references/metrik-evaluasi.md` | Laporan + keputusan minggu depan |

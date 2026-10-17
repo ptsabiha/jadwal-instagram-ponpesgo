@@ -1,4 +1,4 @@
-# Routine Otomatis PonpesGo (cloud) · Berita per slot, langsung tayang
+# Routine Otomatis PonpesGo (cloud) · Konten per slot + Reels, langsung tayang
 
 Routine cloud Claude ini berjalan **3 kali sehari, 1 jam sebelum setiap slot tayang**:
 06.00 → tayang 07.00, 12.00 → tayang 13.00, 18.00 → tayang 19.00 WIB. Ia jalan walaupun
@@ -8,6 +8,10 @@ laptop pemilik mati.
 menunggu persetujuan. Setiap putaran: riset berita pesantren **terbaru**, buat 1 carousel, lalu
 langsung jadwalkan di slot itu. **Jangan mengulang topik atau berita yang sama.** Pemilik melihat
 hasilnya di Instagram.
+
+**Variasi konten (17 Okt 2026):** 07.00 Berita · 13.00 Edukasi Pengurus · 19.00 Wali & Santri ·
+Sabtu 13.00 Fitur PonpesGo (lihat `konten/skill/references/bank-ide-konten.md`). **Setiap carousel
+juga dibuatkan Reels** satu gambar 9:16 yang tayang 2 jam kemudian (09.00 / 15.00 / 21.00).
 
 ## Bahan
 
@@ -41,8 +45,12 @@ Abaikan `konten/skill/scripts/render-html.sh` (khusus Windows) dan jalur `D:\…
      **Senin** di slot 07.00: tulis juga laporan mingguan ke `konten/data/laporan/<YYYY-MM-DD>.md`.
      Kalau datanya belum ada atau tidak berubah, jangan ubah apa-apa.
 3. **Persiapan.** `npm i --prefix /tmp/ff ffmpeg-static >/dev/null 2>&1; export FFMPEG=/tmp/ff/node_modules/ffmpeg-static/ffmpeg`.
-4. **Riset berita terbaru** (WebSearch mode extended, 2–3 kueri paralel), utamakan terbit **hari ini
-   atau kemarin**: berita pesantren/santri/Ditjen Pesantren/pendidikan keagamaan. Sumber resmi
+4. **Tentukan pilar slot, lalu riset.** 07.00 = Berita; 13.00 = Edukasi Pengurus; 19.00 = Wali & Santri;
+   Sabtu 13.00 = Fitur PonpesGo (ide & aturan di `konten/skill/references/bank-ide-konten.md`). Berita yang
+   besar/mendesak (kebijakan baru, bantuan bertenggat, momen nasional) boleh mengambil slot mana pun.
+   Untuk pilar edukasi: pilih ide yang belum ada di riwayat, cocokkan dengan momen/berita pekan ini, dan
+   riset faktanya dari sumber A/B (regulasi, situs resmi). Untuk berita: (WebSearch mode extended,
+   2–3 kueri paralel), utamakan terbit **hari ini atau kemarin**: berita pesantren/santri/Ditjen Pesantren/pendidikan keagamaan. Sumber resmi
    (kemenag.go.id, nu.or.id, muhammadiyah.or.id, mui.or.id) lalu media kredibel (antaranews, detik,
    kompas, republika, medcom), lalu sisir sumber lain di `konten/skill/references/sumber-referensi.md`
    (Kanwil/Kankemenag daerah, ormas, situs pesantren, media Islam & daerah; WebSearch dengan
@@ -67,8 +75,10 @@ Abaikan `konten/skill/scripts/render-html.sh` (khusus Windows) dan jalur `D:\…
    Cara cepat mengambil foto utama artikel (`og:image`) ada di `konten/skill/references/sumber-referensi.md`.
    Kalau semua unduhan gagal (mis. jaringan menolak host), tetap terbitkan tanpa foto dan **tulis di laporan
    Telegram** host yang gagal, supaya pemilik bisa membuka aksesnya.
-7. **Buat carousel.** Folder `konten/hasil/<YYYY-MM-DD> <HH.MM> Berita - <judul singkat>/`. Tulis
-   `_sumber/data.json` (format di kepala `berita-newsroom.mjs`; 3 slide isi + catatan PonpesGo), lalu:
+7. **Buat carousel.** Folder `konten/hasil/<YYYY-MM-DD> <HH.MM> <Pilar> - <judul singkat>/`. Tulis
+   `_sumber/data.json` (format di kepala `berita-newsroom.mjs`; 3 slide isi + catatan PonpesGo; `label`
+   sesuai pilar, mis. "PANDUAN PENGURUS", "TIPS WALI SANTRI"), **plus** `"reels": { "poin": [3–4 poin] }`
+   untuk Reels (tiap poin ≤ 120 karakter, kalimat utuh, fakta terpenting: kapan, di mana, siapa, apa artinya), lalu:
    `node konten/skill/scripts/berita-newsroom.mjs "<folder>/_sumber/data.json" "<folder>/_sumber/carousel.html"`
    dan render `v=1..5` ke `<folder>/1.png … 5.png`. **Lihat setiap PNG** (Read); perbaiki teks yang
    terpotong/menumpuk (pendekkan teks) lalu render ulang. Slide-slidenya otomatis **bersambung**
@@ -86,9 +96,21 @@ Abaikan `konten/skill/scripts/render-html.sh` (khusus Windows) dan jalur `D:\…
    langkah menyalakan penjaga; penjaga GitHub tetap jalan sendiri.
    Lalu tambahkan label postingan itu ke `konten/data/label.json` dengan id dari keluaran tambah:
    `"<id>": { "pilar": "…", "hook": "…", "format": "…", "topik": "…" }` (nilai baku di `analisis-konten.md`).
+   **Reels (wajib):**
+   ```
+   node konten/skill/scripts/buat-reels.mjs "<folder>"
+   ```
+   Lihat `<folder>/reels.png` (Read): semua poin terbaca, tidak terpotong "…", tidak menabrak tombol.
+   Perbaiki `reels.poin` bila perlu lalu jalankan ulang. Caption `<folder>/caption-reels.txt` dibuat
+   otomatis (berbeda dari caption carousel, berisi kredit musik CC BY: jangan dihapus). Lalu:
+   ```
+   node alat/jadwal.mjs reels "<folder>"
+   node alat/jadwal.mjs setujui <id reels> --tanpa-uji
+   ```
+   Waktunya otomatis 2 jam setelah carousel. Tambahkan juga labelnya di `label.json` (format "Reels 1 gambar").
 10. **Tulis laporan untuk Telegram.** Susun laporan singkat (Bahasa Indonesia, untuk HP, teks biasa
     tanpa Markdown tabel) dan simpan di `konten/data/kirim/<YYYYMMDD-HHMM>.txt` (waktu WIB sekarang).
-    Isi: jam tayang, judul, sumber, dan tautan
+    Isi: jam tayang carousel & Reels, pilar, judul, sumber, dan tautan
     `https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/<folder>` (spasi = `%20`).
     Tambah 1–3 baris performa: postingan terbaik sejauh ini (Skor FYP / jangkauan), dan di slot 07.00
     apa yang berubah di `pelajaran.md` (Senin: ringkasan mingguan 3–5 baris). Kalau `performa.json` mencatat
