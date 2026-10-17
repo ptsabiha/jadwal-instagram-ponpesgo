@@ -52,9 +52,18 @@ Abaikan `konten/skill/scripts/render-html.sh` (khusus Windows) dan jalur `D:\…
 5. **Fakta & kutipan.** Buka artikel sumber (WebFetch) untuk tanggal, angka, dan kutipan kata per kata.
    Jangan mengarang kutipan, ayat, atau hadis. Kalau dua sumber berbeda, pakai yang resmi atau jangan
    cantumkan angkanya.
-6. **Foto.** Kalau beritanya dari situs resmi lembaga, coba unduh foto utamanya
-   (`curl -sSL -o foto.jpg <url gambar>`), kredit "Foto: <Lembaga>". Jangan memakai foto milik media
-   berita. Kalau tidak ada atau unduhan gagal, hapus `"foto"` dari data (sampul tanpa foto tetap jadi).
+6. **Foto (WAJIB setiap postingan).** Pemilik mengizinkan penuh membuka web untuk mencari foto, tanpa
+   bertanya lagi (17 Okt 2026). Cari dengan WebSearch/WebFetch, lalu unduh ke `_sumber/foto.jpg`
+   (`curl -sSL -o foto.jpg <url gambar>`), urut prioritas:
+   1. Foto resmi lembaga sumber berita (kemenag.go.id, pesantren.kemenag.go.id, nu.or.id,
+      muhammadiyah.or.id, mui.or.id, situs pemda/pesantren). Kredit "Foto: <Lembaga>".
+   2. Foto berlisensi bebas yang relevan (Wikimedia Commons, Unsplash, Pexels): suasana pesantren,
+      santri mengaji, masjid, kitab, upacara. Kredit "Foto: <Pemotret>/Wikimedia Commons" atau "Foto: Unsplash".
+   Jangan memakai foto milik media berita (detik, kompas, antara, dll.), foto korban, atau wajah anak
+   dalam berita sensitif (pakai foto suasana/gedung). Lihat fotonya (Read) sebelum dipakai: tajam,
+   minimal ±1000 px lebar, cocok dengan isi. Atur `"posisiFoto"` agar wajah/objek utama tidak tertutup judul.
+   Kalau semua unduhan gagal (mis. jaringan menolak host), tetap terbitkan tanpa foto dan **tulis di laporan
+   Telegram** host yang gagal, supaya pemilik bisa membuka aksesnya.
 7. **Buat carousel.** Folder `konten/hasil/<YYYY-MM-DD> <HH.MM> Berita - <judul singkat>/`. Tulis
    `_sumber/data.json` (format di kepala `berita-newsroom.mjs`; 3 slide isi + catatan PonpesGo), lalu:
    `node konten/skill/scripts/berita-newsroom.mjs "<folder>/_sumber/data.json" "<folder>/_sumber/carousel.html"`
