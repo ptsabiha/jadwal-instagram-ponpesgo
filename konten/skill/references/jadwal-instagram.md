@@ -48,7 +48,12 @@ perintah, dan cara mengatasi masalah ada di skill itu (`SKILL.md`, `references/a
 ## Status
 
 - 17 Okt 2026: repo, gembok publik, dan KUNCI_PRIVAT siap; penerbit uji jalan dengan antrean kosong.
-  Tugas terjadwal `ponpesgo-carousel-harian` (setiap hari 19.30 WIB, jalan saat aplikasi Claude
-  terbuka) membuat 3 carousel untuk besok dan meminta persetujuan.
+  **Routine cloud** "PonpesGo · 3 carousel untuk besok (19.30 WIB)" (id `trig_015q2uVC6wRyudrJAKfzPrMc`,
+  https://claude.ai/code/routines/trig_015q2uVC6wRyudrJAKfzPrMc, cron UTC `30 12 * * *`, model Sonnet 5.5)
+  jalan di cloud walau laptop mati. Ia mengikuti `konten/ROUTINE.md` di repo dan bahan skill salinan di
+  `konten/skill/`; hasil di `konten/hasil/`. Pemilik menyetujui dengan membalas "ya" di sesi routine
+  (aplikasi Claude di HP / claude.ai/code). Tugas lokal `ponpesgo-carousel-harian` sudah DIMATIKAN.
+  **Kalau skill ini diubah, salin ulang ke `konten/skill/` di repo lalu push**, supaya routine memakai
+  versi terbaru.
   **Belum:** token akun PonpesGo dipasang (pemilik, lewat aplikasi Meta "Penjadwal Kurir ATK" yang
   sama: tambah akun PonpesGo sebagai Instagram Tester), uji rasio 3:4 pertama.
