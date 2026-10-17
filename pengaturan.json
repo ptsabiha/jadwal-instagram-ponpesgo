@@ -6,5 +6,6 @@
   "jeda_antar_postingan_detik": 20,
   "jarak_jadwal_jam": 6,
   "jam_tenang": "22:00-07:00",
-  "url_gambar": "https://raw.githubusercontent.com/{repo}/{sha}/antrian/{id}/{berkas}"
+  "url_gambar": "https://raw.githubusercontent.com/{repo}/{sha}/antrian/{id}/{berkas}",
+  "telegram_chat_id": 6314425999
 }
