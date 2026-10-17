@@ -29,7 +29,9 @@ Abaikan `konten/skill/scripts/render-html.sh` (khusus Windows) dan jalur `D:\…
 
 1. **Slot.** `TZ=Asia/Jakarta date "+%F %H:%M"`. Slot target = 07:00, 13:00, atau 19:00 berikutnya
    (yang ±1 jam lagi). Jalankan `node alat/jadwal.mjs daftar`. Kalau slot itu **sudah terisi**
-   (menunggu/terbit), berhenti dan laporkan singkat "slot sudah terisi".
+   (menunggu/terbit): jangan membuat konten. **Kalau slotnya 07:00**, tetap kerjakan langkah 2 (analisis &
+   `pelajaran.md`), tulis laporan pagi ke Telegram (langkah 10, isinya performa + kesimpulan + jadwal tayang
+   hari ini), commit & push (langkah 11), lalu berhenti. Slot lain: berhenti dan laporkan singkat "slot sudah terisi".
 2. **Belajar dari data.** Jalankan `node konten/skill/scripts/analisis.mjs` dan baca
    `konten/data/pelajaran.md`. Pakai saat memilih topik, jenis hook, dan format di langkah 4–8:
    utamakan formula "Terbukti", jalankan "Eksperimen berjalan" (gilir variannya), hindari yang
@@ -79,7 +81,7 @@ Abaikan `konten/skill/scripts/render-html.sh` (khusus Windows) dan jalur `D:\…
     galat izin insight, sampaikan apa adanya beserta langkahnya (token baru dengan izin
     `instagram_business_manage_insights`). Workflow "Laporan Telegram" mengirimnya ke HP pemilik begitu di-push.
     Kalau putaran gagal di tengah jalan tapi repo masih bisa di-push, tulis laporan galatnya di berkas yang sama.
-    Kalau slot sudah terisi (langkah 1), **jangan** menulis laporan.
+    Kalau slot sudah terisi (langkah 1), jangan menulis laporan, kecuali laporan pagi slot 07:00.
 11. **Catat riwayat & push.** Tambah 1 baris di `konten/riwayat-topik.md` (tayang, judul, URL sumber), lalu
    `git add -A konten && git commit -m "Riwayat: <judul>" && git pull --rebase origin main && git push origin HEAD:main`.
 12. **Jawaban akhir** routine = isi laporan yang sama.
