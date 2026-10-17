@@ -1,6 +1,10 @@
 // berita-newsroom.mjs <data.json> <keluaran.html>
 // Membuat HTML carousel berita 5 slide gaya Newsroom (konsep A) dari satu berkas data.
 // Render tiap slide dengan query v=1..5 (1080x1440). Contoh data: lihat references/gaya-media-berita.md.
+// BERSAMBUNG: semua slide berbagi satu panorama (N×1080 lebar) yang digeser per slide: pita merah-biru
+// mengalir melewati setiap sambungan, ornamen (masjid, bintang 8, bulan sabit, lentera) duduk tepat di
+// sambungan slide 2|3 dst., dan cahaya latar menyeberang sambungan. Sampul tetap memakai penyambung
+// feed baku (pita y=1250/1300 di x=0 dan x=1080, benang x=45). v=0 merender panorama utuh (lebar N×1080).
 //
 // data.json:
 // { "label": "KABAR TERKINI", "tanggal": "JUMAT, 16 OKT 2026",
@@ -25,7 +29,58 @@ const FOTO = d.foto ? uri(path.resolve(dirData, d.foto), /\.png$/i.test(d.foto) 
 const esc = (s) => String(s ?? '');
 const merah = (s) => esc(s).replace(/\*(.+?)\*/g, '<mark>$1</mark>');
 const n = 2 + d.slide.length;
+const W = 1080;
 const top = (i) => `<div class="top"><div class="brand"><div class="logo"></div><div><b>PonpesGo</b><small>PLATFORM MANAJEMEN PESANTREN DIGITAL</small></div></div><div class="dots">${Array.from({ length: n }, (_, k) => `<i${k + 1 === i ? ' class="on"' : ''}></i>`).join('')}</div></div>`;
+
+// ---------- Panorama bersambung ----------
+const L = n * W;
+// Tiap slide: [titik kendali, titik tengah] gelombang. Sambungan selalu di y dasar dengan arah datar,
+// jadi pita menyambung mulus di setiap garis potong. Slide terakhir: merah turun & biru naik (ruang teks).
+const GEL_MERAH = [[1170, 1190], [1320, 1300], [1212, 1225], [1315, 1298], [1215, 1228], [1320, 1300]];
+const GEL_BIRU = [[1370, 1350], [1235, 1250], [1362, 1346], [1240, 1256], [1360, 1345], [1235, 1250]];
+function pita(y0, gel) {
+  let d = `M-10 ${y0} H0`;
+  for (let k = 0; k < n; k++) {
+    const x = k * W;
+    const [c, m] = k === n - 1 && k > 0 ? gel[gel.length - 1] : gel[k % (gel.length - 1)];
+    d += ` C${x + 260} ${y0},${x + 360} ${c},${x + 540} ${m} S${x + 820} ${y0},${x + 1080} ${y0}`;
+  }
+  return `${d} H${L + 10}`;
+}
+const GARIS = 'stroke="#5C86FF" stroke-width="5" stroke-linejoin="round"';
+const ISI = 'fill="rgba(30,79,216,.30)"';
+const ORNAMEN = [
+  (x) => `<g ${GARIS} ${ISI}><path d="M${x - 150} 1440 V1330 Q${x - 150} 1235 ${x} 1215 Q${x + 150} 1235 ${x + 150} 1330 V1440 Z"/>
+    <path d="M${x - 230} 1440 V1270 L${x - 210} 1235 L${x - 190} 1270 V1440 Z"/><path d="M${x + 190} 1440 V1270 L${x + 210} 1235 L${x + 230} 1270 V1440 Z"/>
+    <path d="M${x - 40} 1440 V1380 Q${x} 1340 ${x + 40} 1380 V1440" fill="#0A1330"/></g>
+    <line x1="${x}" y1="1215" x2="${x}" y2="1188" stroke="#FF5A5A" stroke-width="5"/><circle cx="${x}" cy="1184" r="7" fill="#FF5A5A"/>`,
+  (x) => `<g ${GARIS} fill="rgba(30,79,216,.22)"><rect x="${x - 95}" y="${1305 - 95}" width="190" height="190"/>
+    <rect x="${x - 95}" y="${1305 - 95}" width="190" height="190" transform="rotate(45 ${x} 1305)"/></g>
+    <circle cx="${x}" cy="1305" r="46" fill="none" stroke="#FF5A5A" stroke-width="6"/><circle cx="${x}" cy="1305" r="14" fill="#FF5A5A"/>`,
+  (x) => `<path d="M${x + 30} 1215 A95 95 0 1 0 ${x + 30} 1405 A75 75 0 1 1 ${x + 30} 1215 Z" fill="rgba(30,79,216,.45)" stroke="#5C86FF" stroke-width="5"/>
+    <line x1="${x + 80}" y1="1440" x2="${x + 80}" y2="1395" stroke="#5C86FF" stroke-width="4"/>
+    <path d="M${x + 80} 1240 l9 20 22 3 -16 15 4 22 -19 -11 -19 11 4 -22 -16 -15 22 -3 Z" fill="#FF5A5A"/>`,
+  (x) => `<line x1="${x}" y1="1440" x2="${x}" y2="1390" stroke="#5C86FF" stroke-width="4"/>
+    <g ${GARIS} ${ISI}><path d="M${x - 40} 1390 H${x + 40} L${x + 52} 1330 L${x} 1240 L${x - 52} 1330 Z"/></g>
+    <rect x="${x - 18}" y="1300" width="36" height="52" rx="8" fill="#FFD36B" opacity=".85"/>`,
+];
+const cahaya = Array.from({ length: n - 1 }, (_, k) => `<circle cx="${(k + 1) * W}" cy="${k % 2 ? 1000 : 360}" r="640" fill="url(#gC)"/>`).join('');
+// Gradasi didefinisikan sekali di luar slide: definisi di dalam slide yang tersembunyi (display:none) tidak ikut tergambar.
+const defs = `<svg width="0" height="0" style="position:absolute"><defs>
+  <radialGradient id="gC"><stop offset="0" stop-color="rgba(30,79,216,.50)"/><stop offset="1" stop-color="rgba(30,79,216,0)"/></radialGradient>
+  <linearGradient id="gM" gradientUnits="userSpaceOnUse" x1="0" x2="${W}" spreadMethod="reflect"><stop offset="0" stop-color="#C81E25"/><stop offset=".5" stop-color="#FF4B4B"/><stop offset="1" stop-color="#E02B2B"/></linearGradient>
+</defs></svg>`;
+const panoBelakang = `<svg class="pano" viewBox="0 0 ${L} 1440" style="width:${L}px">${cahaya}</svg>`;
+const panoDepan = `<svg class="pano" viewBox="0 0 ${L} 1440" style="width:${L}px">
+  ${Array.from({ length: Math.max(0, n - 2) }, (_, k) => ORNAMEN[k % ORNAMEN.length]((k + 2) * W)).join('\n  ')}
+  <line x1="45" y1="0" x2="45" y2="60" stroke="#1E4FD8" stroke-width="4"/><circle cx="45" cy="64" r="9" fill="#E02B2B"/>
+  <line x1="45" y1="1300" x2="45" y2="1440" stroke="#1E4FD8" stroke-width="4"/>
+  <path d="${pita(1300, GEL_BIRU)}" fill="none" stroke="#1E4FD8" stroke-width="6"/>
+  <path d="${pita(1250, GEL_MERAH)}" fill="none" stroke="url(#gM)" stroke-width="10"/>
+  <circle cx="45" cy="1300" r="9" fill="#1E4FD8"/></svg>`;
+const geser = (i) => `style="left:${-(i - 1) * W}px"`;
+const belakang = (i) => panoBelakang.replace('class="pano"', `class="pano" ${geser(i)}`);
+const depan = (i) => panoDepan.replace('class="pano"', `class="pano" ${geser(i)}`);
 
 function slideIsi(s, i) {
   let y = 430; // posisi judul
@@ -36,31 +91,26 @@ function slideIsi(s, i) {
   if (s.kartu) { isi += `<div class="daf" style="top:${ytxt}px">${s.kartu.map(([b, t]) => `<div><b>${b}</b><span>${t}</span></div>`).join('')}</div>`; ytxt += Math.ceil(s.kartu.length / 2) * 168 + 30; }
   if (s.poin) { isi += `<div class="poin" style="top:${ytxt}px">${s.poin.map((p, k) => `<div><i>${k + 1}</i><p>${p}</p></div>`).join('')}</div>`; ytxt += s.poin.reduce((a, p) => a + Math.ceil(esc(p).replace(/<[^>]+>/g, '').length / 46) * 45 + 26, 0) + 10; }
   if (s.kutip) isi += `<div class="kutip" style="top:${Math.max(ytxt, 900)}px">“${s.kutip[0]}”<small>${s.kutip[1]}</small></div>`;
-  return `<section class="s A" id="s${i}"><div class="grid"></div><div class="glow"></div>${top(i)}
+  return `<section class="s A" id="s${i}"><div class="grid"></div>${belakang(i)}${top(i)}
   <div class="no">${String(i - 1).padStart(2, '0')}</div><h2>${esc(s.judul)}</h2>${isi}
-  <div class="src">${esc(s.sumber || d.sumber)}</div></section>`;
+  <div class="src">${esc(s.sumber || d.sumber)}</div>${depan(i)}</section>`;
 }
 
-const sampul = `<section class="s A A1b" id="s1"><div class="grid"></div>${FOTO ? '<div class="foto"></div>' : '<div class="glow"></div>'}
+const sampul = `<section class="s A A1b" id="s1"><div class="grid"></div>${belakang(1)}${FOTO ? '<div class="foto"></div>' : '<div class="glow"></div>'}
   ${top(1)}${FOTO ? `<div class="kredit">${esc(d.kredit || 'Foto: Kemenag')}</div>` : ''}
   <div class="label"><span>${esc(d.label || 'KABAR TERKINI')}</span><em>${esc(d.tanggal)}</em></div>
   <h1>${merah(d.judul)}</h1>
   <div class="deck">${esc(d.deck)}</div>
   <div class="ticker"><b>SUMBER</b>${esc(d.ticker)}</div>
-  <svg class="sambung" viewBox="0 0 1080 1440"><defs><linearGradient id="gM" x1="0" x2="1"><stop offset="0" stop-color="#C81E25"/><stop offset=".5" stop-color="#FF4B4B"/><stop offset="1" stop-color="#E02B2B"/></linearGradient></defs>
-  <line x1="45" y1="0" x2="45" y2="60" stroke="#1E4FD8" stroke-width="4"/><circle cx="45" cy="64" r="9" fill="#E02B2B"/>
-  <line x1="45" y1="1300" x2="45" y2="1440" stroke="#1E4FD8" stroke-width="4"/>
-  <path d="M-10 1300 H0 C260 1300,360 1370,540 1350 S820 1300,1080 1300 H1090" fill="none" stroke="#1E4FD8" stroke-width="6"/>
-  <path d="M-10 1250 H0 C260 1250,360 1170,540 1190 S820 1250,1080 1250 H1090" fill="none" stroke="url(#gM)" stroke-width="10"/>
-  <circle cx="45" cy="1300" r="9" fill="#1E4FD8"/></svg></section>`;
+  ${depan(1)}</section>`;
 
 const c = d.catatan;
-const penutup = `<section class="s A" id="s${n}"><div class="grid"></div><div class="glow"></div>${top(n)}
+const penutup = `<section class="s A" id="s${n}"><div class="grid"></div>${belakang(n)}${top(n)}
   <div class="tagc">CATATAN PONPESGO</div><h2 style="top:340px">${esc(c.judul)}</h2>
   <div class="poin" style="top:585px">${c.poin.map((p, k) => `<div><i>${k + 1}</i><p>${p}</p></div>`).join('')}</div>
   <div class="fitur">${esc(c.fitur || 'PonpesGo membantu pesantren mengelola <b>data santri</b>, <b>akademik</b>, dan <b>keuangan</b> secara digital.')}</div>
   <div class="cta"><div class="m">Follow akun ini +</div><div class="p">Coba PonpesGo · link di bio</div></div>
-  <div class="src">Saran redaksi PonpesGo, bukan ketentuan resmi.</div></section>`;
+  <div class="src" style="top:1172px">Saran redaksi PonpesGo, bukan ketentuan resmi.</div>${depan(n)}</section>`;
 
 const css = `:root{--navy:#0F1B3D;--biru:#1E4FD8;--merah:#E02B2B}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -70,7 +120,7 @@ html,body{width:1080px;height:1440px;overflow:hidden;background:#0A1330;font-fam
 .brand{display:flex;align-items:center;gap:14px}.brand b{display:block;font-size:31px;font-weight:800;letter-spacing:-.4px;line-height:1}
 .brand small{display:block;font-size:14px;font-weight:700;letter-spacing:1.8px;margin-top:6px;color:#8FB1FF}
 .dots{display:flex;gap:9px}.dots i{width:13px;height:13px;border-radius:7px;background:rgba(255,255,255,.22)}.dots i.on{width:42px;background:var(--merah)}
-.sambung{position:absolute;left:0;top:0;width:1080px;height:1440px;pointer-events:none}
+.pano{position:absolute;top:0;height:1440px;pointer-events:none}
 .A{background:#0A1330;color:#fff}
 .A .grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:60px 60px}
 .A .glow{position:absolute;right:-220px;top:-160px;width:760px;height:760px;border-radius:50%;background:radial-gradient(circle,rgba(30,79,216,.55),transparent 65%)}
@@ -103,15 +153,20 @@ html,body{width:1080px;height:1440px;overflow:hidden;background:#0A1330;font-fam
 .A .cta{position:absolute;left:90px;right:90px;top:1060px;display:flex;gap:18px}
 .A .cta div{flex:1;height:96px;border-radius:20px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:29px}
 .A .cta .m{background:var(--merah)}.A .cta .p{border:3px solid #fff;font-size:26px}
-.A .src{position:absolute;left:90px;bottom:70px;font-size:21px;color:#7F8DB5}`;
+.A .src{position:absolute;left:90px;top:1172px;font-size:21px;color:#7F8DB5}
+body.pano0{width:${L}px}body.pano0 .s{display:block;width:1080px}${Array.from({ length: n }, (_, k) => `body.pano0 #s${k + 1}{left:${k * W}px}`).join('')}`;
 
 const html = `<!doctype html><html lang="id"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
 <style>${css}</style></head><body>
+${defs}
 ${sampul}
 ${d.slide.map((s, k) => slideIsi(s, k + 2)).join('\n')}
 ${penutup}
-<script>const v=new URLSearchParams(location.search).get('v')||'1';document.getElementById('s'+v).classList.add('on');</script>
+<script>const v=new URLSearchParams(location.search).get('v')||'1';
+if(v==='0'){document.body.classList.add('pano0');document.documentElement.style.width='${L}px';}else document.getElementById('s'+v).classList.add('on');
+// Kutipan tidak boleh turun ke baris sumber / pita (y > 1150): naikkan kalau kepanjangan.
+document.querySelectorAll('.kutip').forEach((k)=>{const b=k.offsetTop+k.offsetHeight;if(b>1150)k.style.top=(k.offsetTop-(b-1150))+'px';});</script>
 </body></html>`;
 fs.writeFileSync(keluar, html);
 console.log(`ok: ${keluar} (${n} slide; render dengan v=1..${n})`);

@@ -63,6 +63,14 @@ Semua konsep tetap memakai: logo resmi (data URI `{{LOGO}}` diganti saat build d
 `assets/logo/ponpesgo-logo-resmi-320.png`), tagline `PLATFORM MANAJEMEN PESANTREN DIGITAL` (semua konsep), titik progres kanan atas, dan **penyambung feed baku** di sampul
 (`struktur-carousel.md`). Konsep pilihan pemilik dicatat di sini setelah dipilih.
 
+**Newsroom wajib bersambung antar-slide** (permintaan pemilik, 17 Okt 2026). `scripts/berita-newsroom.mjs`
+sudah membuatnya otomatis: satu panorama N×1080 dibagi per slide, pita merah-biru mengalir melewati
+setiap sambungan, ornamen di sambungan 2|3 (masjid), 3|4 (bintang 8), 4|5 (bulan sabit + bintang),
+5|6 (lentera), dan cahaya biru latar menyeberang sambungan. Jangan menaruh teks di bawah y 1150
+(baris sumber ada di y 1172, pita & ornamen di bawahnya). Kutipan yang kepanjangan otomatis dinaikkan.
+Cek sambungan dengan merender `v=0` (panorama utuh, lebar N×1080):
+`sh konten/alat/render.sh carousel.html panorama.png 5400 1440 "v=0"`.
+
 ## Render
 
 Template memakai query `v=A1`, `A2`, `B1`, … . Ganti `{{LOGO}}` dulu:

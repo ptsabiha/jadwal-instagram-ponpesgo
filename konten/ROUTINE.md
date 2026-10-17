@@ -59,7 +59,9 @@ Abaikan `konten/skill/scripts/render-html.sh` (khusus Windows) dan jalur `D:\…
    `_sumber/data.json` (format di kepala `berita-newsroom.mjs`; 3 slide isi + catatan PonpesGo), lalu:
    `node konten/skill/scripts/berita-newsroom.mjs "<folder>/_sumber/data.json" "<folder>/_sumber/carousel.html"`
    dan render `v=1..5` ke `<folder>/1.png … 5.png`. **Lihat setiap PNG** (Read); perbaiki teks yang
-   terpotong/menumpuk (pendekkan teks) lalu render ulang.
+   terpotong/menumpuk (pendekkan teks) lalu render ulang. Slide-slidenya otomatis **bersambung**
+   (pita & ornamen menyeberang sambungan); render juga `v=0` lebar 5400 ke `_sumber/panorama.png` dan
+   pastikan tidak ada teks yang menabrak pita atau ornamen di bawah y 1150.
 8. **Caption** di `<folder>/caption.txt`: hook 1 baris, 3–6 baris inti, ajakan simpan/komentar,
    "Follow akun ini … coba PonpesGo (link di bio) …", "Sumber: … (tanggal)", 5–6 hashtag
    (#KabarPesantren #santri #pesantren #PonpesGo + 1–2 topik).
