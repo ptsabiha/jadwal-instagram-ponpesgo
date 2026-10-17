@@ -25,4 +25,6 @@ Kalau ada postingan yang gagal terbit, GitHub mengirim email ke akun GitHub pemi
 | `rahasia/token-ig.json` | Token Instagram **terenkripsi**. Hanya penerbit di GitHub yang bisa membukanya (`KUNCI_PRIVAT` di GitHub Secrets). |
 | `rahasia/kunci-publik.pem` | Gembok publik untuk mengunci token. Aman untuk publik, karena gembok ini hanya bisa mengunci, tidak bisa membuka. |
 | `pengaturan.json` | Akun tujuan, zona waktu, dan batas keterlambatan |
+| `konten/data/performa.json` | Angka performa postingan & akun, diambil otomatis tiap ±3 jam (workflow "Insight Instagram") |
+| `konten/data/pelajaran.md` | Kesimpulan konten mana yang berhasil, dipakai Claude setiap membuat konten |
 | `alat/` | Skrip penerbit (`terbitkan.mjs`) dan alat antrean (`jadwal.mjs`) |

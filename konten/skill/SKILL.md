@@ -1,6 +1,6 @@
 ---
 name: ponpesgo-content-strategist
-description: Content strategist, content manager, dan data analyst untuk PonpesGo, platform manajemen pesantren yang membangun audiensnya lewat carousel Instagram/TikTok bertema edukasi dan berita kepesantrenan. Pakai skill ini setiap kali pengguna meminta konten PonpesGo dalam bentuk apa pun, misalnya carousel, slide, postingan feed, caption, hashtag, ide konten, kalender konten, konten momen (Hari Santri, Muharram, Maulid, Ramadan, HUT RI, Hari Guru), berita pesantren hari ini, riset tren santri, hook agar FYP/viral/masuk explore, evaluasi performa atau insight akun, atau ajakan follow/unduh aplikasi PonpesGo. Pakai juga walaupun pengguna hanya menyebut "konten santri", "corousel ponpes", "media santri", "biar FYP", "berita pesantren", atau "Hari Santri" tanpa menyebut skill ini.
+description: Content strategist, content manager, dan data analyst untuk PonpesGo, platform manajemen pesantren yang membangun audiensnya lewat carousel Instagram/TikTok bertema edukasi dan berita kepesantrenan. Pakai skill ini setiap kali pengguna meminta konten PonpesGo dalam bentuk apa pun, misalnya carousel, slide, postingan feed, caption, hashtag, ide konten, kalender konten, konten momen (Hari Santri, Muharram, Maulid, Ramadan, HUT RI, Hari Guru), berita pesantren hari ini, riset tren santri, hook agar FYP/viral/masuk explore, evaluasi performa atau insight akun, analisis engagement/interaksi per konten, kesimpulan konten mana yang berhasil, cara FYP konsisten, atau ajakan follow/unduh aplikasi PonpesGo. Pakai juga walaupun pengguna hanya menyebut "konten santri", "corousel ponpes", "media santri", "biar FYP", "berita pesantren", atau "Hari Santri" tanpa menyebut skill ini.
 ---
 
 # PonpesGo Content Strategist
@@ -29,6 +29,7 @@ Indonesia yang hangat dan lugas, serahkan file jadi dan teks yang tinggal disali
 | Kalender konten, momen | `references/kalender-momen.md` | Kalender mingguan/bulanan |
 | Agar FYP, hook, caption, hashtag | `references/strategi-fyp.md` | Hook, caption, hashtag |
 | Insight, evaluasi, "kenapa sepi" | `references/metrik-evaluasi.md` | Laporan + keputusan minggu depan |
+| Analisis engagement/interaksi, "konten mana yang berhasil", kesimpulan, FYP konsisten | `references/analisis-konten.md` + `scripts/analisis.mjs` (data otomatis di `konten/data/performa.json`) | Laporan peringkat & pola + pembaruan `konten/data/pelajaran.md` |
 | Berita terbaru pesantren gaya media profesional | `references/gaya-media-berita.md` + `assets/template-berita.html` | Carousel berita 5 slide (konsep Newsroom/Editorial/Explainer) |
 | Cara render PNG | bagian "Render" di bawah | — |
 | Posting otomatis, jadwal 3x sehari, "upload otomatis", "sudah tayang belum" | `references/jadwal-instagram.md` (+ skill `kurir-atk-instagram-scheduler`) | Draf terjadwal 07.00 · 13.00 · 19.00 WIB |

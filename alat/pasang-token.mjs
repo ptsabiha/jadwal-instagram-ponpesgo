@@ -80,6 +80,14 @@ async function utama() {
     throw new Error(`Token bisa membaca akun @${saya.username}, tapi tidak boleh memposting: ${jelaskanGalat(e)}\n`
       + 'Saat membuat token, pastikan izin instagram_business_content_publish ikut dicentang.');
   }
+  try {
+    const media = await ig.get(`/${igId}/media`, { fields: 'id', limit: '1' });
+    if (media.data?.[0]) await ig.get(`/${media.data[0].id}/insights`, { metric: 'reach' });
+  } catch (e) {
+    console.log(`⚠️ Token ini belum boleh membaca insight (${jelaskanGalat(e)}).\n`
+      + '   Postingan tetap bisa terbit, tapi analisis konten hanya mendapat suka & komentar.\n'
+      + '   Supaya lengkap, buat token baru dengan izin instagram_business_manage_insights ikut dicentang.');
+  }
   console.log(`Token valid untuk akun Instagram @${saya.username}.`);
 
   const pengaturan = bacaPengaturan();

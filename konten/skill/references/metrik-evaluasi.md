@@ -1,6 +1,14 @@
 # Metrik & Evaluasi (peran Data Analyst)
 
-## Data yang diminta dari pemilik
+## Sumber data
+
+**Otomatis (utama):** workflow "Insight Instagram" mengisi `konten/data/performa.json` tiap ±3 jam
+(jangkauan, tayangan, suka, komentar, simpan, kirim, follow, kunjungan profil; snapshot 24j/48j/7h)
+dan `node konten/skill/scripts/analisis.mjs` menghitung rasio, median, dan pola. Cara membaca dan
+menyimpulkannya: `analisis-konten.md`. Bagian di bawah dipakai untuk data yang tidak ada di API
+atau bila insight otomatis belum aktif.
+
+### Data yang diminta dari pemilik (cadangan)
 
 Per postingan (Instagram: Insight postingan; TikTok: Analitik), 48 jam & 7 hari setelah tayang:
 jangkauan (reach), % non-follower, tayangan, suka, komentar, **simpan**, **kirim/share**,
@@ -39,4 +47,4 @@ Patokan ini titik awal; setelah 10+ postingan, gunakan **median akun sendiri** s
 - Jangan menyimpulkan dari 1–2 postingan. Minimal 5 postingan per jenis sebelum mengubah strategi.
 - Postingan momen (Hari Santri) biasanya melonjak; bandingkan dengan momen sejenis, bukan dengan konten harian.
 - Kalau reach turun tetapi rasio simpan/share tetap, masalahnya distribusi (jam/hook slide 1), bukan isi.
-- Kalau reach naik tetapi follow rendah, perkuat slide terakhir & "Besok: …".
+- Kalau reach naik tetapi follow rendah, perkuat slide terakhir & alasan follow yang spesifik (kotak "Besok: …" sudah dihapus pemilik).
