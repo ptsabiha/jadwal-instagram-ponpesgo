@@ -7,13 +7,17 @@
       {
         "tanggal": "2026-10-17",
         "follower": 3
+      },
+      {
+        "tanggal": "2026-10-18",
+        "follower": 3
       }
     ],
     "jangkauan_7h": {
-      "pada": "2026-10-17T22:45:12+07:00",
-      "total": 18,
+      "pada": "2026-10-18T03:45:13+07:00",
+      "total": 25,
       "follower": 3,
-      "non_follower": 17
+      "non_follower": 24
     }
   },
   "postingan": {
@@ -25,13 +29,13 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-17T22:45:12+07:00",
-        "umur_jam": 12.2,
+        "pada": "2026-10-18T03:45:13+07:00",
+        "umur_jam": 17.2,
         "metrik": {
           "likes": 5,
           "comments": 0,
           "reach": 18,
-          "views": 55,
+          "views": 56,
           "saved": 0,
           "shares": 0,
           "total_interactions": 6,
@@ -49,13 +53,13 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-17T22:45:12+07:00",
-        "umur_jam": 9.7,
+        "pada": "2026-10-18T03:45:13+07:00",
+        "umur_jam": 14.7,
         "metrik": {
           "likes": 3,
           "comments": 0,
           "reach": 5,
-          "views": 16,
+          "views": 18,
           "saved": 0,
           "shares": 0,
           "total_interactions": 3,
@@ -73,13 +77,13 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-17T22:45:12+07:00",
-        "umur_jam": 3.7,
+        "pada": "2026-10-18T03:45:13+07:00",
+        "umur_jam": 8.7,
         "metrik": {
           "likes": 2,
           "comments": 0,
-          "reach": 4,
-          "views": 15,
+          "reach": 5,
+          "views": 18,
           "saved": 0,
           "shares": 0,
           "total_interactions": 2,
@@ -97,18 +101,18 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-17T22:45:12+07:00",
-        "umur_jam": 1.7,
+        "pada": "2026-10-18T03:45:13+07:00",
+        "umur_jam": 6.7,
         "metrik": {
-          "likes": 0,
+          "likes": 2,
           "comments": 0,
-          "reach": 1,
-          "views": 3,
+          "reach": 10,
+          "views": 17,
           "saved": 0,
           "shares": 0,
-          "total_interactions": 0,
-          "ig_reels_avg_watch_time": 57770,
-          "ig_reels_video_view_total_time": 115541
+          "total_interactions": 2,
+          "ig_reels_avg_watch_time": 17533,
+          "ig_reels_video_view_total_time": 192866
         }
       },
       "snapshot": {}
@@ -118,6 +122,6 @@
     "feed": [],
     "reels": []
   },
-  "diperbarui": "2026-10-17T22:45:12+07:00",
+  "diperbarui": "2026-10-18T03:45:13+07:00",
   "galat": []
 }
