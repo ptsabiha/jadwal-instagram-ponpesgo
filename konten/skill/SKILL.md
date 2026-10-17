@@ -30,11 +30,12 @@ Indonesia yang hangat dan lugas, serahkan file jadi dan teks yang tinggal disali
 | Agar FYP, hook, caption, hashtag | `references/strategi-fyp.md` | Hook, caption, hashtag |
 | Insight, evaluasi, "kenapa sepi" | `references/metrik-evaluasi.md` | Laporan + keputusan minggu depan |
 | Analisis engagement/interaksi, "konten mana yang berhasil", kesimpulan, FYP konsisten | `references/analisis-konten.md` + `scripts/analisis.mjs` (data otomatis di `konten/data/performa.json`) | Laporan peringkat & pola + pembaruan `konten/data/pelajaran.md` |
-| Berita terbaru pesantren gaya media profesional | `references/gaya-media-berita.md` + `assets/template-berita.html` | Carousel berita 5 slide (konsep Newsroom/Editorial/Explainer) |
+| Berita terbaru pesantren gaya media profesional | `references/gaya-media-berita.md` + `scripts/berita-newsroom.mjs` | Carousel 5 slide gaya Newsroom (satu-satunya gaya) |
 | Cara render PNG | bagian "Render" di bawah | — |
 | Posting otomatis, jadwal 3x sehari, "upload otomatis", "sudah tayang belum" | `references/jadwal-instagram.md` (+ skill `kurir-atk-instagram-scheduler`) | Draf terjadwal 07.00 · 13.00 · 19.00 WIB |
 
-Template carousel siap edit: `assets/carousel-template.html`.
+**Satu gaya untuk semua konten: Newsroom navy** (`scripts/berita-newsroom.mjs`, keputusan pemilik
+17 Okt 2026). `assets/carousel-template.html` (latar putih) dan konsep Editorial/Explainer hanya arsip.
 
 ## Cara kerja (setiap kali membuat konten)
 
@@ -49,7 +50,7 @@ Template carousel siap edit: `assets/carousel-template.html`.
    cara melakukannya), Komunitas (suara santri). Satu carousel = satu janji yang jelas.
 4. **Tulis naskah per slide** dengan struktur di `struktur-carousel.md`: slide 1 hook,
    slide tengah informatif padat, slide terakhir ajakan follow + aplikasi PonpesGo.
-5. **Desain dan render** dari template (latar putih, aksen merah-biru). Setiap carousel
+5. **Desain dan render** dengan `scripts/berita-newsroom.mjs` (navy, aksen merah-biru). Setiap carousel
    **bersambung antar-slide**, dan setiap sampul **bersambung antar-postingan di feed** lewat
    penyambung baku (lihat `struktur-carousel.md`). Lihat sendiri hasil PNG-nya: teks terpotong,
    tabrakan, font gagal, area aman bawah, dan simulasi grid feed. Perbaiki lalu render ulang.

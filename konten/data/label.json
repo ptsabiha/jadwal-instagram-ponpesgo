@@ -1,7 +1,32 @@
 {
-  "20261017-berita-data-pesantren-ijazah-santri": { "pilar": "Berita", "hook": "Berita+dampak", "format": "Newsroom 5 slide", "topik": "Tata kelola data pesantren & ijazah santri" },
-  "20261017-berita-pelatihan-ai-gratis-untuk-pendidi": { "pilar": "Berita", "hook": "Berita+dampak", "format": "Newsroom 5 slide", "topik": "Pelatihan AI gratis pendidik pesantren" },
-  "20261018-satgas-antikekerasan-di-pesantren-v2": { "pilar": "Berita", "hook": "Berita+dampak", "format": "Newsroom 5 slide", "topik": "Satgas antikekerasan di pesantren" },
-  "20261018-pakai-apa-ke-upacara-hari-santri-v2": { "pilar": "Momen", "hook": "Pertanyaan", "format": "Newsroom 5 slide", "topik": "Busana upacara Hari Santri 2026" },
-  "20261018-4-hari-lagi-hari-santri-2026-v2": { "pilar": "Momen", "hook": "Hitung mundur", "format": "Newsroom 5 slide", "topik": "H-4 Hari Santri 2026" }
+  "20261017-berita-data-pesantren-ijazah-santri": {
+    "pilar": "Berita",
+    "hook": "Berita+dampak",
+    "format": "Newsroom 5 slide",
+    "topik": "Tata kelola data pesantren & ijazah santri"
+  },
+  "20261017-berita-pelatihan-ai-gratis-untuk-pendidi": {
+    "pilar": "Berita",
+    "hook": "Berita+dampak",
+    "format": "Newsroom 5 slide",
+    "topik": "Pelatihan AI gratis pendidik pesantren"
+  },
+  "20261018-berita-satgas-antikekerasan-di-pesantren": {
+    "pilar": "Berita",
+    "hook": "Berita+dampak",
+    "format": "Newsroom 5 slide",
+    "topik": "Satgas antikekerasan di pesantren"
+  },
+  "20261018-pakai-apa-ke-upacara-hari-santri-2": {
+    "pilar": "Momen",
+    "hook": "Pertanyaan",
+    "format": "Newsroom 5 slide",
+    "topik": "Busana upacara Hari Santri 2026"
+  },
+  "20261018-4-hari-lagi-hari-santri-2026-2": {
+    "pilar": "Momen",
+    "hook": "Hitung mundur",
+    "format": "Newsroom 5 slide",
+    "topik": "H-4 Hari Santri 2026"
+  }
 }

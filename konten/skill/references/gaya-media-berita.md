@@ -1,5 +1,9 @@
 # Gaya Media Informasi Profesional (carousel berita)
 
+> **Keputusan pemilik 17 Okt 2026: hanya konsep A · Newsroom, untuk SEMUA konten** (berita, edukasi,
+> momen, promosi). Konsep B dan C di bawah hanya arsip, jangan dipakai. Untuk konten non-berita cukup
+> ganti `label` (mis. "EDUKASI SANTRI", "HARI SANTRI 2026", "TIPS WALI SANTRI").
+
 Dipakai untuk konten **Berita** (pilar "apa yang terjadi"): kabar terbaru dunia pendidikan
 pesantren dari media/sumber resmi, dikemas seperti media berita profesional. Ditambahkan 17 Okt
 2026 atas permintaan pemilik. Template: `assets/template-berita.html` (3 konsep dengan slot foto `{{FOTO}}`, 2 contoh slide
@@ -56,8 +60,8 @@ https://kemenag.go.id/nasional/menag-minta-tata-kelola-pesantren-diperkuat-dari-
 | Konsep | Ciri | Cocok untuk |
 |---|---|---|
 | **A · Newsroom** | Latar navy gelap bergaris halus, judul Oswald kapital besar, label merah "KABAR TERKINI" + tanggal, pita "SUMBER" seperti TV | Berita mendesak, pengumuman resmi |
-| **B · Editorial** | Kertas putih hangat `#FBFAF6`, judul DM Serif Display, deck Source Serif italic, kutipan dengan tanda petik merah besar, daftar bernomor | Kebijakan, opini tokoh, analisis |
-| **C · Explainer Infografis** | Blok biru gradasi di atas, judul Plus Jakarta 800 putih + kuning `#FFD36B`, kartu angka besar, diagram alur | Data, angka, "kenapa/bagaimana" |
+| ~~B · Editorial~~ (arsip) | Kertas putih hangat `#FBFAF6`, judul DM Serif Display, deck Source Serif italic, kutipan dengan tanda petik merah besar, daftar bernomor | Kebijakan, opini tokoh, analisis |
+| ~~C · Explainer Infografis~~ (arsip) | Blok biru gradasi di atas, judul Plus Jakarta 800 putih + kuning `#FFD36B`, kartu angka besar, diagram alur | Data, angka, "kenapa/bagaimana" |
 
 Semua konsep tetap memakai: logo resmi (data URI `{{LOGO}}` diganti saat build dengan
 `assets/logo/ponpesgo-logo-resmi-320.png`), tagline `PLATFORM MANAJEMEN PESANTREN DIGITAL` (semua konsep), titik progres kanan atas, dan **penyambung feed baku** di sampul

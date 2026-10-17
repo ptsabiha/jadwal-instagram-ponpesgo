@@ -1,16 +1,20 @@
 # Identitas Visual PonpesGo
 
-## Palet tetap (ditetapkan pemilik, 16 Okt 2026): latar PUTIH, pendukung MERAH dan BIRU
+## Palet tetap (pemilik, 17 Okt 2026): SATU gaya saja, **News navy**, aksen MERAH dan BIRU
+
+Semua konten (berita, edukasi, momen, promosi) memakai gaya **Newsroom** dari
+`scripts/berita-newsroom.mjs` (lihat `gaya-media-berita.md`). Gaya latar putih
+(`assets/carousel-template.html`) **tidak dipakai lagi** ("ga usah putih-putih, satu warna aja").
 
 | Nama | Hex | Pakai untuk |
 |---|---|---|
-| Putih | `#FFFFFF` | Latar semua slide (polos, tanpa gradasi, supaya sampul menyambung di feed) |
-| Merah | `#E02B2B` (gradasi `#C81E25`→`#FF4B4B`) | Angka besar, kata aksen, tombol utama, pita penyambung merah, baris sorotan |
-| Biru | `#1E4FD8` | Judul serif, label, pil tanggal, pita & benang penyambung biru, ikon cek |
-| Biru muda | `#EAF0FF` | Latar kartu sekunder, kotak tanggal, siluet ornamen |
-| Navy | `#0F1B3D` | Teks utama |
+| Navy | `#0A1330` (kartu `#0F1B3D`) | Latar semua slide, dengan garis kisi halus dan cahaya biru |
+| Merah | `#E02B2B` (gradasi `#C81E25`→`#FF4B4B`) | Angka besar, kata aksen judul, label, tombol utama, pita penyambung merah |
+| Biru | `#1E4FD8` / `#5C86FF` | Pita & benang penyambung, ornamen sambungan, cahaya latar |
+| Putih | `#FFFFFF` | Judul dan teks utama, pita "SUMBER" di sampul |
+| Kuning | `#FFD36B` | Hanya label "CATATAN PONPESGO" di slide penutup |
 
-Jangan ganti warna latar per momen; konsistensi putih-merah-biru membuat feed rapi dan dikenali.
+Jangan ganti warna latar per momen; konsistensi navy-merah-biru membuat feed rapi dan dikenali.
 
 ## Huruf
 
@@ -38,7 +42,7 @@ pola bintang tipis biru (opasitas 5%, periode 120 px).
   `ponpesgo-foto-profil-1080.png` (aman dipotong bulat oleh IG). Selalu pakai versi PNG
   transparan, bukan webp berlatar putih. Di carousel, `.logo` di template memuat versi 320 px
   sebagai data URI supaya HTML tetap bisa dipindah ke folder mana pun. Palet slide tetap
-  putih-merah-biru; biru logo boleh dipakai sebagai aksen.
+  navy-merah-biru (gaya News); biru logo boleh dipakai sebagai aksen.
 - **PonpesGo sebenarnya adalah platform manajemen pesantren** (dikonfirmasi pemilik 17 Okt 2026).
   Akun media (berita + edukasi santri) adalah corong audiens; tujuan akhirnya pesantren/pengurus
   memakai platform ini. Pembeli utama: pengurus pesantren/yayasan; wali santri dan santri

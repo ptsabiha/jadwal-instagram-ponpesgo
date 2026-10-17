@@ -13,9 +13,9 @@ beberapa slide, sehingga gambar terasa menyambung saat digeser. Ini juga menaikk
 - **Teks dan kartu tidak boleh melintasi garis potong**. Jarak ≥ 60 px dari garis potong.
 - Isi teks berada di zona y 160–1120; pita bawah y 1150–1440 untuk ornamen dan garis.
 - Indikator posisi (titik progres) di kanan atas setiap slide.
-- Template: `assets/carousel-template.html`. Query `s=1..N` merender satu slide (kanvas
-  digeser), `s=0` merender panorama utuh (jendela N×1080 lebar) untuk pratinjau.
-  Query `h=<angka>` mengganti angka hitung mundur.
+- Generator: `scripts/berita-newsroom.mjs` (gaya News navy, satu-satunya gaya). Query `v=1..N`
+  merender satu slide (panorama digeser), `v=0` panorama utuh (lebar N×1080) untuk pratinjau.
+  `assets/carousel-template.html` (latar putih) hanya arsip.
 
 ## Gaya baku: FEED BERSAMBUNG (antar-postingan, selamanya)
 
@@ -31,7 +31,7 @@ Penyambung baku slide 1 (JANGAN diubah, posisinya harus persis sama di setiap po
 | Pita merah | tepi kiri x=0 dan tepi kanan x=1080 di **y=1250** | tebal 10 px, gradasi merah, arah datar di tepi |
 | Pita biru | tepi kiri dan kanan di **y=1300** | tebal 6 px `#1E4FD8`, arah datar di tepi |
 | Benang biru vertikal | **x=45**: y=0→60 (ujung titik merah r=9) dan y=1300→1440 | tebal 4 px `#1E4FD8` |
-| Latar | seluruh slide 1 | putih polos + pola bintang periode 120 px mulai dari (0,0) |
+| Latar | seluruh slide 1 | navy `#0A1330` + kisi halus periode 60 px mulai dari (0,0) (sebelum 18 Okt 2026: putih) |
 
 Aturan tambahan untuk sampul:
 - Selain penyambung baku, **tidak ada elemen yang menyentuh tepi** slide 1 (jarak ≥ 40 px).
