@@ -55,5 +55,9 @@ perintah, dan cara mengatasi masalah ada di skill itu (`SKILL.md`, `references/a
   (aplikasi Claude di HP / claude.ai/code). Tugas lokal `ponpesgo-carousel-harian` sudah DIMATIKAN.
   **Kalau skill ini diubah, salin ulang ke `konten/skill/` di repo lalu push**, supaya routine memakai
   versi terbaru.
-  **Belum:** token akun PonpesGo dipasang (pemilik, lewat aplikasi Meta "Penjadwal Kurir ATK" yang
-  sama: tambah akun PonpesGo sebagai Instagram Tester), uji rasio 3:4 pertama.
+- 17 Okt 2026 (siang): token @ponpesgo terpasang (berlaku s.d. ±16 Des 2026), `cek` di GitHub lolos
+  (kuota 0/100), penjaga dinyalakan. Uji routine cloud pertama: riset + render 3 carousel 18 Okt
+  BERHASIL (Chromium cloud di /opt/pw-browsers; render.sh kini render +200 px lalu dipotong karena
+  Chromium cloud memotong ±88 px). Push ke main sempat gagal 403 karena Claude GitHub App belum mencakup repo ini; setelah pemilik
+  memasangnya (dicek ✅ di claude.ai → Konektor → GitHub), uji kedua BERHASIL push dan mengantrekan
+  3 draf 18 Okt. Belum: uji rasio 3:4 pertama di @ponpesgo.

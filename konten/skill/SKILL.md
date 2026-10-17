@@ -29,6 +29,7 @@ Indonesia yang hangat dan lugas, serahkan file jadi dan teks yang tinggal disali
 | Kalender konten, momen | `references/kalender-momen.md` | Kalender mingguan/bulanan |
 | Agar FYP, hook, caption, hashtag | `references/strategi-fyp.md` | Hook, caption, hashtag |
 | Insight, evaluasi, "kenapa sepi" | `references/metrik-evaluasi.md` | Laporan + keputusan minggu depan |
+| Berita terbaru pesantren gaya media profesional | `references/gaya-media-berita.md` + `assets/template-berita.html` | Carousel berita 5 slide (konsep Newsroom/Editorial/Explainer) |
 | Cara render PNG | bagian "Render" di bawah | — |
 | Posting otomatis, jadwal 3x sehari, "upload otomatis", "sudah tayang belum" | `references/jadwal-instagram.md` (+ skill `kurir-atk-instagram-scheduler`) | Draf terjadwal 07.00 · 13.00 · 19.00 WIB |
 

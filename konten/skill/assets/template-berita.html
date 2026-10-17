@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&family=DM+Serif+Display:ital@0;1&family=Source+Serif+4:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0F1B3D;--biru:#1E4FD8;--merah:#E02B2B;--birumuda:#EAF0FF}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1440px;overflow:hidden;background:#fff;font-family:'Plus Jakarta Sans',sans-serif;color:var(--navy)}
+.s{position:absolute;inset:0;display:none;overflow:hidden}
+.s.on{display:block}
+.logo{width:62px;height:63px;background:url({{LOGO}}) center/contain no-repeat;filter:drop-shadow(0 6px 10px rgba(10,79,216,.25));flex:none}
+.brand{display:flex;align-items:center;gap:14px}
+.brand b{display:block;font-size:31px;font-weight:800;letter-spacing:-.4px;line-height:1}
+.brand small{display:block;font-size:15px;font-weight:700;letter-spacing:2.6px;margin-top:6px}
+.dots{display:flex;gap:9px}.dots i{width:13px;height:13px;border-radius:7px;background:rgba(15,27,61,.16)}.dots i.on{width:42px;background:var(--merah)}
+/* penyambung feed baku (sampul) */
+.sambung{position:absolute;left:0;top:0;width:1080px;height:1440px;pointer-events:none}
+
+/* ============ KONSEP A: NEWSROOM (gelap) ============ */
+.A{background:#0A1330}
+.A .grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:60px 60px}
+.A .glow{position:absolute;right:-220px;top:-160px;width:760px;height:760px;border-radius:50%;background:radial-gradient(circle,rgba(30,79,216,.55),transparent 65%)}
+.A .top{position:absolute;left:90px;right:90px;top:96px;display:flex;justify-content:space-between;align-items:center;color:#fff}
+.A .brand small{color:#8FB1FF}.A .dots i{background:rgba(255,255,255,.22)}
+.A .label{position:absolute;left:90px;top:262px;display:flex;align-items:stretch;font-family:'Oswald';font-weight:600;font-size:30px;letter-spacing:3px}
+.A .label span{background:var(--merah);color:#fff;padding:10px 20px}
+.A .label em{font-style:normal;background:#fff;color:var(--navy);padding:10px 20px}
+.A h1{position:absolute;left:90px;right:80px;top:350px;font-family:'Oswald';font-weight:700;font-size:118px;line-height:1.02;color:#fff;text-transform:uppercase;letter-spacing:-.5px}
+.A h1 mark{background:none;color:#FF5A5A}
+.A .deck{position:absolute;left:90px;right:120px;top:880px;font-size:38px;line-height:1.35;color:#C9D6FF;font-weight:500;border-left:8px solid var(--merah);padding-left:26px}
+.A .ticker{position:absolute;left:0;right:0;top:1100px;height:78px;display:flex;align-items:center;background:#fff;font-weight:700;font-size:25px;color:var(--navy)}
+.A .ticker b{height:100%;display:flex;align-items:center;background:var(--merah);color:#fff;font-family:'Oswald';letter-spacing:3px;padding:0 26px 0 90px;font-size:27px;margin-right:24px}
+.A .no{position:absolute;left:90px;top:250px;font-family:'Oswald';font-weight:700;font-size:150px;color:var(--merah);line-height:1}
+.A h2{position:absolute;left:90px;right:90px;top:430px;font-family:'Oswald';font-weight:700;font-size:86px;line-height:1.05;color:#fff;text-transform:uppercase}
+.A .isi{position:absolute;left:90px;right:110px;top:660px;font-size:34px;line-height:1.5;color:#D5DEFA}
+.A .isi b{color:#fff}
+.A .kutip{position:absolute;left:90px;right:90px;top:960px;background:rgba(255,255,255,.07);border-left:10px solid var(--merah);padding:30px 36px;color:#fff;font-size:36px;line-height:1.4;font-weight:600}
+.A .kutip small{display:block;font-size:24px;color:#8FB1FF;margin-top:14px;font-weight:600}
+.A .src{position:absolute;left:90px;bottom:70px;font-size:21px;color:#7F8DB5}
+
+/* ============ KONSEP B: EDITORIAL (putih, serif) ============ */
+.B{background:#FBFAF6}
+.B .top{position:absolute;left:90px;right:90px;top:96px;display:flex;justify-content:space-between;align-items:center}
+.B .brand small{color:var(--biru)}
+.B .rule{position:absolute;left:90px;right:90px;height:0;border-top:2px solid var(--navy)}
+.B .rule.tipis{border-top:1px solid rgba(15,27,61,.25)}
+.B .kicker{position:absolute;left:90px;top:236px;font-size:24px;font-weight:800;letter-spacing:4px;color:var(--merah)}
+.B .kicker span{color:rgba(15,27,61,.55)}
+.B h1{position:absolute;left:90px;right:90px;top:290px;font-family:'DM Serif Display';font-weight:400;font-size:104px;line-height:1.02;letter-spacing:-1px;color:var(--navy)}
+.B h1 i{color:var(--biru)}
+.B .deck{position:absolute;left:90px;right:130px;top:660px;font-family:'Source Serif 4';font-style:italic;font-size:40px;line-height:1.38;color:#2B375C}
+.B .petik{position:absolute;left:84px;top:800px;font-family:'DM Serif Display';font-size:220px;line-height:1;color:var(--merah)}
+.B .quote{position:absolute;left:200px;right:100px;top:860px;font-family:'Source Serif 4';font-weight:600;font-size:40px;line-height:1.3;color:var(--navy)}
+.B .quote small{display:block;margin-top:14px;font-family:'Plus Jakarta Sans';font-size:22px;font-weight:700;letter-spacing:2px;color:rgba(15,27,61,.6)}
+.B .src{position:absolute;left:90px;right:90px;top:1090px;font-size:20px;color:rgba(15,27,61,.55);display:flex;justify-content:space-between}
+.B h2{position:absolute;left:90px;right:90px;top:250px;font-family:'DM Serif Display';font-size:80px;line-height:1.05;color:var(--navy)}
+.B .daftar{position:absolute;left:90px;right:90px;top:430px}
+.B .it{display:flex;gap:28px;padding:24px 0;border-bottom:1px solid rgba(15,27,61,.2)}
+.B .it b{font-family:'DM Serif Display';font-weight:400;font-size:76px;line-height:.9;color:var(--merah);width:70px;flex:none}
+.B .it h3{font-size:34px;font-weight:800;letter-spacing:-.3px}
+.B .it p{font-family:'Source Serif 4';font-size:29px;line-height:1.42;color:#2B375C;margin-top:6px}
+
+/* ============ KONSEP C: EXPLAINER INFOGRAFIS ============ */
+.C{background:#fff}
+.C .blok{position:absolute;left:0;right:0;top:0;height:820px;background:linear-gradient(150deg,#2D6BF0 0%,#1E4FD8 45%,#132F8F 100%)}
+.C .blok:after{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.12) 2px,transparent 2px);background-size:36px 36px;mask-image:linear-gradient(120deg,#000,transparent 70%);-webkit-mask-image:linear-gradient(120deg,#000,transparent 70%)}
+.C .top{position:absolute;left:90px;right:90px;top:96px;display:flex;justify-content:space-between;align-items:center;color:#fff;z-index:2}
+.C .brand small{color:#CFE0FF}.C .dots i{background:rgba(255,255,255,.3)}.C .dots i.on{background:#fff}
+.C .pil{position:absolute;left:90px;top:250px;z-index:2;display:inline-flex;gap:12px;align-items:center;background:#fff;color:var(--merah);font-weight:800;font-size:25px;letter-spacing:3px;padding:12px 24px;border-radius:999px}
+.C .pil i{width:12px;height:12px;border-radius:50%;background:var(--merah)}
+.C h1{position:absolute;left:90px;right:90px;top:340px;z-index:2;font-size:92px;line-height:1.04;font-weight:800;letter-spacing:-2px;color:#fff}
+.C h1 span{color:#FFD36B}
+.C .tgl{position:absolute;left:90px;top:705px;z-index:2;color:#CFE0FF;font-size:26px;font-weight:700;letter-spacing:1px}
+.C .stat{position:absolute;left:90px;right:90px;top:860px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}
+.C .k{border-radius:26px;padding:26px 24px;background:var(--birumuda);border:2px solid rgba(30,79,216,.15);height:240px}
+.C .k.m{background:#FFF0F0;border-color:rgba(224,43,43,.2)}
+.C .k b{display:block;font-size:72px;font-weight:800;line-height:1;color:var(--biru);letter-spacing:-2px}
+.C .k.m b{color:var(--merah)}
+.C .k span{display:block;font-size:24px;font-weight:700;line-height:1.3;margin-top:12px}
+.C .src{position:absolute;left:90px;top:1135px;font-size:21px;color:rgba(15,27,61,.55)}
+.C .top2{color:var(--navy)}
+.C .top2 .brand small{color:var(--biru)}.C .top2 .dots i{background:rgba(15,27,61,.16)}.C .top2 .dots i.on{background:var(--merah)}
+.C h2{position:absolute;left:90px;right:90px;top:240px;font-size:76px;font-weight:800;letter-spacing:-1.5px;line-height:1.05}
+.C h2 span{color:var(--merah)}
+.C .diagram{position:absolute;left:90px;right:90px;top:470px;height:560px}
+.C .santri{position:absolute;left:330px;top:0;width:240px;height:150px;border-radius:28px;background:var(--navy);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;font-size:32px}
+.C .santri small{font-size:20px;font-weight:600;color:#AFC3F5;margin-top:4px}
+.C .cab{position:absolute;top:250px;width:400px;height:170px;border-radius:28px;border:3px solid var(--biru);background:var(--birumuda);display:flex;flex-direction:column;justify-content:center;padding:0 30px}
+.C .cab b{font-size:34px;font-weight:800;color:var(--biru)}.C .cab span{font-size:26px;font-weight:600;margin-top:6px}
+.C .cab.l{left:0}.C .cab.r{right:0}
+.C .warn{position:absolute;left:150px;right:150px;top:470px;height:90px;border-radius:999px;background:var(--merah);color:#fff;font-weight:800;font-size:30px;display:flex;align-items:center;justify-content:center;gap:14px}
+.C .ket{position:absolute;left:90px;right:90px;top:1060px;font-size:29px;line-height:1.45;color:#2B375C}
+.C .ket b{color:var(--navy)}
+</style></head><body>
+
+<!-- penyambung baku feed PonpesGo (dipakai di semua sampul) -->
+<template id="sambungTpl">
+<svg class="sambung" viewBox="0 0 1080 1440"><defs><linearGradient id="gM" x1="0" x2="1"><stop offset="0" stop-color="#C81E25"/><stop offset=".5" stop-color="#FF4B4B"/><stop offset="1" stop-color="#E02B2B"/></linearGradient></defs>
+<line x1="45" y1="0" x2="45" y2="60" stroke="#1E4FD8" stroke-width="4"/><circle cx="45" cy="64" r="9" fill="#E02B2B"/>
+<line x1="45" y1="1300" x2="45" y2="1440" stroke="#1E4FD8" stroke-width="4"/>
+<path d="M-10 1300 H0 C260 1300,360 1370,540 1350 S820 1300,1080 1300 H1090" fill="none" stroke="#1E4FD8" stroke-width="6"/>
+<path d="M-10 1250 H0 C260 1250,360 1170,540 1190 S820 1250,1080 1250 H1090" fill="none" stroke="url(#gM)" stroke-width="10"/>
+<circle cx="45" cy="1300" r="9" fill="#1E4FD8"/></svg>
+</template>
+
+<!-- ===== A1 ===== -->
+<section class="s A" id="A1"><div class="grid"></div><div class="glow"></div>
+  <div class="top"><div class="brand"><div class="logo"></div><div><b>PonpesGo</b><small>KABAR PESANTREN</small></div></div><div class="dots"><i class="on"></i><i></i><i></i><i></i><i></i></div></div>
+  <div class="label"><span>KABAR TERKINI</span><em>SELASA, 13 OKT 2026</em></div>
+  <h1>Menag Minta Data Pesantren &amp; Madrasah <mark>Dirapikan</mark></h1>
+  <div class="deck">Ijazah santri juga harus dijamin sah. Ini 4 arahan Menag untuk penguatan Ditjen Pesantren.</div>
+  <div class="ticker"><b>SUMBER</b>Medcom.id, mengutip laman resmi Kemenag</div>
+</section>
+<!-- ===== A2 ===== -->
+<section class="s A" id="A2"><div class="grid"></div><div class="glow"></div>
+  <div class="top"><div class="brand"><div class="logo"></div><div><b>PonpesGo</b><small>KABAR PESANTREN</small></div></div><div class="dots"><i></i><i class="on"></i><i></i><i></i><i></i></div></div>
+  <div class="no">01</div>
+  <h2>Satu santri, dua catatan</h2>
+  <div class="isi">Seorang santri bisa tercatat di <b>madrasah</b> (pagi atau siang) sekaligus di <b>pesantren</b> (sore atau malam). Menag meminta Sekjen memfasilitasi Ditjen Pendidikan Islam dan Ditjen Pesantren menyusun <b>kriteria pendataan yang terukur</b>.</div>
+  <div class="kutip">“Jangan sampai tumpang tindih angka madrasah dengan pesantren.”<small>MENTERI AGAMA NASARUDDIN UMAR</small></div>
+  <div class="src">Sumber: Medcom.id, 13 Okt 2026 (mengutip laman Kemenag)</div>
+</section>
+
+<!-- ===== B1 ===== -->
+<section class="s B" id="B1">
+  <div class="top"><div class="brand"><div class="logo"></div><div><b>PonpesGo</b><small>MANAJEMEN PESANTREN DIGITAL</small></div></div><div class="dots"><i class="on"></i><i></i><i></i><i></i><i></i></div></div>
+  <div class="rule" style="top:200px"></div>
+  <div class="kicker">PENDIDIKAN PESANTREN <span>· 13 OKTOBER 2026</span></div>
+  <h1>Menag Minta Data Pesantren dan Madrasah <i>Dirapikan</i></h1>
+  <div class="deck">Ijazah santri harus dikelola sesuai aturan, agar lulusan tidak terhambat melanjutkan studi.</div>
+  <div class="petik">“</div>
+  <div class="quote">Jangan sampai tumpang tindih angka madrasah dengan pesantren.<small>— MENAG NASARUDDIN UMAR</small></div>
+  <div class="rule tipis" style="top:1070px"></div>
+  <div class="src"><span>Ringkasan redaksi PonpesGo</span><span>Sumber: Medcom.id / Kemenag</span></div>
+</section>
+<!-- ===== B2 ===== -->
+<section class="s B" id="B2">
+  <div class="top"><div class="brand"><div class="logo"></div><div><b>PonpesGo</b><small>MANAJEMEN PESANTREN DIGITAL</small></div></div><div class="dots"><i></i><i class="on"></i><i></i><i></i><i></i></div></div>
+  <div class="rule" style="top:200px"></div>
+  <h2>Empat arahan Menag</h2>
+  <div class="daftar">
+    <div class="it"><b>1</b><div><h3>Sinkronkan data</h3><p>Madrasah dan pesantren didata dengan kriteria terukur agar tidak tumpang tindih.</p></div></div>
+    <div class="it"><b>2</b><div><h3>Ijazah santri sah</h3><p>Dikelola sesuai perundang-undangan dan nomenklatur yang berlaku.</p></div></div>
+    <div class="it"><b>3</b><div><h3>Klasifikasi baru</h3><p>Bukan hanya jumlah santri, tapi juga mutu, sarana, dan tipe lembaga.</p></div></div>
+    <div class="it" style="border:0"><b>4</b><div><h3>Sosialisasi</h3><p>Jelaskan ke masyarakat beda pendidikan Islam dan pesantren.</p></div></div>
+  </div>
+  <div class="src" style="top:1330px"><span></span><span>Sumber: Medcom.id, 13 Okt 2026 (mengutip laman Kemenag)</span></div>
+</section>
+
+<!-- ===== C1 ===== -->
+<section class="s C" id="C1"><div class="blok"></div>
+  <div class="top"><div class="brand"><div class="logo"></div><div><b>PonpesGo</b><small>MANAJEMEN PESANTREN DIGITAL</small></div></div><div class="dots"><i class="on"></i><i></i><i></i><i></i><i></i></div></div>
+  <div class="pil"><i></i>INFO PESANTREN</div>
+  <h1>Data Pesantren Dirapikan, <span>Ijazah Santri Dijamin</span></h1>
+  <div class="tgl">Arahan Menteri Agama · 13 Oktober 2026</div>
+  <div class="stat">
+    <div class="k"><b>4</b><span>arahan Menag untuk Ditjen Pesantren</span></div>
+    <div class="k"><b>2</b><span>Ditjen diminta duduk bersama: Pendis &amp; Pesantren</span></div>
+    <div class="k m"><b>5.000</b><span>santri bukan lagi satu-satunya ukuran</span></div>
+  </div>
+  <div class="src">Sumber: Medcom.id, 13 Okt 2026 (mengutip laman Kemenag)</div>
+</section>
+<!-- ===== C2 ===== -->
+<section class="s C" id="C2">
+  <div class="top top2"><div class="brand"><div class="logo"></div><div><b>PonpesGo</b><small>MANAJEMEN PESANTREN DIGITAL</small></div></div><div class="dots"><i></i><i class="on"></i><i></i><i></i><i></i></div></div>
+  <h2>Kenapa data santri <span>bisa dobel?</span></h2>
+  <div class="diagram">
+    <div class="santri">1 SANTRI<small>orang yang sama</small></div>
+    <svg style="position:absolute;inset:0" viewBox="0 0 900 560"><path d="M450 150 V200 H200 V250 M450 200 H700 V250" fill="none" stroke="#0F1B3D" stroke-width="5" stroke-linejoin="round"/></svg>
+    <div class="cab l"><b>Madrasah</b><span>belajar pagi / siang</span></div>
+    <div class="cab r"><b>Pesantren</b><span>mengaji sore / malam</span></div>
+    <div class="warn">⚠ Tercatat di dua data</div>
+  </div>
+  <div class="ket">Karena itu Menag meminta <b>kriteria pendataan yang terukur</b>, disusun bersama Ditjen Pendidikan Islam dan Ditjen Pesantren.</div>
+  <div class="src" style="top:1340px">Sumber: Medcom.id, 13 Okt 2026 (mengutip laman Kemenag)</div>
+</section>
+
+<script>
+const q=new URLSearchParams(location.search);const id=q.get('v')||'A1';
+const el=document.getElementById(id);el.classList.add('on');
+if(id.endsWith('1')) el.appendChild(document.getElementById('sambungTpl').content.cloneNode(true));
+</script>
+</body></html>
