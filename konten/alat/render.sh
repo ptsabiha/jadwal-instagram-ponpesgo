@@ -18,7 +18,15 @@ URL="file://$(cd "$(dirname "$H")" && pwd)/$(basename "$H")"
 mkdir -p "$(dirname "$O")"
 OUT="$(cd "$(dirname "$O")" && pwd)/$(basename "$O")"
 rm -f "$OUT"
+# Chromium di cloud memotong ±88 px di bawah jendela: render 200 px lebih tinggi, lalu potong tepat W×T.
+FF="${FFMPEG:-/tmp/ff/node_modules/ffmpeg-static/ffmpeg}"
+[ -x "$FF" ] || { npm i --prefix /tmp/ff ffmpeg-static >/dev/null 2>&1; FF=/tmp/ff/node_modules/ffmpeg-static/ffmpeg; }
+RAW="/tmp/render-mentah-$$.png"
 "$CH" --headless --no-sandbox --disable-gpu --hide-scrollbars --allow-file-access-from-files \
-  --force-device-scale-factor=1 --window-size="$W,$T" --virtual-time-budget=15000 \
-  --screenshot="$OUT" "$URL" >/tmp/render.log 2>&1
-if [ -s "$OUT" ]; then echo "ok: $O"; else echo "GAGAL render $H"; tail -5 /tmp/render.log; exit 1; fi
+  --force-device-scale-factor=1 --window-size="$W,$((T + 200))" --virtual-time-budget=15000 \
+  --screenshot="$RAW" "$URL" >/tmp/render.log 2>&1
+if [ -s "$RAW" ] && "$FF" -y -loglevel error -i "$RAW" -vf "crop=$W:$T:0:0" "$OUT" && [ -s "$OUT" ]; then
+  rm -f "$RAW"; echo "ok: $O"
+else
+  echo "GAGAL render $H"; tail -5 /tmp/render.log; exit 1
+fi
