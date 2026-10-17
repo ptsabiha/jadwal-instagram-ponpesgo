@@ -1,19 +1,19 @@
 {
   "akun": {
     "username": "ponpesgo",
-    "follower": 1,
-    "jumlah_postingan": 1,
+    "follower": 3,
+    "jumlah_postingan": 2,
     "follower_harian": [
       {
         "tanggal": "2026-10-17",
-        "follower": 1
+        "follower": 3
       }
     ],
     "jangkauan_7h": {
-      "pada": "2026-10-17T11:11:04+07:00",
-      "total": 3,
-      "follower": null,
-      "non_follower": 3
+      "pada": "2026-10-17T17:59:05+07:00",
+      "total": 14,
+      "follower": 3,
+      "non_follower": 13
     }
   },
   "postingan": {
@@ -24,24 +24,47 @@
       "terbit_pada": "2026-10-17T10:30:48+07:00",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-17T11:11:04+07:00",
-        "umur_jam": 0.7,
+        "pada": "2026-10-17T17:59:05+07:00",
+        "umur_jam": 7.5,
         "metrik": {
-          "likes": 2,
+          "likes": 3,
           "comments": 0,
-          "reach": 3,
-          "views": 12,
+          "reach": 15,
+          "views": 48,
           "saved": 0,
           "shares": 0,
-          "total_interactions": 2,
+          "total_interactions": 4,
+          "follows": 1,
+          "profile_visits": 6
+        }
+      },
+      "snapshot": {}
+    },
+    "20261017-berita-pelatihan-ai-gratis-untuk-pendidi": {
+      "judul": "Berita: Pelatihan AI Gratis untuk Pendidik Pesantren",
+      "media_id": "18374966497212039",
+      "permalink": "https://www.instagram.com/p/Delak9WjoUd/",
+      "terbit_pada": "2026-10-17T13:00:47+07:00",
+      "jumlah_slide": 5,
+      "terbaru": {
+        "pada": "2026-10-17T17:59:05+07:00",
+        "umur_jam": 5,
+        "metrik": {
+          "likes": 3,
+          "comments": 0,
+          "reach": 4,
+          "views": 8,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 3,
           "follows": 0,
-          "profile_visits": 2
+          "profile_visits": 4
         }
       },
       "snapshot": {}
     }
   },
   "metrik_ditolak": [],
-  "diperbarui": "2026-10-17T11:11:04+07:00",
+  "diperbarui": "2026-10-17T17:59:05+07:00",
   "galat": []
 }
