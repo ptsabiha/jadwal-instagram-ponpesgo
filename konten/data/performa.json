@@ -2,7 +2,7 @@
   "akun": {
     "username": "ponpesgo",
     "follower": 3,
-    "jumlah_postingan": 2,
+    "jumlah_postingan": 3,
     "follower_harian": [
       {
         "tanggal": "2026-10-17",
@@ -10,10 +10,10 @@
       }
     ],
     "jangkauan_7h": {
-      "pada": "2026-10-17T17:59:05+07:00",
-      "total": 14,
+      "pada": "2026-10-17T22:45:12+07:00",
+      "total": 18,
       "follower": 3,
-      "non_follower": 13
+      "non_follower": 17
     }
   },
   "postingan": {
@@ -22,18 +22,19 @@
       "media_id": "18158351890505877",
       "permalink": "https://www.instagram.com/p/DelJaIUjkKX/",
       "terbit_pada": "2026-10-17T10:30:48+07:00",
+      "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-17T17:59:05+07:00",
-        "umur_jam": 7.5,
+        "pada": "2026-10-17T22:45:12+07:00",
+        "umur_jam": 12.2,
         "metrik": {
-          "likes": 3,
+          "likes": 5,
           "comments": 0,
-          "reach": 15,
-          "views": 48,
+          "reach": 18,
+          "views": 55,
           "saved": 0,
           "shares": 0,
-          "total_interactions": 4,
+          "total_interactions": 6,
           "follows": 1,
           "profile_visits": 6
         }
@@ -45,26 +46,78 @@
       "media_id": "18374966497212039",
       "permalink": "https://www.instagram.com/p/Delak9WjoUd/",
       "terbit_pada": "2026-10-17T13:00:47+07:00",
+      "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-17T17:59:05+07:00",
-        "umur_jam": 5,
+        "pada": "2026-10-17T22:45:12+07:00",
+        "umur_jam": 9.7,
         "metrik": {
           "likes": 3,
           "comments": 0,
-          "reach": 4,
-          "views": 8,
+          "reach": 5,
+          "views": 16,
           "saved": 0,
           "shares": 0,
           "total_interactions": 3,
           "follows": 0,
-          "profile_visits": 4
+          "profile_visits": 6
+        }
+      },
+      "snapshot": {}
+    },
+    "20261017-berita-mantu-500-santri": {
+      "judul": "Berita: Mantu 500 Santri",
+      "media_id": "18237395911318786",
+      "permalink": "https://www.instagram.com/p/DemDyRnnKv2/",
+      "terbit_pada": "2026-10-17T19:00:52+07:00",
+      "jenis": "carousel",
+      "jumlah_slide": 5,
+      "terbaru": {
+        "pada": "2026-10-17T22:45:12+07:00",
+        "umur_jam": 3.7,
+        "metrik": {
+          "likes": 2,
+          "comments": 0,
+          "reach": 4,
+          "views": 15,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      },
+      "snapshot": {}
+    },
+    "20261017-reels-mantu-500-santri": {
+      "judul": "Reels: Mantu 500 Santri",
+      "media_id": "18117242293999736",
+      "permalink": "https://www.instagram.com/reel/DemRjTKmGRu/",
+      "terbit_pada": "2026-10-17T21:01:20+07:00",
+      "jenis": "reels",
+      "jumlah_slide": 0,
+      "terbaru": {
+        "pada": "2026-10-17T22:45:12+07:00",
+        "umur_jam": 1.7,
+        "metrik": {
+          "likes": 0,
+          "comments": 0,
+          "reach": 1,
+          "views": 3,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0,
+          "ig_reels_avg_watch_time": 57770,
+          "ig_reels_video_view_total_time": 115541
         }
       },
       "snapshot": {}
     }
   },
-  "metrik_ditolak": [],
-  "diperbarui": "2026-10-17T17:59:05+07:00",
+  "metrik_ditolak": {
+    "feed": [],
+    "reels": []
+  },
+  "diperbarui": "2026-10-17T22:45:12+07:00",
   "galat": []
 }
