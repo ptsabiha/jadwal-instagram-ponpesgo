@@ -6,6 +6,7 @@
 // Token diperpanjang otomatis kalau sudah berumur ≥ 6 hari.
 import fs from 'node:fs';
 import { buatKlien, GalatIG, jenisGalat, jelaskanGalat } from './ig.mjs';
+import { kirimTelegram } from './telegram.mjs';
 import { bacaBerkasToken, tulisBerkasToken, kunciPrivatDariEnv, bacaKunciPublik, bukaSandi, JALUR_TOKEN } from './rahasia.mjs';
 import {
   bacaSemua, simpanPost, jalurPost, penghalangGrup, bacaPengaturan, commitDanPush,
@@ -25,14 +26,21 @@ function catat(baris) {
 
 utama().then((kode) => selesai(kode), (e) => {
   catat(`❌ ${e.message}`);
-  selesai(1);
+  return selesai(1);
 });
 
-function selesai(kode) {
+async function selesai(kode) {
   if (process.env.GITHUB_STEP_SUMMARY) {
     fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### Penerbit Instagram (${MODE})\n\n${ringkasan.map((b) => `- ${b}`).join('\n')}\n`);
   }
   process.exitCode = kode;
+  // Telegram: kabar tayang dan gagal per postingan. Masalah token (yang muncul tiap putaran)
+  // hanya dikirim di putaran ±08.00 WIB supaya tidak membanjiri HP pemilik.
+  const kini = new Date();
+  const jamToken = kini.getUTCHours() === 1 && kini.getUTCMinutes() < 5;
+  const kabar = ringkasan.filter((b) => /^✅ (Tayang|.*sudah tayang)|^❌ Gagal|^❌ .*Terlambat/.test(b)
+    || (jamToken && /token/i.test(b) && /^(❌|⚠️)/u.test(b)));
+  if (MODE === 'terbit' && kabar.length) await kirimTelegram(`📢 PonpesGo\n\n${kabar.join('\n\n')}`);
 }
 
 async function utama() {

@@ -110,6 +110,8 @@ membacanya dengan cepat; pindahkan yang lama ke bagian "Arsip".
 
 ## Laporan
 
+Semua laporan dikirim ke Telegram pemilik lewat `konten/data/kirim/*.txt` (lihat `konten/ROUTINE.md`).
+
 **Harian** (routine slot 07.00, cukup 3–5 baris di laporan ke HP pemilik): postingan terbaik
 kemarin + angkanya, satu hal yang berubah di `pelajaran.md`, dan peringatan data (mis. izin insight).
 

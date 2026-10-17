@@ -70,13 +70,19 @@ Abaikan `konten/skill/scripts/render-html.sh` (khusus Windows) dan jalur `D:\…
    langkah menyalakan penjaga; penjaga GitHub tetap jalan sendiri.
    Lalu tambahkan label postingan itu ke `konten/data/label.json` dengan id dari keluaran tambah:
    `"<id>": { "pilar": "…", "hook": "…", "format": "…", "topik": "…" }` (nilai baku di `analisis-konten.md`).
-10. **Catat riwayat.** Tambah 1 baris di `konten/riwayat-topik.md` (tayang, judul, URL sumber), lalu
-   `git add -A konten && git commit -m "Riwayat: <judul>" && git pull --rebase origin main && git push origin HEAD:main`.
-11. **Laporan singkat** (Bahasa Indonesia, untuk HP): jam tayang, judul, sumber, dan tautan
+10. **Tulis laporan untuk Telegram.** Susun laporan singkat (Bahasa Indonesia, untuk HP, teks biasa
+    tanpa Markdown tabel) dan simpan di `konten/data/kirim/<YYYYMMDD-HHMM>.txt` (waktu WIB sekarang).
+    Isi: jam tayang, judul, sumber, dan tautan
     `https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/<folder>` (spasi = `%20`).
     Tambah 1–3 baris performa: postingan terbaik sejauh ini (Skor FYP / jangkauan), dan di slot 07.00
-    apa yang berubah di `pelajaran.md`. Kalau `performa.json` mencatat galat izin insight, sampaikan
-    apa adanya beserta langkahnya (token baru dengan izin `instagram_business_manage_insights`).
+    apa yang berubah di `pelajaran.md` (Senin: ringkasan mingguan 3–5 baris). Kalau `performa.json` mencatat
+    galat izin insight, sampaikan apa adanya beserta langkahnya (token baru dengan izin
+    `instagram_business_manage_insights`). Workflow "Laporan Telegram" mengirimnya ke HP pemilik begitu di-push.
+    Kalau putaran gagal di tengah jalan tapi repo masih bisa di-push, tulis laporan galatnya di berkas yang sama.
+    Kalau slot sudah terisi (langkah 1), **jangan** menulis laporan.
+11. **Catat riwayat & push.** Tambah 1 baris di `konten/riwayat-topik.md` (tayang, judul, URL sumber), lalu
+   `git add -A konten && git commit -m "Riwayat: <judul>" && git pull --rebase origin main && git push origin HEAD:main`.
+12. **Jawaban akhir** routine = isi laporan yang sama.
 
 ## Batasan
 

@@ -27,4 +27,6 @@ Kalau ada postingan yang gagal terbit, GitHub mengirim email ke akun GitHub pemi
 | `pengaturan.json` | Akun tujuan, zona waktu, dan batas keterlambatan |
 | `konten/data/performa.json` | Angka performa postingan & akun, diambil otomatis tiap ±3 jam (workflow "Insight Instagram") |
 | `konten/data/pelajaran.md` | Kesimpulan konten mana yang berhasil, dipakai Claude setiap membuat konten |
+| `konten/data/kirim/` | Laporan untuk Telegram. Workflow "Laporan Telegram" mengirimnya ke @ponpesgoBot lalu memindahkannya ke `terkirim/` |
+| `rahasia/telegram.json` | Token bot Telegram **terenkripsi** (gembok yang sama dengan token Instagram) |
 | `alat/` | Skrip penerbit (`terbitkan.mjs`) dan alat antrean (`jadwal.mjs`) |
