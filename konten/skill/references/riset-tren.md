@@ -12,6 +12,8 @@ Kerjakan riset sebelum menulis konten berita atau momen. Lama: 5–10 menit penc
    - `<momen terdekat> <tahun> tema jadwal` (mis. "Hari Santri 2026 tema rangkaian")
    - `beasiswa santri <tahun>` / `pendaftaran pesantren <tahun>` (sesuai musim)
    - `viral santri` / `santri tiktok viral <bulan tahun>` untuk tren budaya pop santri
+   - Telusuri juga daftar situs, media daerah, dan akun di `sumber-referensi.md` (pakai
+     `allowed_domains` di WebSearch untuk menyisir satu situs, mis. `kemenag.go.id` atau `nu.or.id`).
 3. **Saring dengan skor** (1–3 tiap kolom, ambil total tertinggi):
 
 | Kriteria | Pertanyaan |

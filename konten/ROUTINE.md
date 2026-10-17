@@ -44,7 +44,9 @@ Abaikan `konten/skill/scripts/render-html.sh` (khusus Windows) dan jalur `D:\…
 4. **Riset berita terbaru** (WebSearch mode extended, 2–3 kueri paralel), utamakan terbit **hari ini
    atau kemarin**: berita pesantren/santri/Ditjen Pesantren/pendidikan keagamaan. Sumber resmi
    (kemenag.go.id, nu.or.id, muhammadiyah.or.id, mui.or.id) lalu media kredibel (antaranews, detik,
-   kompas, republika, medcom). Baca `konten/riwayat-topik.md` dan **buang** semua kandidat yang
+   kompas, republika, medcom), lalu sisir sumber lain di `konten/skill/references/sumber-referensi.md`
+   (Kanwil/Kankemenag daerah, ormas, situs pesantren, media Islam & daerah; WebSearch dengan
+   `allowed_domains`). Media sosial hanya untuk ide, fakta tetap dari situs. Baca `konten/riwayat-topik.md` dan **buang** semua kandidat yang
    topik atau URL-nya sudah ada di sana. Pilih 1 yang paling penting dan baru.
    - Kalau tidak ada berita baru yang layak: buat konten **edukasi praktis** (wali/pengurus/santri)
      yang juga belum ada di riwayat. Jangan mengulang.
@@ -62,6 +64,7 @@ Abaikan `konten/skill/scripts/render-html.sh` (khusus Windows) dan jalur `D:\…
    Jangan memakai foto milik media berita (detik, kompas, antara, dll.), foto korban, atau wajah anak
    dalam berita sensitif (pakai foto suasana/gedung). Lihat fotonya (Read) sebelum dipakai: tajam,
    minimal ±1000 px lebar, cocok dengan isi. Atur `"posisiFoto"` agar wajah/objek utama tidak tertutup judul.
+   Cara cepat mengambil foto utama artikel (`og:image`) ada di `konten/skill/references/sumber-referensi.md`.
    Kalau semua unduhan gagal (mis. jaringan menolak host), tetap terbitkan tanpa foto dan **tulis di laporan
    Telegram** host yang gagal, supaya pemilik bisa membuka aksesnya.
 7. **Buat carousel.** Folder `konten/hasil/<YYYY-MM-DD> <HH.MM> Berita - <judul singkat>/`. Tulis
