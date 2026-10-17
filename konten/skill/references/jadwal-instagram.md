@@ -24,7 +24,18 @@ perintah, dan cara mengatasi masalah ada di skill itu (`SKILL.md`, `references/a
   dengan jam tenang 22.00–07.00 menghasilkan slot otomatis tepat di tiga jam itu.
 - Konten berita mendesak boleh di luar slot (`--waktu`), tetap dengan persetujuan pemilik.
 
-## Alur harian (persetujuan pemilik setiap hari)
+## ATURAN TERBARU (17 Okt 2026, menggantikan alur persetujuan di bawah)
+
+Pemilik meminta **otomatis penuh**: konten dibuat dan **langsung tayang tanpa draf dan tanpa
+persetujuan**. Routine cloud (id `trig_015q2uVC6wRyudrJAKfzPrMc`, cron UTC `0 23,5,11 * * *` =
+06.00, 12.00, 18.00 WIB) berjalan 1 jam sebelum tiap slot 07.00/13.00/19.00, meriset berita pesantren
+terbaru, membuat 1 carousel berita Newsroom (`scripts/berita-newsroom.mjs`), lalu `tambah` +
+`setujui --tanpa-uji`. Topik tidak boleh diulang: cek & tambah `konten/riwayat-topik.md` di repo.
+Panduan lengkapnya `konten/ROUTINE.md`. Uji 3:4 sudah lolos di @ponpesgo (17 Okt 2026).
+Saat Claude membuat konten PonpesGo secara manual di laptop, aturan yang sama berlaku: jadwalkan
+langsung di slot kosong berikutnya dan catat di riwayat-topik.md.
+
+## Alur harian lama (persetujuan pemilik; tidak dipakai lagi)
 
 1. **Malam sebelumnya** (tugas terjadwal, atau saat pemilik meminta): riset berita/momen untuk
    besok (`riset-tren.md`), pilih 3 topik (pagi: berita/info penting, siang: edukasi, malam:
