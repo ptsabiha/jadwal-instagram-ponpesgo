@@ -125,8 +125,8 @@ html,body{width:1080px;height:1440px;overflow:hidden;background:#0A1330;font-fam
 .A .grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:60px 60px}
 .A .glow{position:absolute;right:-220px;top:-160px;width:760px;height:760px;border-radius:50%;background:radial-gradient(circle,rgba(30,79,216,.55),transparent 65%)}
 .A .top{position:absolute;left:90px;right:90px;top:96px;display:flex;justify-content:space-between;align-items:center;z-index:2}
-.A .foto{position:absolute;left:0;right:0;top:0;height:780px;background:url(${FOTO || ''}) ${d.posisiFoto || '40% 30%'}/cover}
-.A .foto:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,19,48,.92) 0%,rgba(10,19,48,.55) 16%,rgba(10,19,48,.12) 30%,rgba(10,19,48,.25) 55%,#0A1330 100%)}
+.A .foto{position:absolute;left:0;right:0;top:0;height:780px;background:url(${FOTO || ''}) ${d.posisiFoto || '40% 30%'}/cover;-webkit-mask-image:linear-gradient(#000 62%,transparent);mask-image:linear-gradient(#000 62%,transparent)}
+.A .foto:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,19,48,.92) 0%,rgba(10,19,48,.55) 16%,rgba(10,19,48,.12) 30%,rgba(10,19,48,.25) 55%,rgba(10,19,48,.7) 100%)}
 .A .kredit{position:absolute;right:90px;top:410px;font-size:19px;color:rgba(255,255,255,.8);font-weight:600}
 .A .label{position:absolute;left:90px;top:468px;display:flex;font-family:'Oswald';font-weight:600;font-size:30px;letter-spacing:3px}
 .A .label span{background:var(--merah);color:#fff;padding:10px 20px}.A .label em{font-style:normal;background:#fff;color:var(--navy);padding:10px 20px}

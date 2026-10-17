@@ -1,18 +1,80 @@
-{ "label": "HARI SANTRI 2026", "tanggal": "KAMIS, 22 OKT 2026",
-  "judul": "PAKAI APA KE *UPACARA* HARI SANTRI?",
-  "deck": "Upacara Kamis pukul 07.00 waktu setempat. Ini aturan busana Kemenag & PBNU.",
-  "ticker": "detik.com · NU Online · Katadata",
-  "sumber": "Sumber: detik.com, Katadata, NU Online",
-  "slide": [
-    { "judul": "Kapan & di mana?", "isi": "Upacara Hari Santri digelar <b>serentak pukul 07.00 waktu setempat</b>, disiarkan langsung di medsos Kemenag.",
-      "kartu": [["WAKTU", "Kamis, 22 Okt · 07.00"], ["BENTUK", "Upacara serentak"], ["PUSAT", "Taman Lapangan Banteng, Jakarta"], ["APEL PBNU", "Pesantren Tebuireng, Jombang"]] },
-    { "judul": "Ketentuan Kemenag", "isi": "Untuk <b>peserta laki-laki</b>, menurut SE Sekjen Kemenag No. 22 Tahun 2026:",
-      "kartu": [["BAWAHAN", "Sarung"], ["ATASAN", "Putih"], ["JAS", "Hitam"], ["PECI", "Hitam"]],
-      "poin": ["<b>Peserta perempuan</b>: menyesuaikan dengan busana yang sopan."],
-      "sumber": "Sumber: detik.com · SE Sekjen Kemenag No. 22/2026" },
-    { "judul": "Pedoman PBNU", "isi": "Beda lembaga, <b>beda pedoman</b>. Untuk acara PBNU:",
-      "poin": ["<b>Laki-laki</b>: sarung gelap, atasan putih, berpeci hitam (jas tidak disebut).", "<b>Putri</b>: busana muslimah putih, bawahan menyesuaikan.", "<b>Tips</b>: ikuti panitia setempat, tanyakan ke pesantren atau Kanwil Kemenag."],
-      "sumber": "Sumber: detik.com, NU Online · pedoman PBNU Hari Santri 2026" }
+{
+ "label": "HARI SANTRI 2026",
+ "tanggal": "KAMIS, 22 OKT 2026",
+ "judul": "PAKAI APA KE *UPACARA* HARI SANTRI?",
+ "deck": "Upacara Kamis pukul 07.00 waktu setempat. Ini aturan busana Kemenag & PBNU.",
+ "ticker": "detik.com · NU Online · Katadata",
+ "sumber": "Sumber: detik.com, Katadata, NU Online",
+ "slide": [
+  {
+   "judul": "Kapan & di mana?",
+   "isi": "Upacara Hari Santri digelar <b>serentak pukul 07.00 waktu setempat</b>, disiarkan langsung di medsos Kemenag.",
+   "kartu": [
+    [
+     "WAKTU",
+     "Kamis, 22 Okt · 07.00"
+    ],
+    [
+     "BENTUK",
+     "Upacara serentak"
+    ],
+    [
+     "PUSAT",
+     "Taman Lapangan Banteng, Jakarta"
+    ],
+    [
+     "APEL PBNU",
+     "Pesantren Tebuireng, Jombang"
+    ]
+   ]
+  },
+  {
+   "judul": "Ketentuan Kemenag",
+   "isi": "Untuk <b>peserta laki-laki</b>, menurut SE Sekjen Kemenag No. 22 Tahun 2026:",
+   "kartu": [
+    [
+     "BAWAHAN",
+     "Sarung"
+    ],
+    [
+     "ATASAN",
+     "Putih"
+    ],
+    [
+     "JAS",
+     "Hitam"
+    ],
+    [
+     "PECI",
+     "Hitam"
+    ]
+   ],
+   "poin": [
+    "<b>Peserta perempuan</b>: menyesuaikan dengan busana yang sopan."
+   ],
+   "sumber": "Sumber: detik.com · SE Sekjen Kemenag No. 22/2026"
+  },
+  {
+   "judul": "Pedoman PBNU",
+   "isi": "Beda lembaga, <b>beda pedoman</b>. Untuk acara PBNU:",
+   "poin": [
+    "<b>Laki-laki</b>: sarung gelap, atasan putih, berpeci hitam (jas tidak disebut).",
+    "<b>Putri</b>: busana muslimah putih, bawahan menyesuaikan.",
+    "<b>Tips</b>: ikuti panitia setempat, tanyakan ke pesantren atau Kanwil Kemenag."
+   ],
+   "sumber": "Sumber: detik.com, NU Online · pedoman PBNU Hari Santri 2026"
+  }
+ ],
+ "catatan": {
+  "judul": "Rapi dan siap upacara",
+  "poin": [
+   "<b>Siapkan busana</b> sejak sekarang: sarung, atasan putih, peci hitam.",
+   "<b>Cek aturan panitia</b> di pesantren atau daerahmu.",
+   "<b>Teruskan info ini</b> ke grup santri dan wali santri."
   ],
-  "catatan": { "judul": "Rapi dan siap upacara", "poin": ["<b>Siapkan busana</b> sejak sekarang: sarung, atasan putih, peci hitam.", "<b>Cek aturan panitia</b> di pesantren atau daerahmu.", "<b>Teruskan info ini</b> ke grup santri dan wali santri."],
-    "fitur": "PonpesGo membantu pesantren mengelola <b>data santri</b>, <b>absensi</b>, dan <b>kabar santri</b> untuk wali lewat aplikasi." } }
+  "fitur": "PonpesGo membantu pesantren mengelola <b>data santri</b>, <b>absensi</b>, dan <b>kabar santri</b> untuk wali lewat aplikasi."
+ },
+ "foto": "foto.jpg",
+ "kredit": "Foto: Kemenag Aceh",
+ "posisiFoto": "68% 22%"
+}
