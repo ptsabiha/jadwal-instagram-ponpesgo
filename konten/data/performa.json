@@ -14,10 +14,10 @@
       }
     ],
     "jangkauan_7h": {
-      "pada": "2026-10-18T11:47:41+07:00",
-      "total": 170,
+      "pada": "2026-10-18T18:25:18+07:00",
+      "total": 248,
       "follower": 3,
-      "non_follower": 169
+      "non_follower": 250
     }
   },
   "postingan": {
@@ -29,13 +29,13 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-18T11:47:41+07:00",
-        "umur_jam": 25.3,
+        "pada": "2026-10-18T18:25:18+07:00",
+        "umur_jam": 31.9,
         "metrik": {
           "likes": 5,
           "comments": 0,
-          "reach": 19,
-          "views": 59,
+          "reach": 21,
+          "views": 62,
           "saved": 0,
           "shares": 0,
           "total_interactions": 6,
@@ -69,13 +69,13 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-18T11:47:41+07:00",
-        "umur_jam": 22.8,
+        "pada": "2026-10-18T18:25:18+07:00",
+        "umur_jam": 29.4,
         "metrik": {
           "likes": 3,
           "comments": 0,
-          "reach": 5,
-          "views": 22,
+          "reach": 6,
+          "views": 23,
           "saved": 0,
           "shares": 0,
           "total_interactions": 3,
@@ -83,7 +83,23 @@
           "profile_visits": 6
         }
       },
-      "snapshot": {}
+      "snapshot": {
+        "24j": {
+          "pada": "2026-10-18T18:25:18+07:00",
+          "umur_jam": 29.4,
+          "metrik": {
+            "likes": 3,
+            "comments": 0,
+            "reach": 6,
+            "views": 23,
+            "saved": 0,
+            "shares": 0,
+            "total_interactions": 3,
+            "follows": 0,
+            "profile_visits": 6
+          }
+        }
+      }
     },
     "20261017-berita-mantu-500-santri": {
       "judul": "Berita: Mantu 500 Santri",
@@ -93,13 +109,13 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-18T11:47:41+07:00",
-        "umur_jam": 16.8,
+        "pada": "2026-10-18T18:25:18+07:00",
+        "umur_jam": 23.4,
         "metrik": {
           "likes": 2,
           "comments": 0,
-          "reach": 5,
-          "views": 28,
+          "reach": 6,
+          "views": 31,
           "saved": 0,
           "shares": 0,
           "total_interactions": 2,
@@ -117,18 +133,18 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-18T11:47:41+07:00",
-        "umur_jam": 14.8,
+        "pada": "2026-10-18T18:25:18+07:00",
+        "umur_jam": 21.4,
         "metrik": {
-          "likes": 4,
+          "likes": 6,
           "comments": 0,
-          "reach": 62,
-          "views": 85,
+          "reach": 108,
+          "views": 149,
           "saved": 0,
           "shares": 0,
-          "total_interactions": 4,
-          "ig_reels_avg_watch_time": 7348,
-          "ig_reels_video_view_total_time": 492341
+          "total_interactions": 6,
+          "ig_reels_avg_watch_time": 8131,
+          "ig_reels_video_view_total_time": 967690
         }
       },
       "snapshot": {}
@@ -141,13 +157,13 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-18T11:47:41+07:00",
-        "umur_jam": 4.8,
+        "pada": "2026-10-18T18:25:18+07:00",
+        "umur_jam": 11.4,
         "metrik": {
           "likes": 3,
           "comments": 0,
-          "reach": 3,
-          "views": 9,
+          "reach": 5,
+          "views": 10,
           "saved": 0,
           "shares": 0,
           "total_interactions": 3,
@@ -165,18 +181,42 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-18T11:47:41+07:00",
-        "umur_jam": 2.8,
+        "pada": "2026-10-18T18:25:18+07:00",
+        "umur_jam": 9.4,
+        "metrik": {
+          "likes": 2,
+          "comments": 0,
+          "reach": 99,
+          "views": 118,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 2,
+          "ig_reels_avg_watch_time": 3874,
+          "ig_reels_video_view_total_time": 430083
+        }
+      },
+      "snapshot": {}
+    },
+    "20261018-reels-pakai-apa-ke-upacara-hari-santri": {
+      "judul": "Reels: Pakai Apa ke Upacara Hari Santri?",
+      "media_id": "18197572117387711",
+      "permalink": "https://www.instagram.com/reel/DeoNEDXEg1-/",
+      "terbit_pada": "2026-10-18T15:00:43+07:00",
+      "jenis": "reels",
+      "jumlah_slide": 0,
+      "terbaru": {
+        "pada": "2026-10-18T18:25:18+07:00",
+        "umur_jam": 3.4,
         "metrik": {
           "likes": 1,
           "comments": 0,
-          "reach": 97,
-          "views": 117,
+          "reach": 32,
+          "views": 49,
           "saved": 0,
           "shares": 0,
           "total_interactions": 1,
-          "ig_reels_avg_watch_time": 3393,
-          "ig_reels_video_view_total_time": 366501
+          "ig_reels_avg_watch_time": 4161,
+          "ig_reels_video_view_total_time": 149814
         }
       },
       "snapshot": {}
@@ -186,6 +226,6 @@
     "feed": [],
     "reels": []
   },
-  "diperbarui": "2026-10-18T11:47:41+07:00",
+  "diperbarui": "2026-10-18T18:25:18+07:00",
   "galat": []
 }
