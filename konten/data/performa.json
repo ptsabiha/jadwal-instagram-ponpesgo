@@ -11,13 +11,17 @@
       {
         "tanggal": "2026-10-18",
         "follower": 3
+      },
+      {
+        "tanggal": "2026-10-19",
+        "follower": 3
       }
     ],
     "jangkauan_7h": {
-      "pada": "2026-10-18T22:59:52+07:00",
-      "total": 293,
+      "pada": "2026-10-19T03:54:59+07:00",
+      "total": 302,
       "follower": 3,
-      "non_follower": 292
+      "non_follower": 301
     }
   },
   "postingan": {
@@ -29,8 +33,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-18T22:59:52+07:00",
-        "umur_jam": 36.5,
+        "pada": "2026-10-19T03:54:59+07:00",
+        "umur_jam": 41.4,
         "metrik": {
           "likes": 5,
           "comments": 0,
@@ -69,8 +73,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-18T22:59:52+07:00",
-        "umur_jam": 34,
+        "pada": "2026-10-19T03:54:59+07:00",
+        "umur_jam": 38.9,
         "metrik": {
           "likes": 3,
           "comments": 0,
@@ -109,8 +113,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-18T22:59:52+07:00",
-        "umur_jam": 28,
+        "pada": "2026-10-19T03:54:59+07:00",
+        "umur_jam": 32.9,
         "metrik": {
           "likes": 2,
           "comments": 0,
@@ -149,8 +153,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-18T22:59:52+07:00",
-        "umur_jam": 26,
+        "pada": "2026-10-19T03:54:59+07:00",
+        "umur_jam": 30.9,
         "metrik": {
           "likes": 6,
           "comments": 0,
@@ -189,8 +193,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-18T22:59:52+07:00",
-        "umur_jam": 16,
+        "pada": "2026-10-19T03:54:59+07:00",
+        "umur_jam": 20.9,
         "metrik": {
           "likes": 3,
           "comments": 0,
@@ -213,8 +217,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-18T22:59:52+07:00",
-        "umur_jam": 14,
+        "pada": "2026-10-19T03:54:59+07:00",
+        "umur_jam": 18.9,
         "metrik": {
           "likes": 2,
           "comments": 0,
@@ -237,18 +241,18 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-18T22:59:52+07:00",
-        "umur_jam": 8,
+        "pada": "2026-10-19T03:54:59+07:00",
+        "umur_jam": 12.9,
         "metrik": {
           "likes": 1,
           "comments": 0,
-          "reach": 76,
-          "views": 103,
+          "reach": 88,
+          "views": 120,
           "saved": 0,
           "shares": 0,
           "total_interactions": 1,
-          "ig_reels_avg_watch_time": 5588,
-          "ig_reels_video_view_total_time": 463822
+          "ig_reels_avg_watch_time": 5853,
+          "ig_reels_video_view_total_time": 556102
         }
       },
       "snapshot": {}
@@ -261,8 +265,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-18T22:59:52+07:00",
-        "umur_jam": 4,
+        "pada": "2026-10-19T03:54:59+07:00",
+        "umur_jam": 8.9,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -285,18 +289,18 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-18T22:59:52+07:00",
-        "umur_jam": 2,
+        "pada": "2026-10-19T03:54:59+07:00",
+        "umur_jam": 6.9,
         "metrik": {
           "likes": 0,
           "comments": 0,
-          "reach": 2,
-          "views": 3,
+          "reach": 4,
+          "views": 5,
           "saved": 0,
           "shares": 0,
           "total_interactions": 0,
-          "ig_reels_avg_watch_time": 6241,
-          "ig_reels_video_view_total_time": 12482
+          "ig_reels_avg_watch_time": 3540,
+          "ig_reels_video_view_total_time": 14163
         }
       },
       "snapshot": {}
@@ -306,6 +310,6 @@
     "feed": [],
     "reels": []
   },
-  "diperbarui": "2026-10-18T22:59:52+07:00",
+  "diperbarui": "2026-10-19T03:54:59+07:00",
   "galat": []
 }
