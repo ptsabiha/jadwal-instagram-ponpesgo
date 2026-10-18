@@ -1,0 +1,8 @@
+PonpesGo · Senin 19 Okt 2026
+Tayang: carousel 07.00 WIB, Reels 09.00 WIB
+Pilar: Berita
+Judul: Expo Kemandirian Pesantren digelar 16–24 Oktober (rangkaian Hari Santri 2026)
+Sumber: NU Online, 22 Sep 2026
+Hasil: https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/2026-10-19%2007.00%20Berita%20-%20Expo%20Kemandirian%20Pesantren
+Performa: akun masih kecil (3 follower, jangkauan 7 hari 302, 99,7% non-follower). Reels paling luas (±100 jangkauan), carousel berita Skor FYP tertinggi. Belum ada pola terbukti (n<5); pelajaran.md tidak diubah.
+Catatan: penjaga GitHub gagal dinyalakan (HTTP 403 GraphQL), penjaga di GitHub tetap jalan sendiri. Foto 860 px (resolusi terbesar yang tersedia).

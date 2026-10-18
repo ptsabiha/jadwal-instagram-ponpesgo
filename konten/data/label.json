@@ -58,5 +58,17 @@
     "hook": "Berita+dampak",
     "format": "Reels 1 gambar",
     "topik": "H-4 Hari Santri 2026"
+  },
+  "20261019-berita-expo-kemandirian-pesantren": {
+    "pilar": "Berita",
+    "hook": "Berita+dampak",
+    "format": "Carousel 5 slide",
+    "topik": "Expo Kemandirian Pesantren"
+  },
+  "20261019-reels-expo-kemandirian-pesantren": {
+    "pilar": "Berita",
+    "hook": "Berita+dampak",
+    "format": "Reels 1 gambar",
+    "topik": "Expo Kemandirian Pesantren"
   }
 }

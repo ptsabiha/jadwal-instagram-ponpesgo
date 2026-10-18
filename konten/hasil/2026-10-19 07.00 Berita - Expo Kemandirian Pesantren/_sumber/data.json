@@ -1,0 +1,51 @@
+{
+ "label": "KABAR HARI SANTRI",
+ "tanggal": "SENIN, 19 OKT 2026",
+ "judul": "*EXPO KEMANDIRIAN PESANTREN* DIGELAR 16–24 OKTOBER",
+ "deck": "Pameran produk dan capaian pesantren, bagian dari rangkaian Hari Santri 2026.",
+ "ticker": "NU Online · Kemenag · Ditjen Pesantren",
+ "foto": "foto.jpg",
+ "posisiFoto": "50% 30%",
+ "kredit": "Foto: NU Online",
+ "sumber": "Sumber: NU Online, 22 Sep 2026",
+ "slide": [
+  {
+   "judul": "Apa yang terjadi?",
+   "isi": "Kemenag meluncurkan rangkaian Hari Santri 2026 di Jakarta pada <b>22 September</b>. Salah satunya <b>Expo Kemandirian Pesantren</b>.",
+   "kutip": ["Betul yang dikatakan ini adalah hari kebangkitan santri dengan launching dengan hadirnya Ditjen Pesantren", "NASARUDDIN UMAR, MENTERI AGAMA"]
+  },
+  {
+   "judul": "Isi expo",
+   "isi": "Dirjen Pesantren Basnang Said menjelaskan expo memamerkan produk pesantren yang diharapkan <b>bernilai ekonomi</b>.",
+   "kartu": [["WAKTU", "16–24 Oktober 2026"], ["ISI", "Produk & capaian pesantren"], ["CONTOH", "Makanan, minuman, buku, pakaian khas"], ["TUJUAN", "Produk bernilai ekonomi"]],
+   "sumber": "Sumber: NU Online, 22 Sep 2026"
+  },
+  {
+   "judul": "Agenda pekan Hari Santri",
+   "isi": "Rangkaian puncak peringatan satu dekade Hari Santri:",
+   "poin": [
+    "<b>16–24 Okt</b> Expo Kemandirian Pesantren",
+    "<b>22 Okt</b> Upacara Hari Santri",
+    "<b>24 Okt</b> Malam Bakti Santri untuk Negeri, Istora Senayan, Jakarta"
+   ],
+   "sumber": "Sumber: NU Online, 22 Sep 2026"
+  }
+ ],
+ "catatan": {
+  "judul": "Apa artinya untuk pesantren?",
+  "poin": [
+   "<b>Pesantren bisa tampil</b>: expo jadi etalase produk dan karya santri.",
+   "<b>Rapikan katalog produk</b> unit usaha pesantren agar siap dipromosikan.",
+   "<b>Catat keuangan unit usaha</b> dengan tertib supaya mudah dikembangkan."
+  ],
+  "fitur": "PonpesGo membantu pesantren mengelola <b>keuangan & data lembaga</b> secara digital."
+ },
+ "reels": {
+  "poin": [
+   "<b>Expo Kemandirian Pesantren</b> digelar 16–24 Oktober 2026 dalam rangkaian Hari Santri.",
+   "Memamerkan produk dan capaian pesantren: makanan, minuman, buku, pakaian khas.",
+   "Dirjen Pesantren berharap produk pesantren <b>bernilai ekonomi</b>.",
+   "Upacara Hari Santri 22 Okt, puncak Malam Bakti Santri 24 Okt di Istora Senayan."
+  ]
+ }
+}
