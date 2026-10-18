@@ -2,7 +2,7 @@
   "akun": {
     "username": "ponpesgo",
     "follower": 3,
-    "jumlah_postingan": 3,
+    "jumlah_postingan": 4,
     "follower_harian": [
       {
         "tanggal": "2026-10-17",
@@ -14,10 +14,10 @@
       }
     ],
     "jangkauan_7h": {
-      "pada": "2026-10-18T06:13:14+07:00",
-      "total": 39,
+      "pada": "2026-10-18T11:47:41+07:00",
+      "total": 170,
       "follower": 3,
-      "non_follower": 38
+      "non_follower": 169
     }
   },
   "postingan": {
@@ -29,13 +29,13 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-18T06:13:14+07:00",
-        "umur_jam": 19.7,
+        "pada": "2026-10-18T11:47:41+07:00",
+        "umur_jam": 25.3,
         "metrik": {
           "likes": 5,
           "comments": 0,
-          "reach": 18,
-          "views": 57,
+          "reach": 19,
+          "views": 59,
           "saved": 0,
           "shares": 0,
           "total_interactions": 6,
@@ -43,7 +43,23 @@
           "profile_visits": 6
         }
       },
-      "snapshot": {}
+      "snapshot": {
+        "24j": {
+          "pada": "2026-10-18T11:47:41+07:00",
+          "umur_jam": 25.3,
+          "metrik": {
+            "likes": 5,
+            "comments": 0,
+            "reach": 19,
+            "views": 59,
+            "saved": 0,
+            "shares": 0,
+            "total_interactions": 6,
+            "follows": 1,
+            "profile_visits": 6
+          }
+        }
+      }
     },
     "20261017-berita-pelatihan-ai-gratis-untuk-pendidi": {
       "judul": "Berita: Pelatihan AI Gratis untuk Pendidik Pesantren",
@@ -53,13 +69,13 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-18T06:13:14+07:00",
-        "umur_jam": 17.2,
+        "pada": "2026-10-18T11:47:41+07:00",
+        "umur_jam": 22.8,
         "metrik": {
           "likes": 3,
           "comments": 0,
           "reach": 5,
-          "views": 19,
+          "views": 22,
           "saved": 0,
           "shares": 0,
           "total_interactions": 3,
@@ -77,13 +93,13 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-18T06:13:14+07:00",
-        "umur_jam": 11.2,
+        "pada": "2026-10-18T11:47:41+07:00",
+        "umur_jam": 16.8,
         "metrik": {
           "likes": 2,
           "comments": 0,
           "reach": 5,
-          "views": 19,
+          "views": 28,
           "saved": 0,
           "shares": 0,
           "total_interactions": 2,
@@ -101,18 +117,66 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-18T06:13:14+07:00",
-        "umur_jam": 9.2,
+        "pada": "2026-10-18T11:47:41+07:00",
+        "umur_jam": 14.8,
         "metrik": {
-          "likes": 2,
+          "likes": 4,
           "comments": 0,
-          "reach": 24,
-          "views": 41,
+          "reach": 62,
+          "views": 85,
           "saved": 0,
           "shares": 0,
-          "total_interactions": 2,
-          "ig_reels_avg_watch_time": 10070,
-          "ig_reels_video_view_total_time": 271907
+          "total_interactions": 4,
+          "ig_reels_avg_watch_time": 7348,
+          "ig_reels_video_view_total_time": 492341
+        }
+      },
+      "snapshot": {}
+    },
+    "20261018-berita-satgas-antikekerasan-di-pesantren": {
+      "judul": "Berita: Satgas Antikekerasan di Pesantren",
+      "media_id": "18347407198266156",
+      "permalink": "https://www.instagram.com/p/DenWK0ZjxGR/",
+      "terbit_pada": "2026-10-18T07:00:44+07:00",
+      "jenis": "carousel",
+      "jumlah_slide": 5,
+      "terbaru": {
+        "pada": "2026-10-18T11:47:41+07:00",
+        "umur_jam": 4.8,
+        "metrik": {
+          "likes": 3,
+          "comments": 0,
+          "reach": 3,
+          "views": 9,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      },
+      "snapshot": {}
+    },
+    "20261018-reels-satgas-antikekerasan-di-pesantren": {
+      "judul": "Reels: Satgas Antikekerasan di Pesantren",
+      "media_id": "18338804806276594",
+      "permalink": "https://www.instagram.com/reel/Denj71pHIb2/",
+      "terbit_pada": "2026-10-18T09:01:10+07:00",
+      "jenis": "reels",
+      "jumlah_slide": 0,
+      "terbaru": {
+        "pada": "2026-10-18T11:47:41+07:00",
+        "umur_jam": 2.8,
+        "metrik": {
+          "likes": 1,
+          "comments": 0,
+          "reach": 97,
+          "views": 117,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 1,
+          "ig_reels_avg_watch_time": 3393,
+          "ig_reels_video_view_total_time": 366501
         }
       },
       "snapshot": {}
@@ -122,6 +186,6 @@
     "feed": [],
     "reels": []
   },
-  "diperbarui": "2026-10-18T06:13:14+07:00",
+  "diperbarui": "2026-10-18T11:47:41+07:00",
   "galat": []
 }
