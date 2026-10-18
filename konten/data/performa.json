@@ -2,7 +2,7 @@
   "akun": {
     "username": "ponpesgo",
     "follower": 3,
-    "jumlah_postingan": 4,
+    "jumlah_postingan": 5,
     "follower_harian": [
       {
         "tanggal": "2026-10-17",
@@ -14,10 +14,10 @@
       }
     ],
     "jangkauan_7h": {
-      "pada": "2026-10-18T18:25:18+07:00",
-      "total": 248,
+      "pada": "2026-10-18T22:59:52+07:00",
+      "total": 293,
       "follower": 3,
-      "non_follower": 250
+      "non_follower": 292
     }
   },
   "postingan": {
@@ -29,13 +29,13 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-18T18:25:18+07:00",
-        "umur_jam": 31.9,
+        "pada": "2026-10-18T22:59:52+07:00",
+        "umur_jam": 36.5,
         "metrik": {
           "likes": 5,
           "comments": 0,
-          "reach": 21,
-          "views": 62,
+          "reach": 24,
+          "views": 67,
           "saved": 0,
           "shares": 0,
           "total_interactions": 6,
@@ -69,8 +69,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-18T18:25:18+07:00",
-        "umur_jam": 29.4,
+        "pada": "2026-10-18T22:59:52+07:00",
+        "umur_jam": 34,
         "metrik": {
           "likes": 3,
           "comments": 0,
@@ -109,8 +109,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-18T18:25:18+07:00",
-        "umur_jam": 23.4,
+        "pada": "2026-10-18T22:59:52+07:00",
+        "umur_jam": 28,
         "metrik": {
           "likes": 2,
           "comments": 0,
@@ -123,7 +123,23 @@
           "profile_visits": 0
         }
       },
-      "snapshot": {}
+      "snapshot": {
+        "24j": {
+          "pada": "2026-10-18T22:59:52+07:00",
+          "umur_jam": 28,
+          "metrik": {
+            "likes": 2,
+            "comments": 0,
+            "reach": 6,
+            "views": 31,
+            "saved": 0,
+            "shares": 0,
+            "total_interactions": 2,
+            "follows": 0,
+            "profile_visits": 0
+          }
+        }
+      }
     },
     "20261017-reels-mantu-500-santri": {
       "judul": "Reels: Mantu 500 Santri",
@@ -133,8 +149,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-18T18:25:18+07:00",
-        "umur_jam": 21.4,
+        "pada": "2026-10-18T22:59:52+07:00",
+        "umur_jam": 26,
         "metrik": {
           "likes": 6,
           "comments": 0,
@@ -143,11 +159,27 @@
           "saved": 0,
           "shares": 0,
           "total_interactions": 6,
-          "ig_reels_avg_watch_time": 8131,
-          "ig_reels_video_view_total_time": 967690
+          "ig_reels_avg_watch_time": 8093,
+          "ig_reels_video_view_total_time": 971211
         }
       },
-      "snapshot": {}
+      "snapshot": {
+        "24j": {
+          "pada": "2026-10-18T22:59:52+07:00",
+          "umur_jam": 26,
+          "metrik": {
+            "likes": 6,
+            "comments": 0,
+            "reach": 108,
+            "views": 149,
+            "saved": 0,
+            "shares": 0,
+            "total_interactions": 6,
+            "ig_reels_avg_watch_time": 8093,
+            "ig_reels_video_view_total_time": 971211
+          }
+        }
+      }
     },
     "20261018-berita-satgas-antikekerasan-di-pesantren": {
       "judul": "Berita: Satgas Antikekerasan di Pesantren",
@@ -157,8 +189,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-18T18:25:18+07:00",
-        "umur_jam": 11.4,
+        "pada": "2026-10-18T22:59:52+07:00",
+        "umur_jam": 16,
         "metrik": {
           "likes": 3,
           "comments": 0,
@@ -181,18 +213,18 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-18T18:25:18+07:00",
-        "umur_jam": 9.4,
+        "pada": "2026-10-18T22:59:52+07:00",
+        "umur_jam": 14,
         "metrik": {
           "likes": 2,
           "comments": 0,
-          "reach": 99,
+          "reach": 100,
           "views": 118,
           "saved": 0,
           "shares": 0,
           "total_interactions": 2,
-          "ig_reels_avg_watch_time": 3874,
-          "ig_reels_video_view_total_time": 430083
+          "ig_reels_avg_watch_time": 3861,
+          "ig_reels_video_view_total_time": 432475
         }
       },
       "snapshot": {}
@@ -205,18 +237,66 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-18T18:25:18+07:00",
-        "umur_jam": 3.4,
+        "pada": "2026-10-18T22:59:52+07:00",
+        "umur_jam": 8,
         "metrik": {
           "likes": 1,
           "comments": 0,
-          "reach": 32,
-          "views": 49,
+          "reach": 76,
+          "views": 103,
           "saved": 0,
           "shares": 0,
           "total_interactions": 1,
-          "ig_reels_avg_watch_time": 4161,
-          "ig_reels_video_view_total_time": 149814
+          "ig_reels_avg_watch_time": 5588,
+          "ig_reels_video_view_total_time": 463822
+        }
+      },
+      "snapshot": {}
+    },
+    "20261018-4-hari-lagi-hari-santri-2026-2": {
+      "judul": "4 Hari Lagi Hari Santri 2026",
+      "media_id": "18030142760857176",
+      "permalink": "https://www.instagram.com/p/Deook0AG3p3/",
+      "terbit_pada": "2026-10-18T19:00:49+07:00",
+      "jenis": "carousel",
+      "jumlah_slide": 5,
+      "terbaru": {
+        "pada": "2026-10-18T22:59:52+07:00",
+        "umur_jam": 4,
+        "metrik": {
+          "likes": 0,
+          "comments": 0,
+          "reach": 0,
+          "views": 0,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      },
+      "snapshot": {}
+    },
+    "20261018-reels-4-hari-lagi-hari-santri-2026": {
+      "judul": "Reels: 4 Hari Lagi Hari Santri 2026",
+      "media_id": "18020588375730452",
+      "permalink": "https://www.instagram.com/reel/Deo2Q3VmIxv/",
+      "terbit_pada": "2026-10-18T21:00:38+07:00",
+      "jenis": "reels",
+      "jumlah_slide": 0,
+      "terbaru": {
+        "pada": "2026-10-18T22:59:52+07:00",
+        "umur_jam": 2,
+        "metrik": {
+          "likes": 0,
+          "comments": 0,
+          "reach": 2,
+          "views": 3,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0,
+          "ig_reels_avg_watch_time": 6241,
+          "ig_reels_video_view_total_time": 12482
         }
       },
       "snapshot": {}
@@ -226,6 +306,6 @@
     "feed": [],
     "reels": []
   },
-  "diperbarui": "2026-10-18T18:25:18+07:00",
+  "diperbarui": "2026-10-18T22:59:52+07:00",
   "galat": []
 }
