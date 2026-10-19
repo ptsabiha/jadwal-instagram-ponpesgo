@@ -82,5 +82,17 @@
     "hook": "Berita+dampak",
     "format": "Reels 1 gambar",
     "topik": "PBNU & Ditjen Pesantren sinergi"
+  },
+  "20261019-berita-beasiswa-santri-jateng": {
+    "pilar": "Berita",
+    "hook": "Berita+dampak",
+    "format": "Newsroom 5 slide",
+    "topik": "Beasiswa santri Pemprov Jateng"
+  },
+  "20261019-reels-beasiswa-santri-jateng": {
+    "pilar": "Berita",
+    "hook": "Berita+dampak",
+    "format": "Reels 1 gambar",
+    "topik": "Beasiswa santri Pemprov Jateng"
   }
 }

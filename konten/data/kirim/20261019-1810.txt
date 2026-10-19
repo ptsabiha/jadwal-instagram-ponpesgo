@@ -1,0 +1,9 @@
+PonpesGo · berita otomatis 19 Okt 2026 (slot 19.00)
+
+Carousel tayang 19.00 WIB, Reels 21.00 WIB.
+Pilar: Berita
+Judul: 482 Santri Jateng Terima Beasiswa Kuliah Pemprov (Pesantren Obah, Rp1 juta/semester x 6 semester)
+Sumber: Puskapik, 19 Okt 2026. Foto: Pemprov Jateng (ppid.jatengprov.go.id).
+Catatan: jarak dari postingan 17.12 hanya ±2 jam (peringatan aturan 6 jam; postingan 13.00 tadi terbit telat). Penjaga gh gagal menyala (GraphQL 403), penjaga GitHub tetap jalan.
+Folder: https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/2026-10-19%2019.00%20Berita%20-%20Beasiswa%20Santri%20Jateng
+Performa: postingan terbaik sejauh ini Skor FYP 50 (Expo Kemandirian, jangkauan masih 1); Reels jangkauan ±100 tapi interaksi rendah.

@@ -1,0 +1,51 @@
+{
+ "label": "KABAR BEASISWA SANTRI",
+ "tanggal": "SENIN, 19 OKT 2026",
+ "judul": "482 SANTRI JATENG TERIMA *BEASISWA* KULIAH PEMPROV",
+ "deck": "Program Pesantren Obah: Rp1 juta per semester selama 6 semester.",
+ "ticker": "Pemprov Jateng · Pesantren Obah · Ma'had Aly",
+ "foto": "foto.jpg",
+ "posisiFoto": "50% 30%",
+ "kredit": "Foto: Pemprov Jateng",
+ "sumber": "Sumber: Puskapik, 19 Okt 2026",
+ "slide": [
+  {
+   "judul": "Apa yang terjadi?",
+   "isi": "Gubernur Jateng <b>Ahmad Luthfi</b> menyerahkan beasiswa kepada <b>424 mahasantri</b> Ma'had Aly dan <b>58 santri penggerak</b> di Semarang, <b>19 Oktober 2026</b>.",
+   "kutip": ["Hari ini kita serahkan beasiswa terkait program Pesantren Obah.", "AHMAD LUTHFI, GUBERNUR JATENG"]
+  },
+  {
+   "judul": "Rincian beasiswa",
+   "isi": "Penyerahan dan pembekalan dilakukan jelang Hari Santri Nasional 2026.",
+   "kartu": [["PENERIMA", "424 mahasantri + 58 santri penggerak"], ["NILAI", "Rp1 juta per semester"], ["DURASI", "6 semester"], ["TEMPAT", "Gedung Gradhika Bhakti Praja, Semarang"]],
+   "sumber": "Sumber: Puskapik, 19 Okt 2026"
+  },
+  {
+   "judul": "Dasar seleksi",
+   "isi": "Penerima dipilih berdasarkan dua hal:",
+   "poin": [
+    "<b>Kondisi ekonomi</b> keluarga",
+    "<b>Prestasi akademik</b> santri",
+    "Program ini bagian dari <b>Pesantren Obah</b> Pemprov Jateng"
+   ],
+   "sumber": "Sumber: Puskapik, 19 Okt 2026"
+  }
+ ],
+ "catatan": {
+  "judul": "Apa artinya untuk pesantren?",
+  "poin": [
+   "<b>Cek beasiswa daerah</b> di provinsi/kabupatenmu, bukan hanya program pusat.",
+   "<b>Data santri yang rapi</b> memudahkan pengajuan rekomendasi.",
+   "<b>Pantau jadwal seleksi</b> lewat kanal resmi pemda dan Kanwil Kemenag."
+  ],
+  "fitur": "PonpesGo membantu pesantren merapikan <b>data santri & lembaga</b> secara digital."
+ },
+ "reels": {
+  "poin": [
+   "Gubernur Jateng Ahmad Luthfi serahkan beasiswa ke <b>424 mahasantri</b> dan <b>58 santri penggerak</b>.",
+   "Diserahkan <b>19 Oktober 2026</b> di Semarang, jelang Hari Santri.",
+   "Nilainya <b>Rp1 juta per semester</b> selama <b>6 semester</b>.",
+   "Seleksi berdasarkan kondisi ekonomi dan prestasi akademik."
+  ]
+ }
+}
