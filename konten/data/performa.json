@@ -2,7 +2,7 @@
   "akun": {
     "username": "ponpesgo",
     "follower": 3,
-    "jumlah_postingan": 5,
+    "jumlah_postingan": 6,
     "follower_harian": [
       {
         "tanggal": "2026-10-17",
@@ -18,10 +18,10 @@
       }
     ],
     "jangkauan_7h": {
-      "pada": "2026-10-19T06:23:36+07:00",
-      "total": 309,
+      "pada": "2026-10-19T11:56:40+07:00",
+      "total": 313,
       "follower": 3,
-      "non_follower": 308
+      "non_follower": 312
     }
   },
   "postingan": {
@@ -33,8 +33,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-19T06:23:36+07:00",
-        "umur_jam": 43.9,
+        "pada": "2026-10-19T11:56:40+07:00",
+        "umur_jam": 49.4,
         "metrik": {
           "likes": 5,
           "comments": 0,
@@ -62,6 +62,21 @@
             "follows": 1,
             "profile_visits": 6
           }
+        },
+        "48j": {
+          "pada": "2026-10-19T11:56:40+07:00",
+          "umur_jam": 49.4,
+          "metrik": {
+            "likes": 5,
+            "comments": 0,
+            "reach": 24,
+            "views": 67,
+            "saved": 0,
+            "shares": 0,
+            "total_interactions": 6,
+            "follows": 1,
+            "profile_visits": 6
+          }
         }
       }
     },
@@ -73,8 +88,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-19T06:23:36+07:00",
-        "umur_jam": 41.4,
+        "pada": "2026-10-19T11:56:40+07:00",
+        "umur_jam": 46.9,
         "metrik": {
           "likes": 3,
           "comments": 0,
@@ -113,13 +128,13 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-19T06:23:36+07:00",
-        "umur_jam": 35.4,
+        "pada": "2026-10-19T11:56:40+07:00",
+        "umur_jam": 40.9,
         "metrik": {
           "likes": 2,
           "comments": 0,
           "reach": 6,
-          "views": 32,
+          "views": 33,
           "saved": 0,
           "shares": 0,
           "total_interactions": 2,
@@ -153,18 +168,18 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-19T06:23:36+07:00",
-        "umur_jam": 33.4,
+        "pada": "2026-10-19T11:56:40+07:00",
+        "umur_jam": 38.9,
         "metrik": {
           "likes": 6,
           "comments": 0,
-          "reach": 108,
-          "views": 149,
+          "reach": 110,
+          "views": 151,
           "saved": 0,
           "shares": 0,
           "total_interactions": 6,
-          "ig_reels_avg_watch_time": 8093,
-          "ig_reels_video_view_total_time": 971211
+          "ig_reels_avg_watch_time": 8085,
+          "ig_reels_video_view_total_time": 986462
         }
       },
       "snapshot": {
@@ -193,8 +208,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-19T06:23:36+07:00",
-        "umur_jam": 23.4,
+        "pada": "2026-10-19T11:56:40+07:00",
+        "umur_jam": 28.9,
         "metrik": {
           "likes": 3,
           "comments": 0,
@@ -207,7 +222,23 @@
           "profile_visits": 0
         }
       },
-      "snapshot": {}
+      "snapshot": {
+        "24j": {
+          "pada": "2026-10-19T11:56:40+07:00",
+          "umur_jam": 28.9,
+          "metrik": {
+            "likes": 3,
+            "comments": 0,
+            "reach": 5,
+            "views": 12,
+            "saved": 0,
+            "shares": 0,
+            "total_interactions": 3,
+            "follows": 0,
+            "profile_visits": 0
+          }
+        }
+      }
     },
     "20261018-reels-satgas-antikekerasan-di-pesantren": {
       "judul": "Reels: Satgas Antikekerasan di Pesantren",
@@ -217,21 +248,37 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-19T06:23:36+07:00",
-        "umur_jam": 21.4,
+        "pada": "2026-10-19T11:56:40+07:00",
+        "umur_jam": 26.9,
         "metrik": {
           "likes": 2,
           "comments": 0,
-          "reach": 100,
-          "views": 118,
+          "reach": 101,
+          "views": 119,
           "saved": 0,
           "shares": 0,
           "total_interactions": 2,
-          "ig_reels_avg_watch_time": 3861,
-          "ig_reels_video_view_total_time": 432475
+          "ig_reels_avg_watch_time": 3837,
+          "ig_reels_video_view_total_time": 433635
         }
       },
-      "snapshot": {}
+      "snapshot": {
+        "24j": {
+          "pada": "2026-10-19T11:56:40+07:00",
+          "umur_jam": 26.9,
+          "metrik": {
+            "likes": 2,
+            "comments": 0,
+            "reach": 101,
+            "views": 119,
+            "saved": 0,
+            "shares": 0,
+            "total_interactions": 2,
+            "ig_reels_avg_watch_time": 3837,
+            "ig_reels_video_view_total_time": 433635
+          }
+        }
+      }
     },
     "20261018-reels-pakai-apa-ke-upacara-hari-santri": {
       "judul": "Reels: Pakai Apa ke Upacara Hari Santri?",
@@ -241,18 +288,18 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-19T06:23:36+07:00",
-        "umur_jam": 15.4,
+        "pada": "2026-10-19T11:56:40+07:00",
+        "umur_jam": 20.9,
         "metrik": {
           "likes": 1,
           "comments": 0,
-          "reach": 95,
-          "views": 127,
+          "reach": 96,
+          "views": 128,
           "saved": 0,
           "shares": 0,
           "total_interactions": 1,
-          "ig_reels_avg_watch_time": 5780,
-          "ig_reels_video_view_total_time": 589610
+          "ig_reels_avg_watch_time": 5739,
+          "ig_reels_video_view_total_time": 591120
         }
       },
       "snapshot": {}
@@ -265,13 +312,13 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-19T06:23:36+07:00",
-        "umur_jam": 11.4,
+        "pada": "2026-10-19T11:56:40+07:00",
+        "umur_jam": 16.9,
         "metrik": {
           "likes": 0,
           "comments": 0,
-          "reach": 1,
-          "views": 2,
+          "reach": 3,
+          "views": 5,
           "saved": 0,
           "shares": 0,
           "total_interactions": 0,
@@ -289,8 +336,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-19T06:23:36+07:00",
-        "umur_jam": 9.4,
+        "pada": "2026-10-19T11:56:40+07:00",
+        "umur_jam": 14.9,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -304,12 +351,60 @@
         }
       },
       "snapshot": {}
+    },
+    "20261019-berita-expo-kemandirian-pesantren": {
+      "judul": "Berita: Expo Kemandirian Pesantren",
+      "media_id": "17905856553356550",
+      "permalink": "https://www.instagram.com/p/Dep7pyCDqK0/",
+      "terbit_pada": "2026-10-19T07:06:46+07:00",
+      "jenis": "carousel",
+      "jumlah_slide": 5,
+      "terbaru": {
+        "pada": "2026-10-19T11:56:40+07:00",
+        "umur_jam": 4.8,
+        "metrik": {
+          "likes": 1,
+          "comments": 0,
+          "reach": 1,
+          "views": 1,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      },
+      "snapshot": {}
+    },
+    "20261019-reels-expo-kemandirian-pesantren": {
+      "judul": "Reels: Expo Kemandirian Pesantren",
+      "media_id": "18031334087684032",
+      "permalink": "https://www.instagram.com/reel/DeqIqgij1l5/",
+      "terbit_pada": "2026-10-19T09:00:39+07:00",
+      "jenis": "reels",
+      "jumlah_slide": 0,
+      "terbaru": {
+        "pada": "2026-10-19T11:56:40+07:00",
+        "umur_jam": 2.9,
+        "metrik": {
+          "likes": 0,
+          "comments": 0,
+          "reach": 1,
+          "views": 2,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0,
+          "ig_reels_avg_watch_time": 2623,
+          "ig_reels_video_view_total_time": 5246
+        }
+      },
+      "snapshot": {}
     }
   },
   "metrik_ditolak": {
     "feed": [],
     "reels": []
   },
-  "diperbarui": "2026-10-19T06:23:36+07:00",
+  "diperbarui": "2026-10-19T11:56:40+07:00",
   "galat": []
 }
