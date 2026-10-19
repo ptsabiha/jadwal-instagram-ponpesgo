@@ -70,5 +70,17 @@
     "hook": "Berita+dampak",
     "format": "Reels 1 gambar",
     "topik": "Expo Kemandirian Pesantren"
+  },
+  "20261019-berita-pbnu-siap-kawal-ditjen-pesantren": {
+    "pilar": "Berita",
+    "hook": "Berita+dampak",
+    "format": "Newsroom 5 slide",
+    "topik": "PBNU & Ditjen Pesantren sinergi"
+  },
+  "20261019-reels-pbnu-siap-kawal-ditjen-pesantren": {
+    "pilar": "Berita",
+    "hook": "Berita+dampak",
+    "format": "Reels 1 gambar",
+    "topik": "PBNU & Ditjen Pesantren sinergi"
   }
 }

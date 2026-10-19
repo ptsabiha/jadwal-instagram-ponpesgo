@@ -12,3 +12,4 @@ pastikan topik/berita (URL sumber) belum pernah dipakai. Satu berita = satu post
 | 2026-10-18 19.00 | H-4 Hari Santri 2026: sejarah, tema, agenda | Keppres 22/2015, Kemenag, PBNU |
 | 2026-10-17 19.00 | Pak Yai Bu Nyai Mantu 500 Santri: nikah massal RMINU Jateng & Kemenag (21 Okt, MAJT) | https://nu.or.id/jateng/sambut-hari-santri-2026-rminu-jateng-dan-kemenag-siapkan-pernikahan-massal-500-santri-XaR7d |
 | 2026-10-19 07.00 | Expo Kemandirian Pesantren 16–24 Okt (rangkaian Hari Santri 2026) | https://www.nu.or.id/nasional/hari-santri-2026-kemenag-buka-ruang-aspirasi-santri-hingga-expo-kemandirian-pesantren-nFxSH |
+| 2026-10-19 13.00 | PBNU siap kawal Ditjen Pesantren (pertemuan Gus Kikin & Dirjen Basnang Said, apel Tebuireng 22 Okt) | https://www.nu.or.id/nasional/pbnu-dan-ditjen-pesantren-perkuat-sinergi-peringati-hari-santri-2026-hnLA3 |
