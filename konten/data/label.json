@@ -94,5 +94,17 @@
     "hook": "Berita+dampak",
     "format": "Reels 1 gambar",
     "topik": "Beasiswa santri Pemprov Jateng"
+  },
+  "20261020-berita-izin-operasional-pesantren-kebume": {
+    "pilar": "Berita",
+    "hook": "Daftar/angka",
+    "format": "Newsroom 5 slide",
+    "topik": "Izin operasional pesantren Kebumen"
+  },
+  "20261020-reels-izin-operasional-pesantren-kebumen": {
+    "pilar": "Berita",
+    "hook": "Daftar/angka",
+    "format": "Reels 1 gambar",
+    "topik": "Izin operasional pesantren Kebumen"
   }
 }

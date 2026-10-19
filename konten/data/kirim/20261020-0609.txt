@@ -1,0 +1,10 @@
+PonpesGo · Laporan pagi 20 Okt 2026
+
+Tayang: carousel 07.00 WIB, Reels 09.00 WIB (otomatis).
+Pilar: Berita (hook angka)
+Judul: Baru 110 dari 210 pesantren di Kebumen punya izin operasional
+Sumber: kebumen.kemenag.go.id, 18 Okt 2026 (foto: Kemenag Kebumen)
+Folder: https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/2026-10-20%2007.00%20Berita%20-%20Izin%20Operasional%20Pesantren%20Kebumen
+
+Performa: data 20 Okt 03.38, follower 3, jangkauan 7 hari 328 akun (99,7% non-follower). Terbaik: Satgas Antikekerasan (Skor FYP 30, n kecil). Reels menjangkau lebih banyak (±100) tapi interaksi rendah. Data masih terlalu sedikit; pelajaran.md tidak diubah.
+Catatan: penjaga GitHub gagal dinyalakan dari sesi cloud (galat GraphQL 403); penjaga terjadwal tetap jalan sendiri.
