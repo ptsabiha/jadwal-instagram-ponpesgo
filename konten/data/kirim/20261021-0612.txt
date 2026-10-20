@@ -1,0 +1,10 @@
+PonpesGo · laporan 06.00 WIB (Rabu, 21 Okt 2026)
+
+Tayang: carousel 07.00 WIB, Reels 09.00 WIB (sudah dijadwalkan & disetujui).
+Pilar: Berita
+Judul: Hari Santri Jadi Momentum Pesantren Ramah Anak
+Sumber: ANTARA (sulteng.antaranews.com), 20 Okt 2026, kutipan Alissa Wahid. Foto ilustrasi: Wikimedia Commons (CC0).
+Folder: https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/2026-10-21%2007.00%20Berita%20-%20Pesantren%20Ramah%20Anak%20Alissa%20Wahid
+
+Performa: data masih sedikit (median jangkauan 5, Reels lebih jauh: Reels Mantu 500 Santri 117 akun). pelajaran.md tidak diubah (belum ada kelompok n>=5).
+Catatan: penjaga GitHub gagal dinyalakan (HTTP 403 GraphQL dari sesi cloud), diabaikan sesuai prosedur; penjaga terjadwal tetap jalan.

@@ -130,5 +130,17 @@
     "hook": "Berita+dampak",
     "topik": "Lima pelatihan MOOC Pintar, Santri Mahir AI",
     "format": "Reels 1 gambar"
+  },
+  "20261021-berita-pesantren-ramah-anak-alissa-wahid": {
+    "pilar": "Berita",
+    "hook": "Berita+dampak",
+    "topik": "Pesantren ramah anak, Alissa Wahid, Hari Santri",
+    "format": "Carousel 5 slide"
+  },
+  "20261021-reels-pesantren-ramah-anak-alissa-wahid": {
+    "pilar": "Berita",
+    "hook": "Berita+dampak",
+    "topik": "Pesantren ramah anak, Alissa Wahid, Hari Santri",
+    "format": "Reels 1 gambar"
   }
 }
