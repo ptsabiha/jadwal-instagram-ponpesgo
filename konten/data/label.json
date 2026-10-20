@@ -106,5 +106,17 @@
     "hook": "Daftar/angka",
     "format": "Reels 1 gambar",
     "topik": "Izin operasional pesantren Kebumen"
+  },
+  "20261020-edukasi-tenggat-pendaftaran-pesantren-31": {
+    "pilar": "Edukasi Pengurus",
+    "hook": "Hitung mundur",
+    "format": "Carousel 5 slide",
+    "topik": "Tenggat pendaftaran keberadaan pesantren SITREN"
+  },
+  "20261020-reels-edukasi-tenggat-pendaftaran-pesantren-31": {
+    "pilar": "Edukasi Pengurus",
+    "hook": "Hitung mundur",
+    "format": "Reels 1 gambar",
+    "topik": "Tenggat pendaftaran keberadaan pesantren SITREN"
   }
 }

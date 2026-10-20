@@ -1,0 +1,51 @@
+{
+ "label": "PANDUAN PENGURUS",
+ "tanggal": "SELASA, 20 OKT 2026",
+ "judul": "11 HARI LAGI: PENDAFTARAN PESANTREN *DITUTUP* 31 OKT",
+ "deck": "Periode ketiga tahun ini berakhir 31 Oktober. Di luar periode, pengajuan tidak bisa dilakukan.",
+ "ticker": "Direktorat Pesantren · Aplikasi SITREN · Tanda Daftar",
+ "foto": "foto.jpg",
+ "posisiFoto": "50% 30%",
+ "kredit": "Foto: Kemenag",
+ "sumber": "Sumber: sulteng.kemenag.go.id (siaran pers Kemenag), 18 Des 2025",
+ "slide": [
+  {
+   "judul": "Apa aturannya?",
+   "isi": "Direktorat Pesantren Kemenag membuka pengajuan <b>pendaftaran keberadaan pesantren</b> lewat aplikasi <b>SITREN</b> dalam <b>tiga periode</b> setahun. Periode ketiga: <b>1 September sampai 31 Oktober</b>.",
+   "kutip": ["Pengajuan pendaftaran tidak dapat dilakukan di luar periode waktu yang telah ditentukan.", "SIARAN PERS KEMENAG, 18 DES 2025"]
+  },
+  {
+   "judul": "Tiga periode pengajuan",
+   "isi": "Jadwal dalam satu tahun menurut juknis:",
+   "kartu": [["PERIODE 1", "1 Jan sampai 28 Feb"], ["PERIODE 2", "1 Mei sampai 30 Jun"], ["PERIODE 3", "1 Sep sampai 31 Okt"], ["LAYANAN", "Aplikasi SITREN"]],
+   "sumber": "Sumber: sulteng.kemenag.go.id, 18 Des 2025 (Kepdirjen Pendis 9491/2025)"
+  },
+  {
+   "judul": "Syarat yang disebut",
+   "isi": "Tanda daftar dapat diberikan jika pesantren:",
+   "poin": [
+    "Punya minimal <b>15 santri mukim</b> dan menyelenggarakan fungsi pendidikan",
+    "Memenuhi <b>arkanul ma'had</b>: kiai, santri mukim, pondok/asrama, masjid/musala, kajian kitab kuning",
+    "Punya legalitas bangunan <b>PBG</b> dan <b>SLF</b>, plus surat komitmen moderasi beragama"
+   ],
+   "sumber": "Sumber: sulteng.kemenag.go.id, 18 Des 2025"
+  }
+ ],
+ "catatan": {
+  "judul": "Apa artinya untuk pesantren?",
+  "poin": [
+   "<b>Cek dokumen sekarang</b>: PBG, SLF, data santri mukim, surat komitmen.",
+   "<b>Pastikan jumlah santri mukim</b> tercatat rapi dan sesuai.",
+   "<b>Tanya Kankemenag setempat</b> soal juknis terbaru sebelum 31 Oktober."
+  ],
+  "fitur": "PonpesGo membantu pesantren merapikan <b>data santri & lembaga</b> secara digital."
+ },
+ "reels": {
+  "poin": [
+   "Pendaftaran keberadaan pesantren di <b>SITREN</b> punya tiga periode setahun.",
+   "Periode ketiga berakhir <b>31 Oktober</b>; di luar periode pengajuan tidak bisa dilakukan.",
+   "Syarat di antaranya minimal <b>15 santri mukim</b>, <b>PBG</b> dan <b>SLF</b> bangunan.",
+   "Pengurus: siapkan dokumen dan tanya Kankemenag setempat."
+  ]
+ }
+}
