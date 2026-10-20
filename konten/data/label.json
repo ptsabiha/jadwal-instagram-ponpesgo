@@ -118,5 +118,17 @@
     "hook": "Hitung mundur",
     "format": "Reels 1 gambar",
     "topik": "Tenggat pendaftaran keberadaan pesantren SITREN"
+  },
+  "20261020-wali-santri-5-pelatihan-daring-kemenag-s": {
+    "pilar": "Wali & Santri",
+    "hook": "Berita+dampak",
+    "topik": "Lima pelatihan MOOC Pintar, Santri Mahir AI",
+    "format": "Carousel 5 slide"
+  },
+  "20261020-reels-wali-santri-5-pelatihan-daring-kemenag-s": {
+    "pilar": "Wali & Santri",
+    "hook": "Berita+dampak",
+    "topik": "Lima pelatihan MOOC Pintar, Santri Mahir AI",
+    "format": "Reels 1 gambar"
   }
 }

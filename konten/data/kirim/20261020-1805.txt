@@ -1,0 +1,7 @@
+PonpesGo: konten slot 19.00 sudah dijadwalkan.
+Tayang: carousel Sel 20 Okt 19.00 WIB, Reels 21.00 WIB.
+Pilar: Wali & Santri.
+Judul: 5 Pelatihan Daring Kemenag, Santri Mahir AI Diminati 30.000 Pendaftar.
+Sumber: ANTARA (20 Okt 2026), TIMES Indonesia (19 Okt 2026). Foto: Suhendro Winarso/Wikimedia Commons (CC BY-SA 4.0).
+Folder: https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/2026-10-20%2019.00%20Wali%20%26%20Santri%20-%20Santri%20Mahir%20AI%20dan%20Lima%20Pelatihan%20MOOC%20Pintar
+Catatan: jarak 6 jam dari slot 13.00 hanya peringatan, tetap lolos. Penjaga gh gagal dinyalakan (GraphQL 403), penjaga GitHub tetap jalan.
