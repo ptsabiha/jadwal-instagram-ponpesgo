@@ -1,0 +1,7 @@
+PonpesGo: konten slot 13.00 sudah dijadwalkan.
+Carousel tayang Rabu 21 Okt 2026 13.00 WIB, Reels 15.00 WIB.
+Pilar: Edukasi Pengurus.
+Judul: Data Santri Wajib Rapi: Kemenag Kini Pakai Data BNBA (4,634 juta santri terverifikasi, EMIS ke SIMTREN).
+Sumber: Indoposco.id, 4 Okt 2026 (mengutip Dirjen Pesantren Basnang Said). Foto: M.Ghiyats/Wikimedia Commons CC BY-SA 4.0.
+Hasil: https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/2026-10-21%2013.00%20Edukasi%20Pengurus%20-%20Data%20Santri%20BNBA%20dan%20Peralihan%20EMIS%20ke%20SIMTREN
+Catatan: jarak 4,5 jam dari postingan 08.30 (aturan 6 jam) hanya peringatan, tetap disetujui. Penjaga GitHub gagal dinyalakan dari sesi cloud (HTTP 403 GraphQL), antrean tetap dijaga workflow.

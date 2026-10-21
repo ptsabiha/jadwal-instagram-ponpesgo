@@ -1,146 +1,158 @@
 {
-  "20261017-berita-data-pesantren-ijazah-santri": {
-    "pilar": "Berita",
-    "hook": "Berita+dampak",
-    "format": "Newsroom 5 slide",
-    "topik": "Tata kelola data pesantren & ijazah santri"
-  },
-  "20261017-berita-pelatihan-ai-gratis-untuk-pendidi": {
-    "pilar": "Berita",
-    "hook": "Berita+dampak",
-    "format": "Newsroom 5 slide",
-    "topik": "Pelatihan AI gratis pendidik pesantren"
-  },
-  "20261018-berita-satgas-antikekerasan-di-pesantren": {
-    "pilar": "Berita",
-    "hook": "Berita+dampak",
-    "format": "Newsroom 5 slide",
-    "topik": "Satgas antikekerasan di pesantren"
-  },
-  "20261018-pakai-apa-ke-upacara-hari-santri-2": {
-    "pilar": "Momen",
-    "hook": "Pertanyaan",
-    "format": "Newsroom 5 slide",
-    "topik": "Busana upacara Hari Santri 2026"
-  },
-  "20261018-4-hari-lagi-hari-santri-2026-2": {
-    "pilar": "Momen",
-    "hook": "Hitung mundur",
-    "format": "Newsroom 5 slide",
-    "topik": "H-4 Hari Santri 2026"
-  },
-  "20261017-berita-mantu-500-santri": {
-    "pilar": "Momen",
-    "hook": "Berita+dampak",
-    "format": "Newsroom 5 slide",
-    "topik": "Nikah massal 500 santri RMINU Jateng & Kemenag"
-  },
-  "20261017-reels-mantu-500-santri": {
-    "pilar": "Momen",
-    "hook": "Berita+dampak",
-    "format": "Reels 1 gambar",
-    "topik": "Nikah massal 500 santri RMINU Jateng & Kemenag"
-  },
-  "20261018-reels-satgas-antikekerasan-di-pesantren": {
-    "pilar": "Berita",
-    "hook": "Berita+dampak",
-    "format": "Reels 1 gambar",
-    "topik": "Satgas antikekerasan di pesantren"
-  },
-  "20261018-reels-pakai-apa-ke-upacara-hari-santri": {
-    "pilar": "Momen",
-    "hook": "Berita+dampak",
-    "format": "Reels 1 gambar",
-    "topik": "Busana upacara Hari Santri 2026"
-  },
-  "20261018-reels-4-hari-lagi-hari-santri-2026": {
-    "pilar": "Momen",
-    "hook": "Berita+dampak",
-    "format": "Reels 1 gambar",
-    "topik": "H-4 Hari Santri 2026"
-  },
-  "20261019-berita-expo-kemandirian-pesantren": {
-    "pilar": "Berita",
-    "hook": "Berita+dampak",
-    "format": "Newsroom 5 slide",
-    "topik": "Expo Kemandirian Pesantren"
-  },
-  "20261019-reels-expo-kemandirian-pesantren": {
-    "pilar": "Berita",
-    "hook": "Berita+dampak",
-    "format": "Reels 1 gambar",
-    "topik": "Expo Kemandirian Pesantren"
-  },
-  "20261019-berita-pbnu-siap-kawal-ditjen-pesantren": {
-    "pilar": "Berita",
-    "hook": "Berita+dampak",
-    "format": "Newsroom 5 slide",
-    "topik": "PBNU & Ditjen Pesantren sinergi"
-  },
-  "20261019-reels-pbnu-siap-kawal-ditjen-pesantren": {
-    "pilar": "Berita",
-    "hook": "Berita+dampak",
-    "format": "Reels 1 gambar",
-    "topik": "PBNU & Ditjen Pesantren sinergi"
-  },
-  "20261019-berita-beasiswa-santri-jateng": {
-    "pilar": "Berita",
-    "hook": "Berita+dampak",
-    "format": "Newsroom 5 slide",
-    "topik": "Beasiswa santri Pemprov Jateng"
-  },
-  "20261019-reels-beasiswa-santri-jateng": {
-    "pilar": "Berita",
-    "hook": "Berita+dampak",
-    "format": "Reels 1 gambar",
-    "topik": "Beasiswa santri Pemprov Jateng"
-  },
-  "20261020-berita-izin-operasional-pesantren-kebume": {
-    "pilar": "Berita",
-    "hook": "Daftar/angka",
-    "format": "Newsroom 5 slide",
-    "topik": "Izin operasional pesantren Kebumen"
-  },
-  "20261020-reels-izin-operasional-pesantren-kebumen": {
-    "pilar": "Berita",
-    "hook": "Daftar/angka",
-    "format": "Reels 1 gambar",
-    "topik": "Izin operasional pesantren Kebumen"
-  },
-  "20261020-edukasi-tenggat-pendaftaran-pesantren-31": {
-    "pilar": "Edukasi Pengurus",
-    "hook": "Hitung mundur",
-    "format": "Carousel 5 slide",
-    "topik": "Tenggat pendaftaran keberadaan pesantren SITREN"
-  },
-  "20261020-reels-edukasi-tenggat-pendaftaran-pesantren-31": {
-    "pilar": "Edukasi Pengurus",
-    "hook": "Hitung mundur",
-    "format": "Reels 1 gambar",
-    "topik": "Tenggat pendaftaran keberadaan pesantren SITREN"
-  },
-  "20261020-wali-santri-5-pelatihan-daring-kemenag-s": {
-    "pilar": "Wali & Santri",
-    "hook": "Berita+dampak",
-    "topik": "Lima pelatihan MOOC Pintar, Santri Mahir AI",
-    "format": "Carousel 5 slide"
-  },
-  "20261020-reels-wali-santri-5-pelatihan-daring-kemenag-s": {
-    "pilar": "Wali & Santri",
-    "hook": "Berita+dampak",
-    "topik": "Lima pelatihan MOOC Pintar, Santri Mahir AI",
-    "format": "Reels 1 gambar"
-  },
-  "20261021-berita-pesantren-ramah-anak-alissa-wahid": {
-    "pilar": "Berita",
-    "hook": "Berita+dampak",
-    "topik": "Pesantren ramah anak, Alissa Wahid, Hari Santri",
-    "format": "Carousel 5 slide"
-  },
-  "20261021-reels-pesantren-ramah-anak-alissa-wahid": {
-    "pilar": "Berita",
-    "hook": "Berita+dampak",
-    "topik": "Pesantren ramah anak, Alissa Wahid, Hari Santri",
-    "format": "Reels 1 gambar"
-  }
+ "20261017-berita-data-pesantren-ijazah-santri": {
+  "pilar": "Berita",
+  "hook": "Berita+dampak",
+  "format": "Newsroom 5 slide",
+  "topik": "Tata kelola data pesantren & ijazah santri"
+ },
+ "20261017-berita-pelatihan-ai-gratis-untuk-pendidi": {
+  "pilar": "Berita",
+  "hook": "Berita+dampak",
+  "format": "Newsroom 5 slide",
+  "topik": "Pelatihan AI gratis pendidik pesantren"
+ },
+ "20261018-berita-satgas-antikekerasan-di-pesantren": {
+  "pilar": "Berita",
+  "hook": "Berita+dampak",
+  "format": "Newsroom 5 slide",
+  "topik": "Satgas antikekerasan di pesantren"
+ },
+ "20261018-pakai-apa-ke-upacara-hari-santri-2": {
+  "pilar": "Momen",
+  "hook": "Pertanyaan",
+  "format": "Newsroom 5 slide",
+  "topik": "Busana upacara Hari Santri 2026"
+ },
+ "20261018-4-hari-lagi-hari-santri-2026-2": {
+  "pilar": "Momen",
+  "hook": "Hitung mundur",
+  "format": "Newsroom 5 slide",
+  "topik": "H-4 Hari Santri 2026"
+ },
+ "20261017-berita-mantu-500-santri": {
+  "pilar": "Momen",
+  "hook": "Berita+dampak",
+  "format": "Newsroom 5 slide",
+  "topik": "Nikah massal 500 santri RMINU Jateng & Kemenag"
+ },
+ "20261017-reels-mantu-500-santri": {
+  "pilar": "Momen",
+  "hook": "Berita+dampak",
+  "format": "Reels 1 gambar",
+  "topik": "Nikah massal 500 santri RMINU Jateng & Kemenag"
+ },
+ "20261018-reels-satgas-antikekerasan-di-pesantren": {
+  "pilar": "Berita",
+  "hook": "Berita+dampak",
+  "format": "Reels 1 gambar",
+  "topik": "Satgas antikekerasan di pesantren"
+ },
+ "20261018-reels-pakai-apa-ke-upacara-hari-santri": {
+  "pilar": "Momen",
+  "hook": "Berita+dampak",
+  "format": "Reels 1 gambar",
+  "topik": "Busana upacara Hari Santri 2026"
+ },
+ "20261018-reels-4-hari-lagi-hari-santri-2026": {
+  "pilar": "Momen",
+  "hook": "Berita+dampak",
+  "format": "Reels 1 gambar",
+  "topik": "H-4 Hari Santri 2026"
+ },
+ "20261019-berita-expo-kemandirian-pesantren": {
+  "pilar": "Berita",
+  "hook": "Berita+dampak",
+  "format": "Newsroom 5 slide",
+  "topik": "Expo Kemandirian Pesantren"
+ },
+ "20261019-reels-expo-kemandirian-pesantren": {
+  "pilar": "Berita",
+  "hook": "Berita+dampak",
+  "format": "Reels 1 gambar",
+  "topik": "Expo Kemandirian Pesantren"
+ },
+ "20261019-berita-pbnu-siap-kawal-ditjen-pesantren": {
+  "pilar": "Berita",
+  "hook": "Berita+dampak",
+  "format": "Newsroom 5 slide",
+  "topik": "PBNU & Ditjen Pesantren sinergi"
+ },
+ "20261019-reels-pbnu-siap-kawal-ditjen-pesantren": {
+  "pilar": "Berita",
+  "hook": "Berita+dampak",
+  "format": "Reels 1 gambar",
+  "topik": "PBNU & Ditjen Pesantren sinergi"
+ },
+ "20261019-berita-beasiswa-santri-jateng": {
+  "pilar": "Berita",
+  "hook": "Berita+dampak",
+  "format": "Newsroom 5 slide",
+  "topik": "Beasiswa santri Pemprov Jateng"
+ },
+ "20261019-reels-beasiswa-santri-jateng": {
+  "pilar": "Berita",
+  "hook": "Berita+dampak",
+  "format": "Reels 1 gambar",
+  "topik": "Beasiswa santri Pemprov Jateng"
+ },
+ "20261020-berita-izin-operasional-pesantren-kebume": {
+  "pilar": "Berita",
+  "hook": "Daftar/angka",
+  "format": "Newsroom 5 slide",
+  "topik": "Izin operasional pesantren Kebumen"
+ },
+ "20261020-reels-izin-operasional-pesantren-kebumen": {
+  "pilar": "Berita",
+  "hook": "Daftar/angka",
+  "format": "Reels 1 gambar",
+  "topik": "Izin operasional pesantren Kebumen"
+ },
+ "20261020-edukasi-tenggat-pendaftaran-pesantren-31": {
+  "pilar": "Edukasi Pengurus",
+  "hook": "Hitung mundur",
+  "format": "Carousel 5 slide",
+  "topik": "Tenggat pendaftaran keberadaan pesantren SITREN"
+ },
+ "20261020-reels-edukasi-tenggat-pendaftaran-pesantren-31": {
+  "pilar": "Edukasi Pengurus",
+  "hook": "Hitung mundur",
+  "format": "Reels 1 gambar",
+  "topik": "Tenggat pendaftaran keberadaan pesantren SITREN"
+ },
+ "20261020-wali-santri-5-pelatihan-daring-kemenag-s": {
+  "pilar": "Wali & Santri",
+  "hook": "Berita+dampak",
+  "topik": "Lima pelatihan MOOC Pintar, Santri Mahir AI",
+  "format": "Carousel 5 slide"
+ },
+ "20261020-reels-wali-santri-5-pelatihan-daring-kemenag-s": {
+  "pilar": "Wali & Santri",
+  "hook": "Berita+dampak",
+  "topik": "Lima pelatihan MOOC Pintar, Santri Mahir AI",
+  "format": "Reels 1 gambar"
+ },
+ "20261021-berita-pesantren-ramah-anak-alissa-wahid": {
+  "pilar": "Berita",
+  "hook": "Berita+dampak",
+  "topik": "Pesantren ramah anak, Alissa Wahid, Hari Santri",
+  "format": "Carousel 5 slide"
+ },
+ "20261021-reels-pesantren-ramah-anak-alissa-wahid": {
+  "pilar": "Berita",
+  "hook": "Berita+dampak",
+  "topik": "Pesantren ramah anak, Alissa Wahid, Hari Santri",
+  "format": "Reels 1 gambar"
+ },
+ "20261021-edukasi-data-santri-bnba-rapikan-data-pe": {
+  "pilar": "Edukasi Pengurus",
+  "hook": "Celah pengetahuan",
+  "format": "Carousel 5 slide",
+  "topik": "Data santri BNBA, EMIS ke SIMTREN"
+ },
+ "20261021-reels-edukasi-data-santri-bnba-rapikan-data-pe": {
+  "pilar": "Edukasi Pengurus",
+  "hook": "Celah pengetahuan",
+  "format": "Reels 1 gambar",
+  "topik": "Data santri BNBA, EMIS ke SIMTREN"
+ }
 }

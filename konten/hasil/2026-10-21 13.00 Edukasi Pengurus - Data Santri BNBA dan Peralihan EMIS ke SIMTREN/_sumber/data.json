@@ -1,0 +1,51 @@
+{
+ "label": "PANDUAN PENGURUS",
+ "tanggal": "RABU, 21 OKT 2026",
+ "judul": "DATA SANTRI WAJIB *RAPI*: KEMENAG KINI PAKAI DATA BNBA",
+ "deck": "4,634 juta santri terverifikasi by name by address. Angkanya belum final.",
+ "ticker": "Ditjen Pesantren · Pusdatin Kemenag · BNBA · SIMTREN",
+ "foto": "foto.jpg",
+ "posisiFoto": "50% 30%",
+ "kredit": "Foto: M.Ghiyats/Wikimedia Commons (CC BY-SA 4.0)",
+ "sumber": "Sumber: Indoposco.id, 4 Okt 2026 (mengutip Dirjen Pesantren Basnang Said)",
+ "slide": [
+  {
+   "judul": "Apa itu data BNBA?",
+   "isi": "Kemenag membangun data santri <b>by name by address</b>: tiap santri tercatat per nama dan alamat, bukan sekadar angka agregat.",
+   "kutip": ["Data yang sedang kita bangun adalah data BNBA.", "BASNANG SAID, DIRJEN PESANTREN"]
+  },
+  {
+   "judul": "Angka terbaru",
+   "isi": "Hasil cut-off data Pusdatin Kemenag awal Oktober 2026:",
+   "kartu": [["TERVERIFIKASI", "4.634.406 santri"], ["STATUS", "Belum final"], ["PEMBERSIHAN", "Data ganda dibuang"], ["TARGET", "Dasar kebijakan TA 2026/2027"]],
+   "sumber": "Sumber: Indoposco.id, 4 Okt 2026"
+  },
+  {
+   "judul": "Kenapa pengurus perlu peduli",
+   "isi": "Menurut Kemenag, data BNBA dipakai untuk mendukung:",
+   "poin": [
+    "Penyaluran <b>Program Indonesia Pintar (PIP)</b>",
+    "<b>Beasiswa Santri</b>",
+    "<b>Bantuan pemerintah</b> bagi pesantren dan tenaga pendidik"
+   ],
+   "sumber": "Sumber: Indoposco.id, 4 Okt 2026"
+  }
+ ],
+ "catatan": {
+  "judul": "Apa artinya untuk pesantren?",
+  "poin": [
+   "<b>Periksa data santri</b> Anda: nama, alamat, dan status aktif harus akurat dan tidak ganda.",
+   "<b>Data pesantren berpindah</b> dari EMIS ke SIMTREN (Ditjen Pesantren). Tanyakan Kankemenag soal langkahnya.",
+   "<b>Jangan salah baca angka</b>: kata Kemenag, perubahan jumlah adalah pembenahan data, bukan santri berkurang."
+  ],
+  "fitur": "PonpesGo membantu pesantren merapikan <b>data santri</b> dengan nama dan alamat yang tertib."
+ },
+ "reels": {
+  "poin": [
+   "Kemenag membangun data santri <b>by name by address</b> (BNBA).",
+   "Sudah <b>4,634 juta santri</b> terverifikasi; angkanya belum final.",
+   "Data dipakai untuk PIP, Beasiswa Santri, dan bantuan pesantren.",
+   "Pengurus: rapikan data santri, nama dan alamat harus akurat."
+  ]
+ }
+}
