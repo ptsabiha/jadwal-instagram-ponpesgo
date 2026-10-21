@@ -154,5 +154,17 @@
   "hook": "Celah pengetahuan",
   "format": "Reels 1 gambar",
   "topik": "Data santri BNBA, EMIS ke SIMTREN"
+ },
+ "20261021-wali-santri-gerakan-sejuta-santri-tanam-": {
+  "pilar": "Wali & Santri",
+  "hook": "Berita+dampak",
+  "format": "Carousel 5 slide",
+  "topik": "Santri menanam sorgum, kemandirian pangan"
+ },
+ "20261021-reels-wali-santri-gerakan-sejuta-santri-tanam-": {
+  "pilar": "Wali & Santri",
+  "hook": "Berita+dampak",
+  "format": "Reels 1 gambar",
+  "topik": "Santri menanam sorgum, kemandirian pangan"
  }
 }
