@@ -178,5 +178,17 @@
   "hook": "Berita+dampak",
   "topik": "Apel Hari Santri 2026 di Tebuireng",
   "format": "Reels 1 gambar"
+ },
+ "20261022-wali-santri-amanat-menag-hari-santri-202": {
+  "pilar": "Wali & Santri",
+  "hook": "Kutipan tokoh",
+  "topik": "Amanat Menag Hari Santri 2026",
+  "format": "Carousel 5 slide"
+ },
+ "20261022-reels-wali-santri-amanat-menag-hari-santri-202": {
+  "pilar": "Wali & Santri",
+  "hook": "Kutipan tokoh",
+  "topik": "Amanat Menag Hari Santri 2026",
+  "format": "Reels 1 gambar"
  }
 }
