@@ -1,0 +1,8 @@
+PonpesGo 23 Okt 2026, laporan pagi
+
+Carousel Berita tayang Jumat 23 Okt 07.00 WIB, Reels 09.00 WIB.
+Judul: 5 Program Prioritas Ditjen Pesantren Diluncurkan (Menag, Hari Santri 2026).
+Sumber: Kemenag Kanwil Jateng & Aceh, 22 Okt 2026 (didukung MataMata/Antara, Masakini). Foto: Kemenag.
+https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/2026-10-23%2007.00%20Berita%20-%20Lima%20Program%20Prioritas%20Ditjen%20Pesantren
+
+Performa: 31 postingan, follower 4 (+1). Terbaik: Satgas Antikekerasan (Skor FYP 25, jangkauan 6); Reels jangkauannya lebih tinggi (median 4,4x vs carousel 0,7x). Data masih kecil (n<5 per kelompok), pelajaran.md tidak diubah.

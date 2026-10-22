@@ -190,5 +190,17 @@
   "hook": "Kutipan tokoh",
   "topik": "Amanat Menag Hari Santri 2026",
   "format": "Reels 1 gambar"
+ },
+ "20261023-berita-5-program-prioritas-ditjen-pesant": {
+  "pilar": "Berita",
+  "hook": "Daftar/angka",
+  "topik": "5 Program Prioritas Ditjen Pesantren",
+  "format": "Carousel 5 slide"
+ },
+ "20261023-reels-5-program-prioritas-ditjen-pesantren": {
+  "pilar": "Berita",
+  "hook": "Daftar/angka",
+  "topik": "5 Program Prioritas Ditjen Pesantren",
+  "format": "Reels 1 gambar"
  }
 }
