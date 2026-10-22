@@ -1,0 +1,7 @@
+PonpesGo: konten 13.00 sudah dijadwalkan dan disetujui.
+Carousel tayang Kamis 22 Okt 2026, 13.00 WIB (Reels 15.00 WIB).
+Pilar: Berita
+Judul: Ribuan Santri Gelar Apel Hari Santri di Tebuireng
+Sumber: NU Online, 22 Okt 2026 (foto: NU Online)
+Hasil: https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/2026-10-22%2013.00%20Berita%20-%20Apel%20Hari%20Santri%20Tebuireng
+Catatan: foto sumber hanya 860 px lebar. Penjaga GitHub gagal dinyalakan (GraphQL 403 di sesi cloud), penjaga terjadwal tetap jalan sendiri.

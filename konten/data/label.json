@@ -166,5 +166,17 @@
   "hook": "Berita+dampak",
   "format": "Reels 1 gambar",
   "topik": "Santri menanam sorgum, kemandirian pangan"
+ },
+ "20261022-berita-apel-hari-santri-2026-di-tebuiren": {
+  "pilar": "Berita",
+  "hook": "Berita+dampak",
+  "topik": "Apel Hari Santri 2026 di Tebuireng",
+  "format": "Carousel 5 slide"
+ },
+ "20261022-reels-apel-hari-santri-2026-di-tebuireng": {
+  "pilar": "Berita",
+  "hook": "Berita+dampak",
+  "topik": "Apel Hari Santri 2026 di Tebuireng",
+  "format": "Reels 1 gambar"
  }
 }
