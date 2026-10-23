@@ -1,0 +1,7 @@
+PonpesGo 23 Okt 2026, slot 13.00
+Carousel tayang 13.00 WIB dan Reels 15.00 WIB (pilar Edukasi Pengurus).
+Judul: Pesantren Asli atau Sekadar Mengaku? Ini 5 Unsurnya
+Isi: Menag akan menertibkan lembaga yang mencatut nama pesantren; 5 unsur pesantren menurut UU 18/2019 Pasal 5.
+Sumber: NU Online (22 Sep & 12 Jul 2026), UU 18/2019. Foto: Kemenag.
+Folder: https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/2026-10-23%2013.00%20Edukasi%20Pengurus%20-%20Pesantren%20Asli%20atau%20Mengaku
+Catatan: jarak dengan postingan 07.00 (terbit 08.23) kurang dari 6 jam, tetap dijadwalkan sesuai aturan slot. Penjaga GitHub gagal dinyalakan dari sesi cloud (HTTP 403 GraphQL), tetapi antrean tetap diperiksa penjaga tiap 5 menit.
