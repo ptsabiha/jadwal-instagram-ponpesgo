@@ -1,0 +1,7 @@
+PonpesGo · konten otomatis Sabtu 24 Okt 2026
+Carousel tayang 07.00 WIB, Reels 09.00 WIB (Berita).
+Judul: Ditjen Pesantren akan gandeng Gus, Ning, dan influencer
+Sumber: NU Online, 23 Okt 2026 (foto Dok Kemenag)
+https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/2026-10-24%2007.00%20Berita%20-%20Gus%20Ning%20Influencer%20Ditjen%20Pesantren
+Performa: data insight 24 Okt 04.32; jangkauan 7 hari 747 akun (99,6% non-follower), follower 5. Terbaik: Satgas Antikekerasan (skor FYP 25). Data masih kecil, pelajaran.md tidak diubah.
+Catatan: "Penjaga GitHub" gagal dinyalakan dari sesi cloud (GraphQL 403), tapi penjaga terjadwal tetap berjalan.

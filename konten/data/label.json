@@ -226,5 +226,17 @@
     "hook": "Berita+dampak",
     "topik": "Perlindungan santri NTB, satgas dan hotline",
     "format": "Reels 1 gambar"
+  },
+  "20261024-berita-ditjen-pesantren-gandeng-gus-ning": {
+    "pilar": "Berita",
+    "hook": "Berita+dampak",
+    "topik": "Ditjen Pesantren gandeng Gus, Ning, influencer; Safe Santri",
+    "format": "Carousel 5 slide"
+  },
+  "20261024-reels-ditjen-pesantren-gandeng-gus-ning-influe": {
+    "pilar": "Berita",
+    "hook": "Berita+dampak",
+    "topik": "Ditjen Pesantren gandeng Gus, Ning, influencer; Safe Santri",
+    "format": "Reels 1 gambar"
   }
 }
