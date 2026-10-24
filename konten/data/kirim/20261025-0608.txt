@@ -1,0 +1,7 @@
+PonpesGo · Minggu 25 Okt 2026
+Carousel tayang 07.00 WIB, Reels 09.00 WIB (Pilar: Berita)
+Judul: Menag, Sekali Seminggu Sarung dan Peci di Kantor
+Sumber: Kemenag, ANTARA via JawaPos (25 Okt), Waspada.id (24 Okt). Foto: Kemenag.
+https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/2026-10-25%2007.00%20Berita%20-%20Sekali%20Seminggu%20Bersarung
+Performa: jangkauan 7 hari 638 akun (99,4% non-follower), follower 5. Postingan terbaik: Satgas Antikekerasan (Skor FYP 25). Data masih kecil, pelajaran.md belum diubah.
+Catatan: pesan galat "penjaga gagal dinyalakan" (GraphQL 403) bisa diabaikan; penjaga GitHub tetap jalan.

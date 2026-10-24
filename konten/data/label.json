@@ -262,5 +262,17 @@
     "hook": "Berita+dampak",
     "format": "Reels 1 gambar",
     "topik": "Rumah subsidi guru pesantren BP Tapera-BSI"
+  },
+  "20261025-berita-menag-sekali-seminggu-sarung-dan-": {
+    "pilar": "Berita",
+    "hook": "Berita+dampak",
+    "format": "Carousel 5 slide",
+    "topik": "Menag: sarung dan peci sekali seminggu, Festival Sarung Santri"
+  },
+  "20261025-reels-menag-sekali-seminggu-sarung-dan-peci": {
+    "pilar": "Berita",
+    "hook": "Berita+dampak",
+    "format": "Reels 1 gambar",
+    "topik": "Menag: sarung dan peci sekali seminggu, Festival Sarung Santri"
   }
 }
