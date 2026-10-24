@@ -250,5 +250,17 @@
     "hook": "Pertanyaan",
     "format": "Reels 1 gambar",
     "topik": "Fitur Keuangan & SPP/Syahriah"
+  },
+  "20261024-wali-santri-rumah-subsidi-guru-pesantren": {
+    "pilar": "Wali & Santri",
+    "hook": "Berita+dampak",
+    "format": "Carousel 5 slide",
+    "topik": "Rumah subsidi guru pesantren BP Tapera-BSI"
+  },
+  "20261024-reels-wali-santri-rumah-subsidi-guru-pesantren": {
+    "pilar": "Wali & Santri",
+    "hook": "Berita+dampak",
+    "format": "Reels 1 gambar",
+    "topik": "Rumah subsidi guru pesantren BP Tapera-BSI"
   }
 }
