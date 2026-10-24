@@ -238,5 +238,17 @@
     "hook": "Berita+dampak",
     "topik": "Ditjen Pesantren gandeng Gus, Ning, influencer; Safe Santri",
     "format": "Reels 1 gambar"
+  },
+  "20261024-fitur-syahriah-rapi-dengan-ponpesgo": {
+    "pilar": "Fitur PonpesGo",
+    "hook": "Pertanyaan",
+    "format": "Carousel 5 slide",
+    "topik": "Fitur Keuangan & SPP/Syahriah"
+  },
+  "20261024-reels-fitur-syahriah-rapi-dengan-ponpesgo": {
+    "pilar": "Fitur PonpesGo",
+    "hook": "Pertanyaan",
+    "format": "Reels 1 gambar",
+    "topik": "Fitur Keuangan & SPP/Syahriah"
   }
 }

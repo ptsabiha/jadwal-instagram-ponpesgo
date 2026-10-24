@@ -1,0 +1,62 @@
+{
+ "label": "FITUR PONPESGO",
+ "tanggal": "SABTU, 24 OKT 2026",
+ "judul": "SYAHRIAH MASIH DICATAT DI *BUKU*? SAATNYA LEBIH RAPI",
+ "deck": "Tagihan, pembayaran, dan laporan keuangan pesantren bisa dikelola dalam satu tempat.",
+ "ticker": "Fitur PonpesGo · Keuangan & SPP/Syahriah",
+ "foto": "foto.jpg",
+ "posisiFoto": "55% 40%",
+ "kredit": "Foto: M.Ghiyats/Wikimedia Commons (CC BY-SA 4.0)",
+ "sumber": "Sumber: PonpesGo, fitur Keuangan & SPP/Syahriah",
+ "slide": [
+  {
+   "judul": "Masalah yang sering terjadi",
+   "isi": "Pencatatan syahriah manual sering memunculkan masalah yang sama bagi pengurus dan bendahara:",
+   "poin": [
+    "<b>Rekap lama:</b> menghitung tunggakan per santri butuh waktu",
+    "<b>Rawan salah catat</b> saat pembayaran datang bersamaan",
+    "<b>Wali bertanya-tanya:</b> sudah bayar atau belum?",
+    "<b>Laporan keuangan</b> baru jadi setelah rekap panjang"
+   ],
+   "sumber": "Sumber: PonpesGo"
+  },
+  {
+   "judul": "Cara PonpesGo membantu",
+   "isi": "Fitur <b>Keuangan & SPP/Syahriah</b> menyatukan seluruh alurnya:",
+   "poin": [
+    "<b>Tagihan</b> per santri tersusun rapi",
+    "<b>Pembayaran</b> tercatat dan mudah ditelusuri",
+    "<b>Laporan</b> keuangan tersedia untuk pengurus"
+   ],
+   "sumber": "Sumber: PonpesGo"
+  },
+  {
+   "judul": "Wali ikut tenang",
+   "isi": "Lewat <b>aplikasi wali santri</b>, wali memantau tagihan, nilai, dan kabar santri dari HP, tanpa harus bolak-balik bertanya ke pengurus.",
+   "kartu": [
+    ["Data", "Santri & asrama"],
+    ["Keuangan", "SPP/syahriah"],
+    ["Akademik", "Nilai & hafalan"],
+    ["Aplikasi", "Wali santri"]
+   ],
+   "sumber": "Sumber: PonpesGo"
+  }
+ ],
+ "catatan": {
+  "judul": "Mulai dari mana?",
+  "poin": [
+   "<b>Pengurus:</b> mulai dari data santri, lalu keuangan, lalu akademik.",
+   "<b>Bendahara:</b> pilih satu bulan untuk uji coba pencatatan digital.",
+   "<b>Catatan:</b> ini informasi fitur dari PonpesGo, bukan berita."
+  ],
+  "fitur": "Ingin lihat langsung? Tulis <b>DEMO</b> di komentar atau buka <b>link di bio</b>."
+ },
+ "reels": {
+  "poin": [
+   "Syahriah masih dicatat di buku? Rekap tunggakan bisa memakan waktu.",
+   "PonpesGo: tagihan, pembayaran, dan laporan keuangan dalam satu tempat.",
+   "Wali memantau tagihan, nilai, dan kabar santri dari HP.",
+   "Ingin lihat langsung? Tulis DEMO di komentar atau buka link di bio."
+  ]
+ }
+}
