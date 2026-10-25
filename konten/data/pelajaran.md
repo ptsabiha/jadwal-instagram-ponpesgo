@@ -11,10 +11,17 @@ Jangan menghapus butir; ubah statusnya atau pindahkan ke Arsip.
 
 ## Terbukti (n ≥ 5)
 
-_Belum ada._
+- [2026-10-26] **Reels menjangkau jauh lebih banyak akun daripada carousel.** Median indeks jangkauan
+  Reels 3,71 (n=24) vs carousel 0,71 (n=25), sekitar 5×. Jangkauan 7 hari 647 akun, 99,4% non-follower.
+  Pertahankan Reels untuk setiap carousel. Catatan: suka/simpan/kirim/follow masih hampir nol, jadi
+  distribusi sudah ada tetapi belum menghasilkan keterlibatan.
 
 ## Dugaan sementara
 
+- [2026-10-26] Hook "Daftar/angka" median indeks jangkauan 3,93 dan "Kutipan tokoh" 3,71, tertinggi, tetapi
+  n masing-masing 4 dan 2 (< 5). Lanjutkan eksperimen hook, jangan simpulkan.
+- [2026-10-26] Peringkat Skor FYP tertinggi (Satgas Antikekerasan, Pelatihan AI, Data Pesantren & Ijazah)
+  hanya berdasar 3–5 suka dari jangkauan 6–24 akun: terlalu kecil untuk pola. Follower 5 (+2 sepekan).
 - [Pegangan awal] Info yang "harus diteruskan" (jadwal, panduan resmi, tanggal penting) memancing
   kirim/share, sinyal terkuat ke non-follower.
 - [Pegangan awal] Judul sampul 8–10 kata, terbaca dalam 1 detik, kata kunci di baris 1 caption.

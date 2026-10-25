@@ -1,0 +1,10 @@
+LAPORAN PONPESGO, Senin 26 Okt 2026
+
+Tayang: carousel 07.00 WIB, Reels 09.00 WIB (sudah dijadwalkan dan disetujui)
+Pilar: Berita
+Judul: Ditjen Pesantren Mulai Seragamkan Data Pesantren (NSPP rujukan tunggal, sekali input, verifikasi berjenjang; tanggal penguncian data belum ada)
+Sumber: MONITOR (23 Okt 2026), Kabarbaru.co (24 Okt 2026). Foto ilustrasi: Indonesiagood/Wikimedia Commons (CC BY 4.0)
+Hasil: https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/2026-10-26%2007.00%20Berita%20-%20Ditjen%20Pesantren%20Sinkronisasi%20Data
+
+Ringkasan pekan: follower 5 (+2), jangkauan 7 hari 647 akun (99,4% bukan follower). Reels menjangkau sekitar 5x lebih banyak dari carousel (median indeks 3,71 vs 0,71), jadi Reels dipertahankan. Suka/simpan/kirim masih hampir nol. Reels terbaik: Mantu 500 Santri (117 akun). pelajaran.md dan laporan mingguan sudah diperbarui.
+Catatan: foto resmi tidak tersedia (foto sumber milik media), jadi dipakai foto ilustrasi Wikimedia. Penjaga GitHub gagal menyala dari sesi ini (galat GraphQL 403); abaikan bila penerbit tetap jalan.

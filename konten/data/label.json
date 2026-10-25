@@ -298,5 +298,17 @@
   "hook": "Berita+dampak",
   "format": "Reels 1 gambar",
   "topik": "SE Kemenag 19/2026 pembatasan gawai, panduan orang tua"
+ },
+ "20261026-berita-ditjen-pesantren-sinkronisasi-dat": {
+  "pilar": "Berita",
+  "hook": "Celah pengetahuan",
+  "format": "Newsroom 5 slide",
+  "topik": "Ditjen Pesantren konsolidasi & sinkronisasi data pesantren, NSPP"
+ },
+ "20261026-reels-ditjen-pesantren-sinkronisasi-data-pesan": {
+  "pilar": "Berita",
+  "hook": "Celah pengetahuan",
+  "format": "Reels 1 gambar",
+  "topik": "Ditjen Pesantren konsolidasi & sinkronisasi data pesantren, NSPP"
  }
 }
