@@ -2,7 +2,7 @@
   "akun": {
     "username": "ponpesgo",
     "follower": 5,
-    "jumlah_postingan": 24,
+    "jumlah_postingan": 25,
     "follower_harian": [
       {
         "tanggal": "2026-10-17",
@@ -42,10 +42,10 @@
       }
     ],
     "jangkauan_7h": {
-      "pada": "2026-10-25T11:58:14+07:00",
-      "total": 653,
+      "pada": "2026-10-25T18:48:33+07:00",
+      "total": 579,
       "follower": 5,
-      "non_follower": 649
+      "non_follower": 575
     }
   },
   "postingan": {
@@ -197,13 +197,13 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 185,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 191.8,
         "metrik": {
           "likes": 2,
           "comments": 0,
-          "reach": 8,
-          "views": 40,
+          "reach": 9,
+          "views": 42,
           "saved": 0,
           "shares": 0,
           "total_interactions": 2,
@@ -267,18 +267,18 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 182.9,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 189.8,
         "metrik": {
           "likes": 6,
           "comments": 0,
           "reach": 125,
-          "views": 171,
+          "views": 172,
           "saved": 1,
           "shares": 0,
           "total_interactions": 7,
-          "ig_reels_avg_watch_time": 7934,
-          "ig_reels_video_view_total_time": 1094973
+          "ig_reels_avg_watch_time": 7900,
+          "ig_reels_video_view_total_time": 1098235
         }
       },
       "snapshot": {
@@ -337,8 +337,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 173,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 179.8,
         "metrik": {
           "likes": 3,
           "comments": 0,
@@ -407,18 +407,18 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 171,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 177.8,
         "metrik": {
           "likes": 2,
           "comments": 0,
-          "reach": 102,
-          "views": 120,
+          "reach": 103,
+          "views": 121,
           "saved": 0,
           "shares": 0,
           "total_interactions": 2,
-          "ig_reels_avg_watch_time": 3806,
-          "ig_reels_video_view_total_time": 433899
+          "ig_reels_avg_watch_time": 3795,
+          "ig_reels_video_view_total_time": 436461
         }
       },
       "snapshot": {
@@ -477,18 +477,18 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 165,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 171.8,
         "metrik": {
           "likes": 1,
           "comments": 0,
-          "reach": 97,
-          "views": 129,
+          "reach": 98,
+          "views": 130,
           "saved": 0,
           "shares": 0,
           "total_interactions": 1,
-          "ig_reels_avg_watch_time": 5691,
-          "ig_reels_video_view_total_time": 591881
+          "ig_reels_avg_watch_time": 5652,
+          "ig_reels_video_view_total_time": 593481
         }
       },
       "snapshot": {
@@ -521,6 +521,21 @@
             "ig_reels_avg_watch_time": 5691,
             "ig_reels_video_view_total_time": 591881
           }
+        },
+        "7h": {
+          "pada": "2026-10-25T18:48:33+07:00",
+          "umur_jam": 171.8,
+          "metrik": {
+            "likes": 1,
+            "comments": 0,
+            "reach": 98,
+            "views": 130,
+            "saved": 0,
+            "shares": 0,
+            "total_interactions": 1,
+            "ig_reels_avg_watch_time": 5652,
+            "ig_reels_video_view_total_time": 593481
+          }
         }
       }
     },
@@ -532,8 +547,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 161,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 167.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -587,18 +602,18 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 159,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 165.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
-          "reach": 5,
-          "views": 6,
+          "reach": 6,
+          "views": 7,
           "saved": 0,
           "shares": 0,
           "total_interactions": 0,
-          "ig_reels_avg_watch_time": 5326,
-          "ig_reels_video_view_total_time": 31957
+          "ig_reels_avg_watch_time": 4565,
+          "ig_reels_video_view_total_time": 31961
         }
       },
       "snapshot": {
@@ -642,8 +657,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 148.9,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 155.7,
         "metrik": {
           "likes": 1,
           "comments": 0,
@@ -697,8 +712,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 147,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 153.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -752,8 +767,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 138.8,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 145.6,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -807,8 +822,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 138.7,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 145.6,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -862,8 +877,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 131.8,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 138.7,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -917,8 +932,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 131.8,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 138.6,
         "metrik": {
           "likes": 1,
           "comments": 0,
@@ -972,8 +987,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 123.9,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 130.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -1027,8 +1042,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 123,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 129.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -1082,8 +1097,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 119,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 125.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -1137,8 +1152,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 117,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 123.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -1192,8 +1207,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 113,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 119.8,
         "metrik": {
           "likes": 1,
           "comments": 0,
@@ -1247,8 +1262,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 111,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 117.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -1302,8 +1317,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 99.5,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 106.3,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -1357,8 +1372,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 99,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 105.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -1412,8 +1427,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 94.5,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 101.3,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -1467,8 +1482,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 93,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 99.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -1522,8 +1537,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 88.7,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 95.5,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -1577,8 +1592,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 86.9,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 93.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -1632,8 +1647,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 67.4,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 74.2,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -1687,8 +1702,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 67.3,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 74.1,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -1742,8 +1757,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 62.3,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 69.2,
         "metrik": {
           "likes": 1,
           "comments": 0,
@@ -1797,8 +1812,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 62.3,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 69.1,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -1852,8 +1867,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 51.6,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 58.4,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -1907,8 +1922,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 51,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 57.8,
         "metrik": {
           "likes": 2,
           "comments": 0,
@@ -1962,8 +1977,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 46.5,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 53.4,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -1991,6 +2006,21 @@
             "follows": 0,
             "profile_visits": 0
           }
+        },
+        "48j": {
+          "pada": "2026-10-25T18:48:33+07:00",
+          "umur_jam": 53.4,
+          "metrik": {
+            "likes": 0,
+            "comments": 0,
+            "reach": 7,
+            "views": 17,
+            "saved": 0,
+            "shares": 0,
+            "total_interactions": 0,
+            "follows": 0,
+            "profile_visits": 0
+          }
         }
       }
     },
@@ -2002,8 +2032,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 44.9,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 51.8,
         "metrik": {
           "likes": 1,
           "comments": 0,
@@ -2031,6 +2061,21 @@
             "ig_reels_avg_watch_time": 4357,
             "ig_reels_video_view_total_time": 257092
           }
+        },
+        "48j": {
+          "pada": "2026-10-25T18:48:33+07:00",
+          "umur_jam": 51.8,
+          "metrik": {
+            "likes": 1,
+            "comments": 0,
+            "reach": 54,
+            "views": 65,
+            "saved": 0,
+            "shares": 0,
+            "total_interactions": 1,
+            "ig_reels_avg_watch_time": 4357,
+            "ig_reels_video_view_total_time": 257092
+          }
         }
       }
     },
@@ -2042,8 +2087,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 41,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 47.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -2082,8 +2127,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 39,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 45.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -2122,8 +2167,8 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 29,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 35.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -2162,8 +2207,8 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 27,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 33.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
@@ -2202,13 +2247,13 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 21.8,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 28.6,
         "metrik": {
           "likes": 0,
           "comments": 0,
-          "reach": 5,
-          "views": 8,
+          "reach": 6,
+          "views": 9,
           "saved": 0,
           "shares": 0,
           "total_interactions": 0,
@@ -2216,7 +2261,23 @@
           "profile_visits": 0
         }
       },
-      "snapshot": {}
+      "snapshot": {
+        "24j": {
+          "pada": "2026-10-25T18:48:33+07:00",
+          "umur_jam": 28.6,
+          "metrik": {
+            "likes": 0,
+            "comments": 0,
+            "reach": 6,
+            "views": 9,
+            "saved": 0,
+            "shares": 0,
+            "total_interactions": 0,
+            "follows": 0,
+            "profile_visits": 0
+          }
+        }
+      }
     },
     "20261024-reels-fitur-syahriah-rapi-dengan-ponpesgo": {
       "judul": "Reels: Fitur: Syahriah Rapi dengan PonpesGo",
@@ -2226,12 +2287,12 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 21,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 27.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
-          "reach": 1,
+          "reach": 2,
           "views": 0,
           "saved": 0,
           "shares": 0,
@@ -2240,7 +2301,23 @@
           "ig_reels_video_view_total_time": 0
         }
       },
-      "snapshot": {}
+      "snapshot": {
+        "24j": {
+          "pada": "2026-10-25T18:48:33+07:00",
+          "umur_jam": 27.8,
+          "metrik": {
+            "likes": 0,
+            "comments": 0,
+            "reach": 2,
+            "views": 0,
+            "saved": 0,
+            "shares": 0,
+            "total_interactions": 0,
+            "ig_reels_avg_watch_time": 0,
+            "ig_reels_video_view_total_time": 0
+          }
+        }
+      }
     },
     "20261024-wali-santri-rumah-subsidi-guru-pesantren": {
       "judul": "Wali & Santri: Rumah Subsidi Guru Pesantren",
@@ -2250,13 +2327,13 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 16.8,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 23.6,
         "metrik": {
           "likes": 0,
           "comments": 0,
-          "reach": 4,
-          "views": 6,
+          "reach": 5,
+          "views": 9,
           "saved": 0,
           "shares": 0,
           "total_interactions": 0,
@@ -2274,18 +2351,18 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 15,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 21.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
-          "reach": 12,
-          "views": 13,
+          "reach": 15,
+          "views": 16,
           "saved": 0,
           "shares": 0,
           "total_interactions": 0,
-          "ig_reels_avg_watch_time": 2753,
-          "ig_reels_video_view_total_time": 35791
+          "ig_reels_avg_watch_time": 2745,
+          "ig_reels_video_view_total_time": 43923
         }
       },
       "snapshot": {}
@@ -2298,18 +2375,18 @@
       "jenis": "carousel",
       "jumlah_slide": 5,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 5,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 11.8,
         "metrik": {
           "likes": 1,
           "comments": 0,
-          "reach": 3,
-          "views": 7,
+          "reach": 6,
+          "views": 11,
           "saved": 0,
           "shares": 0,
           "total_interactions": 1,
           "follows": 0,
-          "profile_visits": 0
+          "profile_visits": 1
         }
       },
       "snapshot": {}
@@ -2322,18 +2399,66 @@
       "jenis": "reels",
       "jumlah_slide": 0,
       "terbaru": {
-        "pada": "2026-10-25T11:58:14+07:00",
-        "umur_jam": 3,
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 9.8,
         "metrik": {
           "likes": 0,
           "comments": 0,
-          "reach": 10,
-          "views": 15,
+          "reach": 30,
+          "views": 33,
           "saved": 0,
           "shares": 0,
           "total_interactions": 0,
-          "ig_reels_avg_watch_time": 3700,
-          "ig_reels_video_view_total_time": 40702
+          "ig_reels_avg_watch_time": 4332,
+          "ig_reels_video_view_total_time": 134304
+        }
+      },
+      "snapshot": {}
+    },
+    "20261025-edukasi-pengurus-bantuan-pesantren-2026-": {
+      "judul": "Edukasi Pengurus: Bantuan Pesantren 2026 Gratis",
+      "media_id": "17994778971053282",
+      "permalink": "https://www.instagram.com/p/De6FshaFRow/",
+      "terbit_pada": "2026-10-25T13:42:21+07:00",
+      "jenis": "carousel",
+      "jumlah_slide": 5,
+      "terbaru": {
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 5.1,
+        "metrik": {
+          "likes": 0,
+          "comments": 0,
+          "reach": 3,
+          "views": 7,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 3
+        }
+      },
+      "snapshot": {}
+    },
+    "20261025-reels-edukasi-pengurus-bantuan-pesantren-2026-": {
+      "judul": "Reels: Edukasi Pengurus: Bantuan Pesantren 2026 Gratis",
+      "media_id": "18022541849926905",
+      "permalink": "https://www.instagram.com/reel/De6OqaBkf-G/",
+      "terbit_pada": "2026-10-25T15:01:01+07:00",
+      "jenis": "reels",
+      "jumlah_slide": 0,
+      "terbaru": {
+        "pada": "2026-10-25T18:48:33+07:00",
+        "umur_jam": 3.8,
+        "metrik": {
+          "likes": 0,
+          "comments": 0,
+          "reach": 1,
+          "views": 1,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0,
+          "ig_reels_avg_watch_time": 475,
+          "ig_reels_video_view_total_time": 475
         }
       },
       "snapshot": {}
@@ -2343,6 +2468,6 @@
     "feed": [],
     "reels": []
   },
-  "diperbarui": "2026-10-25T11:58:14+07:00",
+  "diperbarui": "2026-10-25T18:48:33+07:00",
   "galat": []
 }
