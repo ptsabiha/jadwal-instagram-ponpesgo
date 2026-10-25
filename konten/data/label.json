@@ -286,5 +286,17 @@
   "hook": "Berita+dampak",
   "format": "Reels 1 gambar",
   "topik": "Bantuan pesantren 2026 gratis, BOS Pesantren"
+ },
+ "20261025-wali-santri-gawai-santri-dan-peran-orang": {
+  "pilar": "Wali & Santri",
+  "hook": "Berita+dampak",
+  "format": "Carousel 5 slide",
+  "topik": "SE Kemenag 19/2026 pembatasan gawai, panduan orang tua"
+ },
+ "20261025-reels-wali-santri-gawai-santri-dan-peran-orang": {
+  "pilar": "Wali & Santri",
+  "hook": "Berita+dampak",
+  "format": "Reels 1 gambar",
+  "topik": "SE Kemenag 19/2026 pembatasan gawai, panduan orang tua"
  }
 }
