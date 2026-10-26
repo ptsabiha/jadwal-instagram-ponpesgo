@@ -334,5 +334,17 @@
   "hook": "Celah pengetahuan",
   "format": "Reels 1 gambar",
   "topik": "Cek pesantren terdaftar, EMIS, PSP/NSP"
+ },
+ "20261027-berita-santri-tunanetra-bogor-mengaji-le": {
+  "pilar": "Berita",
+  "hook": "Berita+dampak",
+  "format": "Carousel 5 slide",
+  "topik": "Pesantren tunanetra Cahaya Quran Bogor, Al-Quran Braille"
+ },
+ "20261027-reels-santri-tunanetra-bogor-mengaji-lewat-al-": {
+  "pilar": "Berita",
+  "hook": "Berita+dampak",
+  "format": "Reels 1 gambar",
+  "topik": "Pesantren tunanetra Cahaya Quran Bogor, Al-Quran Braille"
  }
 }

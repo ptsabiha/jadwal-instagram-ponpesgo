@@ -1,0 +1,7 @@
+PonpesGo: konten terjadwal
+Tayang: Selasa 27 Okt 2026 07.00 WIB (carousel) dan 09.00 WIB (Reels). Pilar Berita.
+Judul: Santri Tunanetra Bogor Mengaji Lewat Al-Quran Braille
+Sumber: Suara.com, 26 Okt 2026
+Folder: https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/2026-10-27%2007.00%20Berita%20-%20Pesantren%20Tunanetra%20Cahaya%20Quran%20Bogor
+Catatan: tanpa foto. Wikimedia Commons dan Pexels menolak unduhan (batas permintaan / pemeriksaan bot), jadi carousel tipografi saja. Buka akses host upload.wikimedia.org atau beri foto bila mau.
+Performa: data insight terakhir 27 Okt 03.38; follower 5, jangkauan 7 hari 635 akun (99,4% non-follower). Reels masih menjangkau jauh lebih banyak daripada carousel.
