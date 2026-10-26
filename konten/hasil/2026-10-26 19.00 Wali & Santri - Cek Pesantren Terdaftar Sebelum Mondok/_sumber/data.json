@@ -1,0 +1,59 @@
+{
+ "label": "TIPS WALI SANTRI",
+ "tanggal": "SENIN, 26 OKT 2026",
+ "judul": "SEBELUM ANAK MONDOK, CEK DULU PESANTRENNYA *TERDAFTAR*",
+ "deck": "Setiap pesantren wajib punya izin terdaftar di Kemenag. Wali bisa memeriksanya sendiri lewat situs resmi.",
+ "ticker": "Tips Wali Santri · Cek pesantren · Kemenag",
+ "foto": "foto.jpg",
+ "posisiFoto": "50% 40%",
+ "kredit": "Foto: Nineteenboy/Wikimedia Commons (CC BY-SA 4.0), ilustrasi",
+ "sumber": "Sumber: NU Online, 29 Jan 2021; CNN Indonesia, 18 Feb 2025; Kabarbaru, 24 Okt 2026",
+ "slide": [
+  {
+   "judul": "Apa itu izin terdaftar?",
+   "isi": "PMA 30/2020 mewajibkan pesantren memiliki izin terdaftar di Kemenag, berbentuk <b>Piagam Statistik Pesantren (PSP)</b> yang memuat nomor statistik.",
+   "kutip": [
+    "Hal itu diwujudkan dalam bentuk Piagam Statistik Pesantren (PSP) yang memuat Nomor Statistik Pesantren (NSP).",
+    "WARYONO ABDUL GHAFUR, DIREKTUR PD-PONTREN (2021)"
+   ],
+   "sumber": "Sumber: NU Online, 29 Jan 2021"
+  },
+  {
+   "judul": "Cara cek lewat EMIS",
+   "isi": "Menurut CNN Indonesia (2025), langkahnya:",
+   "poin": [
+    "Buka <b>emis.kemenag.go.id</b>",
+    "Pilih menu <b>Dashboard</b>, lalu <b>PD-Pontren</b>",
+    "Cari <b>per provinsi dan kota</b>, atau ketik nama pesantren",
+    "Lihat nama, nomor statistik, program, alamat, dan <b>status</b>"
+   ],
+   "sumber": "Sumber: CNN Indonesia, 18 Feb 2025 (menu bisa berubah)"
+  },
+  {
+   "judul": "Kenapa nomornya penting?",
+   "isi": "Ditjen Pesantren mulai menjadikan nomor statistik pesantren (NSPP) sebagai rujukan identitas data pesantren.",
+   "kartu": [
+    ["NSPP", "Nomor Statistik Pondok Pesantren"],
+    ["22 OKT 2026", "Konsolidasi data Ditjen Pesantren"]
+   ],
+   "sumber": "Sumber: Kabarbaru, 24 Okt 2026"
+  }
+ ],
+ "catatan": {
+  "judul": "Apa artinya untuk wali santri?",
+  "poin": [
+   "<b>Nama di media sosial</b> belum bukti pesantren itu terdaftar.",
+   "<b>Cek sendiri</b> di situs resmi, lalu catat nomor statistiknya.",
+   "<b>Tanyakan langsung</b> ke pengurus soal izin dan kanal pengaduan."
+  ],
+  "fitur": "PonpesGo membantu wali memantau <b>kabar dan keuangan santri</b> lewat satu aplikasi."
+ },
+ "reels": {
+  "poin": [
+   "Setiap pesantren wajib punya izin terdaftar di Kemenag (PMA 30/2020).",
+   "Bentuknya Piagam Statistik Pesantren yang memuat nomor statistik pesantren.",
+   "Cek di emis.kemenag.go.id: Dashboard, PD-Pontren, cari per wilayah atau nama.",
+   "Nama di media sosial belum bukti terdaftar. Cek dulu sebelum anak mondok."
+  ]
+ }
+}

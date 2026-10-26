@@ -322,5 +322,17 @@
   "hook": "Berita+dampak",
   "format": "Reels 1 gambar",
   "topik": "Izin pesantren, PBG/SLF"
+ },
+ "20261026-wali-santri-cek-pesantren-terdaftar-sebe": {
+  "pilar": "Wali & Santri",
+  "hook": "Celah pengetahuan",
+  "format": "Carousel 5 slide",
+  "topik": "Cek pesantren terdaftar, EMIS, PSP/NSP"
+ },
+ "20261026-reels-wali-santri-cek-pesantren-terdaftar-sebe": {
+  "pilar": "Wali & Santri",
+  "hook": "Celah pengetahuan",
+  "format": "Reels 1 gambar",
+  "topik": "Cek pesantren terdaftar, EMIS, PSP/NSP"
  }
 }
