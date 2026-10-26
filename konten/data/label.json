@@ -310,5 +310,17 @@
   "hook": "Celah pengetahuan",
   "format": "Reels 1 gambar",
   "topik": "Ditjen Pesantren konsolidasi & sinkronisasi data pesantren, NSPP"
+ },
+ "20261026-edukasi-pengurus-izin-pesantren-makin-ke": {
+  "pilar": "Edukasi Pengurus",
+  "hook": "Berita+dampak",
+  "format": "Carousel 5 slide",
+  "topik": "Izin pesantren, PBG/SLF"
+ },
+ "20261026-reels-edukasi-pengurus-izin-pesantren-makin-ke": {
+  "pilar": "Edukasi Pengurus",
+  "hook": "Berita+dampak",
+  "format": "Reels 1 gambar",
+  "topik": "Izin pesantren, PBG/SLF"
  }
 }
