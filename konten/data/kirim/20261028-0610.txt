@@ -1,0 +1,10 @@
+PonpesGo · Jadwal tayang 28 Okt 2026
+
+Carousel: 07.00 WIB (Berita)
+Reels: 09.00 WIB
+Judul: Kemenag Usulkan 524 Pesantren Masuk SMK Go Global
+Sumber: JPNN.com, 28 Okt 2026 (kutipan Dirjen Pesantren Basnang Said dan Ipang Wahid, PBNU). Foto: NU Online.
+Folder: https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/2026-10-28%2007.00%20Berita%20-%20SMK%20Go%20Global%20Pesantren
+
+Performa: follower 5 (+1 sepekan). Reels masih jauh lebih menjangkau (median indeks 3,7) dibanding carousel (0,7); suka/simpan/kirim masih hampir nol. pelajaran.md tidak diubah (data belum cukup, n<5 per varian hook).
+Catatan: berita ini baru satu sumber (JPNN), ditandai "baru usulan" di slide. Foto pelantikan Dirjen dipakai karena foto resmi bertema SMK tidak ditemukan; resolusi 860 px. Penjaga GitHub gagal menyala (GraphQL diblokir), penjaga GitHub tetap jalan.

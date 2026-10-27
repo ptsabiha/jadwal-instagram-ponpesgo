@@ -346,5 +346,17 @@
   "hook": "Berita+dampak",
   "format": "Reels 1 gambar",
   "topik": "Pesantren tunanetra Cahaya Quran Bogor, Al-Quran Braille"
+ },
+ "20261028-berita-kemenag-usulkan-524-pesantren-mas": {
+  "pilar": "Berita",
+  "hook": "Daftar/angka",
+  "format": "Carousel 5 slide",
+  "topik": "SMK Go Global 524 pesantren, Ditjen Pesantren"
+ },
+ "20261028-reels-kemenag-usulkan-524-pesantren-masuk-smk-": {
+  "pilar": "Berita",
+  "hook": "Daftar/angka",
+  "format": "Reels 1 gambar",
+  "topik": "SMK Go Global 524 pesantren, Ditjen Pesantren"
  }
 }
