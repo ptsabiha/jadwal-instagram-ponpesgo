@@ -358,5 +358,17 @@
   "hook": "Daftar/angka",
   "format": "Reels 1 gambar",
   "topik": "SMK Go Global 524 pesantren, Ditjen Pesantren"
+ },
+ "20261028-edukasi-pengurus-poskestren-pos-kesehata": {
+  "pilar": "Edukasi Pengurus",
+  "hook": "Celah pengetahuan",
+  "format": "Carousel 5 slide",
+  "topik": "Poskestren pos kesehatan pesantren, Permenkes 1/2013"
+ },
+ "20261028-reels-edukasi-pengurus-poskestren-pos-kesehata": {
+  "pilar": "Edukasi Pengurus",
+  "hook": "Celah pengetahuan",
+  "format": "Reels 1 gambar",
+  "topik": "Poskestren pos kesehatan pesantren, Permenkes 1/2013"
  }
 }

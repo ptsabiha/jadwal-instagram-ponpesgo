@@ -1,0 +1,6 @@
+PonpesGo 28 Okt 2026, slot 13.00
+Carousel tayang 13.00 WIB dan Reels 15.00 WIB (pilar Edukasi Pengurus).
+Judul: Poskestren: Pos Kesehatan di Dalam Pesantren
+Sumber: Permenkes 1/2013; Kemenkes (9 Mar 2019); Dinkes Kab. Demak (3 Feb 2020). Foto ilustrasi Wikimedia Commons (Nineteenboy, CC BY-SA 4.0).
+Folder: https://github.com/ptsabiha/jadwal-instagram-ponpesgo/tree/main/konten/hasil/2026-10-28%2013.00%20Edukasi%20Pengurus%20-%20Poskestren%20Pos%20Kesehatan%20Pesantren
+Catatan: jarak ke postingan 08.37 hanya 4,4 jam (aturan 6 jam dilewati sesuai slot tetap). Wikimedia API sempat membatasi permintaan, jadi foto memakai berkas lisensi bebas yang sudah ada.
